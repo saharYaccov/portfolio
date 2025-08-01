@@ -49,7 +49,7 @@ Visualization: Use matplotlib and seaborn to visualize the clustering results an
 
 
 Example
- Copyimport numpy as np
+import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
@@ -75,6 +75,8 @@ def clear_stopWord(col_val):
     stop_words = set(stopwords.words('english'))
     filtered_text = [word for word in col_val if word not in stop_words]
     return " ".join(filtered_text)
+
+
 
 # Example usage
 data = load_data('path_to_your_csv_file.csv')
