@@ -28,10 +28,8 @@ Enter y value for point 1: 1
 Enter y value for point 2: 4
 Enter y value for point 3: 9
 
-
-
---
-
+׳׳׳..```
+```
 <img width="583" height="448" alt="image" src="https://github.com/user-attachments/assets/6a39743d-e892-4fbf-b060-1ea484e298fc" />
 
 
