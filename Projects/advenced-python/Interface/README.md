@@ -31,6 +31,8 @@ Run the System: Execute the main script to start the Academy Management System.
  Copypython your_script_name.py
 
 
+```
+
 Login: Choose your login option based on your role (Manager, Student, Teacher, Parent, General Employee).
 
 
@@ -59,5 +61,29 @@ Seniority: Represents the seniority of an employee.
 
 
 SQL Database: The system uses an SQL database to store and manage data. The sql class handles database operations.
+
+
+## example : 
+Welcome : 
+<img width="327" height="253" alt="image" src="https://github.com/user-attachments/assets/51a0a227-2438-44b6-8650-61d45cd1bc51" />
+Manager greet and detaile : 
+<img width="1034" height="380" alt="image" src="https://github.com/user-attachments/assets/ba6c666e-d4ba-4d41-86a8-cce4ff193f49" />
+Create Teacher :
+<img width="663" height="205" alt="image" src="https://github.com/user-attachments/assets/c29bbc66-e48d-4beb-b4b9-9ccefbfffb68" />
+Create emploee:
+<img width="654" height="192" alt="image" src="https://github.com/user-attachments/assets/06eacc41-ca59-4759-8f4c-409bfad5150b" />
+Create Course :
+<img width="268" height="140" alt="image" src="https://github.com/user-attachments/assets/6e52c875-fd15-4d9e-a840-420deaf36cf2" />
+Create stusent : 
+<img width="318" height="138" alt="image" src="https://github.com/user-attachments/assets/45d54986-7036-4ca3-bcde-b89bf83deaf2" />
+Create parnet : 
+<img width="357" height="200" alt="image" src="https://github.com/user-attachments/assets/f456d54a-ae58-4594-9b20-b930b1067e49" />
+Finance Report : 
+<img width="429" height="276" alt="image" src="https://github.com/user-attachments/assets/e1874641-3a10-40f5-8c63-5d08cee83a51" />
+
+
+
+
+
 
 
