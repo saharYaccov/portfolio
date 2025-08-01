@@ -15,16 +15,6 @@ Final-project/
 ```
 
 
-## 📊 Dashboards
-
-Explore our interactive Tableau dashboard here:  
-👉 [View on Tableau Public](https://public.tableau.com/app/profile/yaakov.sahar)
-
-## 🤖 Deployed Application
-
-Try the live app hosted on Hugging Face Spaces:  
-👉 [Go to Hugging Face Space](https://huggingface.co/spaces/YOUR_SPACE_LINK)
-
 ## 💡 Key Highlights
 
 - 📁 **Real-world data:** ~23K Microsoft CVE-based records
