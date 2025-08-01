@@ -50,7 +50,8 @@ This script implements a versatile GUI calculator application using Tkinter, Sym
 - keyboard
 - bidi & arabic_reshaper (if RTL support needed)
 
-## Usage
+<img width="416" height="261" alt="image" src="https://github.com/user-attachments/assets/5a56f18d-51f3-473c-9a16-62f28c069b7a" />
+
 
 Run the script to launch the calculator window. Click buttons or use prompts for advanced operations.
 
