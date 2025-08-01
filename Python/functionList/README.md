@@ -1,45 +1,33 @@
-import numpy as np
-import matplotlib.pyplot as plt
+# Polynomial Curve Fitting and Visualization
 
-# Get user input points
-points = []
-i = 0
-print("Enter 000 to continue to Graph")
-num_input = int(input("How many points do you have? "))
-mon = -num_input - 1
-num_s = 0
+A Python script designed to fit a 4th-degree polynomial curve to user-provided data points using NumPy's polyfit functionality. The script visualizes both the original data points and the fitted curve using Matplotlib, providing a clear graphical representation of the polynomial fit.
 
-while num_s != num_input:
-    num_s += 1
-    mon += 1
-    x = mon
-    y = str(input(f"Enter y value for point {i + 1}: "))
-    print()
-    if y == "000":
-        break
-    else:
-        y = float(y)
-    i += 1
-    points.append((x, y))
+## Features
 
-# Create arrays for x and y values
-x_values = [p[0] for p in points]
-y_values = [p[1] for p in points]
+- **User Input Handling**: Prompts the user to input the number of data points and their respective y-values.
+- **Automatic X-Value Assignment**: Automatically assigns x-values as sequential integers starting from a negative range based on the number of inputs.
+- **Polynomial Curve Fitting**: Utilizes NumPy's `polyfit` to fit a 4th-degree polynomial curve to the input data points.
+- **Visualization**: Plots the original data points and the fitted polynomial curve using Matplotlib, with clear labels and a legend.
 
-# Generate curve points using numpy's polyfit function
-z = np.polyfit(x_values, y_values, 4)
-f = np.poly1d(z)
-x_curve = np.linspace(min(x_values), max(x_values), 100)
-y_curve = f(x_curve)
+## Dependencies
 
-# Plot the points and curve
-plt.plot(x_values, y_values, 'bo', label="User Points")
-plt.plot(x_curve, y_curve, 'r-', label="Curve")
-plt.legend()
-plt.xlabel("x")
-plt.ylabel("y")
-plt.title("Curve from User Points")
+- NumPy
+- Matplotlib
 
-# Display the plot
-plt.show()
+## Usage
 
+1. **Run the Script**: Execute the script in a Python environment where NumPy and Matplotlib are installed.
+2. **Input Data Points**: Follow the prompts to enter the number of data points and their y-values.
+3. **View the Plot**: The script will display a plot of the data points and the fitted polynomial curve.
+
+## Example
+
+```plaintext
+How many points do you have? 3
+Enter y value for point 1: 1
+Enter y value for point 2: 4
+Enter y value for point 3: 9
+
+
+
+<img width="586" height="449" alt="image" src="https://github.com/user-attachments/assets/f2955382-e3f2-4802-976d-dd3d026f16d9" />
