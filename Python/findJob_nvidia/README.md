@@ -3,8 +3,6 @@
 
 This script scrapes job listings from NVIDIA's career site, translates job titles to Hebrew, filters for relevant experience, and stores the results in a CSV file without duplications. It also logs timing and status to the console using colored output.
 
-**Note:** This code was written before the AI revolution.
-
 ## Main Features
 
 - Automatically installs and launches ChromeDriver in headless mode.
