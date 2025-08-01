@@ -47,10 +47,6 @@ Projects/
 Bachelor's degree student, 3rd year in Information Systems  
 [Max Stern Yezreel Valley College](https://www.yvc.ac.il)
 
-
-I am a motivated Information Systems student with practical experience in full-stack development, data analysis, and cybersecurity. Skilled in Python, SQL, machine learning, and system design, I have worked on projects involving data preprocessing, predictive modeling, and dashboard creation.  
-I am passionate about leveraging technology to solve real-world problems and continuously expanding my expertise in software development and data science.
-
 ### Skills & Technologies
 - Programming Languages: Python, SQL, JavaScript  
 - Data Science & Machine Learning: Pandas, Scikit-learn, CatBoost, LightGBM  
