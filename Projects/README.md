@@ -1,29 +1,52 @@
-# Final Project – Cybersecurity Prediction 🛡️
+# Portfolio of Projects – Sahar Yaakov
 
-This project aims to predict cybersecurity incidents using real-world Microsoft security data.  
-It combines machine learning modeling, visualization dashboards, and a deployed demo app for demonstration and evaluation.
-
-## 🔍 Project Structure
-
-```text
-Final-project/
-├── App-hugging/     # Deployed demo app on Hugging Face Spaces
-├── Codes/           # Source code: preprocessing, modeling, evaluation
-├── Dashboards/      # Visual dashboards (e.g., Tableau, Power BI)
-├── Reports/         # Project documentation & PDF reports
-└── README.md        # Project overview
-```
-
-
-## 💡 Key Highlights
-
-- 📁 **Real-world data:** ~23K Microsoft CVE-based records
-- ⚙️ **Models used:** Random Forest, CatBoost, LightGBM, Extra Trees, Neural Nets, TabNet
-- 📈 **Evaluation:** GridSearch/Optuna, MAE comparison, SHAP explainability
-- 🧩 **Tools:** Python, scikit-learn, Optuna, Tableau, Gradio, Hugging Face
+Welcome to my project portfolio repository!  
+This repository contains various projects I developed and contributed to during my studies in Information Systems at Max Stern Yezreel Valley College.
 
 ---
 
-> Created by **Sahar Yaakov**  
-> Third-year B.Sc. Information Systems – Max Stern Yezreel Valley College  
-> GitHub: [@ss331144](https://github.com/ss331144)
+## 📂 Projects Overview
+
+```
+Projects/
+├── Final-project/ # Capstone project on cybersecurity threat prediction with ML models and dashboards
+├── advenced-python/ # Advanced Python projects including OOP, database management, and system design
+├── README.md # This overview document
+```
+
+
+---
+
+## 📌 Final Project – Cybersecurity Threat Prediction
+
+- Predicts cybersecurity events using real Microsoft security data  
+- Implements multiple ML models with hyperparameter tuning  
+- Includes interactive dashboards (Tableau Public) and a deployed app (Hugging Face Spaces)  
+- Folder contains source code, reports, dashboards, and deployed app  
+
+---
+
+## 📌 Advanced Python
+
+- Projects demonstrating advanced Python concepts  
+- Object-oriented design, database integration, task management systems, and more  
+
+---
+
+## 🔗 Useful Links
+
+- GitHub: [https://github.com/ss331144](https://github.com/ss331144)  
+- Tableau Public Dashboards: [https://public.tableau.com/app/profile/yaakov.sahar](https://public.tableau.com/app/profile/yaakov.sahar)  
+- Hugging Face Demo App: [https://huggingface.co/spaces/ss331144/cyber-predictor](https://huggingface.co/spaces/ss331144/cyber-predictor)  
+
+---
+
+## 👤 About Me
+
+**Sahar Yaakov**  
+Third-year Information Systems student  
+Max Stern Yezreel Valley College  
+
+---
+
+Feel free to explore the projects and reach out with questions or collaboration ideas!
