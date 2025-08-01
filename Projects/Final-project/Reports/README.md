@@ -17,7 +17,7 @@ Each report covers a key stage of the data science lifecycle:
 
 ## 🌐 Dashboards
 
-Interactive dashboards are publicly available on [Tableau Public](https://public.tableau.com/app/profile/yaakov.sahar).
+Interactive dashboards are publicly available on [Tableau Public]
 
 ## 📂 Folder Structure
 
