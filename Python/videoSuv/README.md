@@ -3,7 +3,8 @@
 This script extracts audio from video files, transcribes the audio into text, and translates the text into a specified language. It uses several libraries, including `whisper` for transcription, `ffmpeg` for audio extraction, and `GoogleTranslator` for translation.
 
 
-✅ Required libraries for the transcript translation script:
+
+## ✅  Required libraries for the transcript translation script:
 pip install moviepy
 pip install googletrans==4.0.0-rc1
 pip install SpeechRecognition
@@ -11,7 +12,7 @@ pip install pydub
 pip install pytube
 
 
-📦 Explanation of Each Library:
+## 📦 Explanation of Each Library:
 Library	Purpose
 moviepy	To extract audio from video files
 googletrans	To translate text (must use version 4.0.0-rc1)
