@@ -44,8 +44,23 @@ Projects/
 ## 👤 About Me
 
 **Sahar Yaakov**  
-Third-year Information Systems student  
-Max Stern Yezreel Valley College  
+Bachelor's degree student, 3rd year in Information Systems  
+[Max Stern Yezreel Valley College](https://www.yvc.ac.il)
+
+
+I am a motivated Information Systems student with practical experience in full-stack development, data analysis, and cybersecurity. Skilled in Python, SQL, machine learning, and system design, I have worked on projects involving data preprocessing, predictive modeling, and dashboard creation.  
+I am passionate about leveraging technology to solve real-world problems and continuously expanding my expertise in software development and data science.
+
+### Skills & Technologies
+- Programming Languages: Python, SQL, JavaScript  
+- Data Science & Machine Learning: Pandas, Scikit-learn, CatBoost, LightGBM  
+- Databases: MySQL, SQLite  
+- Tools & Platforms: Tableau, Hugging Face Spaces, Git, Docker
+
+### Selected Projects
+- **Cybersecurity Threat Prediction:** Developed machine learning models to forecast cyberattack events using real Microsoft security datasets. Created interactive dashboards and deployed a demo app on Hugging Face Spaces.  
+- **Advanced Python Systems:** Designed and implemented an Academy Management System with OOP principles, SQL database integration, and user authentication.
+
 
 ---
 
