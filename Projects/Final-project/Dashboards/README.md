@@ -19,7 +19,7 @@ They illustrate insights from machine learning models used to forecast potential
 
 You can view the published dashboards on Tableau Public at the link below:
 
-👉 [My Tableau Public Profile – Sahar Yaakov](https://public.tableau.com/app/profile/sahar.yaakov)
+👉 [My Tableau Public Dashboard ](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
 
 ## 📁 Files
 
