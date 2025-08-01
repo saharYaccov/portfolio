@@ -30,4 +30,5 @@ Enter y value for point 3: 9
 
 
 
-<img width="586" height="449" alt="image" src="https://github.com/user-attachments/assets/f2955382-e3f2-4802-976d-dd3d026f16d9" />
+<img width="583" height="448" alt="image" src="https://github.com/user-attachments/assets/a013f966-3ac5-4b95-b975-960f3fc7ee02" />
+
