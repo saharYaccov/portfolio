@@ -9,7 +9,7 @@ A machine learning project to classify articles as fake or real using various te
 - [Installation](#installation)
 - [Usage](#usage)
 - [Data](#data)
-- [Require Package](#Require Package)
+- [Require Package](#Require-Package)
 - [Models](#models)
 - [Results](#results)
 - [Contributing](#contributing)
@@ -53,18 +53,22 @@ ColumnDescriptionidUnique identifier for each articlereal_text_idIdentifier for 
 Models
 The project uses several machine learning models for classification:
 
-## Require Package
-numpy>=1.21.0
-pandas>=1.3.0
-scikit-learn>=0.24.0
-matplotlib>=3.4.0
-wordcloud>=1.8.0
-joblib>=1.0.0
-xgboost>=1.4.0
-lightgbm>=3.2.0
-tensorflow>=2.6.0
-optuna>=2.10.0
-kagglehub>=0.1.0
+## Require-Package
+
+| Library  Version | Library and Version |
+|------------------|---------------------|
+| numpy  >=1.21.0 | numpy>=1.21.0 |
+| pandas  >=1.3.0 | pandas>=1.3.0 |
+| scikit-learn  >=0.24.0 | scikit-learn>=0.24.0 |
+| matplotlib  >=3.4.0 | matplotlib>=3.4.0 |
+| wordcloud  >=1.8.0 | wordcloud>=1.8.0 |
+| joblib  >=1.0.0 | joblib>=1.0.0 |
+| xgboost  >=1.4.0 | xgboost>=1.4.0 |
+| lightgbm  >=3.2.0 | lightgbm>=3.2.0 |
+| tensorflow  >=2.6.0 | tensorflow>=2.6.0 |
+| optuna  >=2.10.0 | optuna>=2.10.0 |
+| kagglehub  >=0.1.0 | kagglehub>=0.1.0 |
+
 
 
 ## RandomForest
