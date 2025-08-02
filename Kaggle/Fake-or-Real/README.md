@@ -1,4 +1,4 @@
-<img width="671" height="184" alt="image" src="https://github.com/user-attachments/assets/f6d094cf-686b-4320-9177-3c793d2b13c5" /># Fake or Real: The Impostor Hunt
+# Fake or Real: The Impostor Hunt
 
 A machine learning project to classify articles as fake or real using various text analysis techniques and models.
 
@@ -87,6 +87,8 @@ The results of the classification models are evaluated based on accuracy and oth
 ModelAccuracyRandomForest0.95XGBoost0.94LightGBM0.96ExtraTrees0.93Neural Network0.92
 
 ## Image
+
+<img width="671" height="184" alt="image" src="https://github.com/user-attachments/assets/f6d094cf-686b-4320-9177-3c793d2b13c5" />
 
 ![data](https://github.com/user-attachments/assets/776996e3-1aab-473c-b329-ec22bfb617c3)
 
