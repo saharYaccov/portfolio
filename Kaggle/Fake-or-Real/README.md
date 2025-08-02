@@ -9,6 +9,7 @@ A machine learning project to classify articles as fake or real using various te
 - [Installation](#installation)
 - [Usage](#usage)
 - [Data](#data)
+- [Kaggle notebook](#Kaggle-notebook)
 - [Require Package](#Require-Package)
 - [Models](#models)
 - [Results](#results)
@@ -53,6 +54,8 @@ ColumnDescriptionidUnique identifier for each articlereal_text_idIdentifier for 
 Models
 The project uses several machine learning models for classification:
 
+## Kaggle-notebook
+[Kaggle Notebook](https://www.kaggle.com/code/saharhaimyaccov/notebookcc02f1c748)
 ## Require-Package
 
 | Library and Version | Description |
