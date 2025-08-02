@@ -87,7 +87,7 @@ The results of the classification models are evaluated based on accuracy and oth
 ModelAccuracyRandomForest0.95XGBoost0.94LightGBM0.96ExtraTrees0.93Neural Network0.92
 
 ## Image
-![data](<img width="668" height="184" alt="image" src="https://github.com/user-attachments/assets/2ad73697-a8aa-4bbf-9422-004f9b5cf583" />)
+![data](<img width="668" height="184" alt="image" src="https://github.com/user-attachments/assets/2ad73697-a8aa-4bbf-9422-004f9b5cf583" />
 ![word cloud true file 1](<img width="801" height="484" alt="image" src="https://github.com/user-attachments/assets/8108583f-74d6-49cf-9e04-2c090be9376a" />_
 
 
