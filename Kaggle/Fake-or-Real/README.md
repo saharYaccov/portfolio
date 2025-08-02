@@ -55,19 +55,20 @@ The project uses several machine learning models for classification:
 
 ## Require-Package
 
-| Library  Version | Library and Version |
-|------------------|---------------------|
-| numpy  >=1.21.0 | numpy>=1.21.0 |
-| pandas  >=1.3.0 | pandas>=1.3.0 |
-| scikit-learn  >=0.24.0 | scikit-learn>=0.24.0 |
-| matplotlib  >=3.4.0 | matplotlib>=3.4.0 |
-| wordcloud  >=1.8.0 | wordcloud>=1.8.0 |
-| joblib  >=1.0.0 | joblib>=1.0.0 |
-| xgboost  >=1.4.0 | xgboost>=1.4.0 |
-| lightgbm  >=3.2.0 | lightgbm>=3.2.0 |
-| tensorflow  >=2.6.0 | tensorflow>=2.6.0 |
-| optuna  >=2.10.0 | optuna>=2.10.0 |
-| kagglehub  >=0.1.0 | kagglehub>=0.1.0 |
+| Library and Version | Description |
+|---------------------|-------------|
+| numpy>=1.21.0 | Fundamental package for scientific computing with Python, providing support for arrays and matrices. |
+| pandas>=1.3.0 | Data manipulation and analysis library offering data structures and operations for manipulating numerical tables and time series. |
+| scikit-learn>=0.24.0 | Machine learning library for Python, featuring various classification, regression, and clustering algorithms. |
+| matplotlib>=3.4.0 | Comprehensive library for creating static, animated, and interactive visualizations in Python. |
+| wordcloud>=1.8.0 | Library for generating word clouds, visual representations of text data. |
+| joblib>=1.0.0 | Library for running Python functions as pipeline jobs, useful for parallelizing computations. |
+| xgboost>=1.4.0 | Optimized distributed gradient boosting library, designed to be highly efficient, flexible, and portable. |
+| lightgbm>=3.2.0 | Fast, distributed, high-performance gradient boosting framework based on decision tree algorithms. |
+| tensorflow>=2.6.0 | Open-source platform for machine learning, providing a comprehensive ecosystem of tools, libraries, and community resources. |
+| optuna>=2.10.0 | Hyperparameter optimization framework to automate hyperparameter search. |
+| kagglehub>=0.1.0 | Library for interacting with Kaggle datasets and competitions directly from Python. |
+
 
 
 
