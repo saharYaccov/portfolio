@@ -87,12 +87,16 @@ The results of the classification models are evaluated based on accuracy and oth
 ModelAccuracyRandomForest0.95XGBoost0.94LightGBM0.96ExtraTrees0.93Neural Network0.92
 
 ## Image
-![data](<img width="671" height="184" alt="image" src="https://github.com/user-attachments/assets/776996e3-1aab-473c-b329-ec22bfb617c3" />)
-![word cloud true file 1](<img width="801" height="484" alt="image" src="https://github.com/user-attachments/assets/8108583f-74d6-49cf-9e04-2c090be9376a" />_
 
+![data](https://github.com/user-attachments/assets/776996e3-1aab-473c-b329-ec22bfb617c3)
 
+![word cloud true article 1](https://github.com/user-attachments/assets/8108583f-74d6-49cf-9e04-2c090be9376a)
 
+![word cloud fake article 1](<img width="822" height="498" alt="image" src="https://github.com/user-attachments/assets/a88c6c05-34b7-4f04-931b-16512a79127f" />)
 
+![KPI vectores](<img width="621" height="352" alt="image" src="https://github.com/user-attachments/assets/7a7d5fcc-520f-4726-aab9-74c39d5b477d" />)
+
+![Optuna model](<img width="899" height="310" alt="image" src="https://github.com/user-attachments/assets/0670d72c-6738-4900-8a47-4182ae950456" />)
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the project's coding standards and includes appropriate tests.
