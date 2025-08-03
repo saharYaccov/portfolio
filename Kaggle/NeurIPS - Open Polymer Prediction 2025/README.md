@@ -96,7 +96,6 @@ You can find the main notebook for this competition here.
 !pip install /kaggle/input/rdkit-library/rdkit-2025.3.3-cp311-cp311-manylinux_2_28_x86_64.whl
 ```
 ## Images
-## Images
 
 ### Data
 ![Data](https://github.com/user-attachments/assets/879c242e-3c60-4ab1-9c12-81dd0b2eca9e)
