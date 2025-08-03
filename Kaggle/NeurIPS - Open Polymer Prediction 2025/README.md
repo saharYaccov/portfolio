@@ -1,4 +1,4 @@
-# NeurIPS - Open Polymer Prediction 2025
+<img width="768" height="455" alt="image" src="https://github.com/user-attachments/assets/5a6972f4-88da-45b1-b8fc-5d0792806838" /># NeurIPS - Open Polymer Prediction 2025
 
 A machine learning project to predict fundamental polymer properties from chemical structures using advanced models and feature engineering.
 
@@ -13,6 +13,7 @@ A machine learning project to predict fundamental polymer properties from chemic
 - [Kaggle Notebook](#kaggle-notebook)
 - [Required Packages](#required-packages)
 - [Models](#models)
+- [Images](#Images)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -93,7 +94,27 @@ You can find the main notebook for this competition here.
 # !!
 
 !pip install /kaggle/input/rdkit-library/rdkit-2025.3.3-cp311-cp311-manylinux_2_28_x86_64.whl
+```
+## Images
+## Images
 
+### Data
+![Data](https://github.com/user-attachments/assets/879c242e-3c60-4ab1-9c12-81dd0b2eca9e)
+
+### Scatter
+![Scatter](https://github.com/user-attachments/assets/fb5c1efa-c663-4e15-aa1b-eeebe71f26f1)
+
+### TC by ID (Bar)
+![TC by ID](https://github.com/user-attachments/assets/9c004cff-5ad5-4725-862a-4b94edbfa5bd)
+
+### Models Comparison
+![Models](https://github.com/user-attachments/assets/95a3fe27-710c-4643-b42d-11729d12ef53)
+
+### Scatter & KMeans of 2 Targets
+![Scatter & KMeans](https://github.com/user-attachments/assets/3f6d82b9-7cdb-46ee-a286-c7f33aabf730)
+
+### Prediction Model - SVR
+![Prediction model SVR](https://github.com/user-attachments/assets/59603810-ee99-4e66-9f13-2042de7e05bc)
 
 ## Models
 RandomForest
