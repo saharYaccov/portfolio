@@ -88,15 +88,19 @@ ModelAccuracyRandomForest0.95XGBoost0.94LightGBM0.96ExtraTrees0.93Neural Network
 
 ## Image
 
-
+### Data
 ![data](https://github.com/user-attachments/assets/776996e3-1aab-473c-b329-ec22bfb617c3)
 
+### word cloud TRUE article 1 
 ![word cloud true article 1](https://github.com/user-attachments/assets/8108583f-74d6-49cf-9e04-2c090be9376a)
 
+### word cloud FAKE article 1 
 ![word cloud fake article 1](https://github.com/user-attachments/assets/a88c6c05-34b7-4f04-931b-16512a79127f)
 
+### KPI vectores
 ![KPI vectors](https://github.com/user-attachments/assets/7a7d5fcc-520f-4726-aab9-74c39d5b477d)
 
+###Optuna model
 ![Optuna model](https://github.com/user-attachments/assets/0670d72c-6738-4900-8a47-4182ae950456)
 
 
