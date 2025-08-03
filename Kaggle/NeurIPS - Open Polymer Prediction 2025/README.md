@@ -1,4 +1,4 @@
-<img width="768" height="455" alt="image" src="https://github.com/user-attachments/assets/5a6972f4-88da-45b1-b8fc-5d0792806838" /># NeurIPS - Open Polymer Prediction 2025
+## NeurIPS - Open Polymer Prediction 2025
 
 A machine learning project to predict fundamental polymer properties from chemical structures using advanced models and feature engineering.
 
