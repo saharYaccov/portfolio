@@ -72,12 +72,12 @@ You can find the main notebook for this competition here.
 
 ## Required Packages
 
-| Library    | Version / Notes                              | Description                                   |
-|------------|---------------------------------------------|-----------------------------------------------|
-| rdkit-pypi | Install via pip or download wheel from link | Computational chemistry library for molecule analysis and cheminformatics |
-| numpy      | No specific version here, commonly >=1.21.0 | Numerical computing with arrays and matrices  |
-| pandas     | No specific version here, commonly >=1.3.0  | Data manipulation and analysis with tables    |
-| os         | Built-in Python module                       | Operating system interfaces and file management |
+| Library    | Version / Notes                              | Description                                   |Link                                                    |
+|------------|---------------------------------------------|-----------------------------------------------|---------------------------------------------------------|
+| rdkit-pypi | Install via pip or download wheel from link | Computational chemistry library for molecule analysis and cheminformatics | [rdkit-pypi](https://www.kaggle.com/datasets/jainam213/rdkit-wheels?utm_source=chatgpt.com)|
+| numpy      | No specific version here, commonly >=1.21.0 | Numerical computing with arrays and matrices  |                                                          |
+| pandas     | No specific version here, commonly >=1.3.0  | Data manipulation and analysis with tables    |                                                          |
+| os         | Built-in Python module                       | Operating system interfaces and file management |                                                        |
 
 ---
 [rdkit-pypi](https://www.kaggle.com/datasets/jainam213/rdkit-wheels?utm_source=chatgpt.com)
