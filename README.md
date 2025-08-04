@@ -110,7 +110,7 @@ Feel free to explore the repository, leave a star ⭐, or reach out directly!
 
 
 [**Euler's formula**](https://www.britannica.com/science/Eulers-formula)
-\[ e^{ix} = \cos(x) + \i*sin(x) \]
+\[ e^{ix} = cos(x) + i*sin(x) \]
 
 **[Leonhard Euler](https://www.britannica.com/biography/Leonhard-Euler) – _Introductio in analysin infinitorum_, Volume 1, Chapter 8: _De functionibus exponentialibus_ (On Exponential Functions)**  
 Published in 1748.
