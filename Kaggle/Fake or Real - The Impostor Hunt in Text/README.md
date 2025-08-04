@@ -21,6 +21,7 @@ A machine learning project to classify articles as fake or real using various te
 ## Introduction
 
 This project aims to distinguish between fake and real articles using text analysis and machine learning models. The project leverages various techniques such as TF-IDF vectorization, clustering, and classification algorithms to achieve this goal.
+[LeadBoard : 0.319 ](https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/leaderboard)
 
 ## Features
 
