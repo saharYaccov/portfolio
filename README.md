@@ -22,11 +22,13 @@ I’ve worked on several real-world projects involving:
 
 - ✅ Predictive modeling (ML & DL)
 - ✅ Web apps using React + Python (Flask/Django)
-- ✅ Interactive dashboards with [Tableau](https://public.tableau.com/app/discover) / Power BI
-- ✅ SQL & NoSQL databases
+- ✅ Interactive dashboards with [Tableau](https://public.tableau.com/app/discover) / [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi)
+- ✅ [SQL](https://www.mysql.com/) & NoSQL databases
 - ✅ Secure API integrations
-- ✅ Deployment on Hugging Face & Render
+- ✅ (Deployment on Hugging Face & Render](https://huggingface.co/spaces)
 - ✅ ERP with SAP S/4HANA
+- ✅ [Lingo](https://www.lingoapp.com/) <img width="101" height="116" alt="image" src="https://github.com/user-attachments/assets/a374a14a-c2fc-4ca9-bdf2-b2a5f4957a5a" />
+
 
 ---
 
@@ -34,11 +36,11 @@ I’ve worked on several real-world projects involving:
 
 | Domain | Tools & Technologies |
 |--------|----------------------|
-| **Languages** | Python,Java JavaScript, SQL, PHP, HTML/CSS |
+| **Languages** | [Python](https://www.python.org/),[Java](https://www.java.com/en/), JavaScript, [SQL](https://www.mysql.com/), PHP, HTML/CSS |
 | **Frameworks** | Flask, FastAPI, Django, React |
 | **ML Libraries** | Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, CatBoost |
-| **Data & BI** | Tableau, Power BI, MySQL, MongoDB |
-| **DevOps** | Git, Docker, Hugging Face Spaces, Gradio |
+| **Data & BI** | [Tableau](https://public.tableau.com/app/discover), [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi), MySQL, [MongoDB](https://www.mongodb.com/) |
+| **DevOps** | [Git](https://github.com/), [Docker](https://www.docker.com/),[Huggigng Face space](https://huggingface.co/spaces), [Gradio](https://www.gradio.app/) |
 | **Other** | REST APIs, ETL, Cybersecurity Analytics |
 
 ---
@@ -60,21 +62,21 @@ Each project folder includes its own README for deeper explanation.
 
 ## 📊 Notable Coursework & Grades
 
-| Course                 | Grade | Course               | Grade |
-|------------------------|-------|----------------------|-------|
-| Python                 | 88    | Linear Algebra       | 100   |
-| Java                   | 85    | Calculus A, B        | 93, 100 |
-| Advanced Java          | 99    | IS Statistics        | 79    |
-| SQL                    | 95    | Statistical Learning | 83    |
-| Algorithm A, B         | 96, 81| Machine Learning     | 94    |
-| R                      | 100   | Deep Learning        | 93    |
+| Course                                     | Grade | Course               | Grade |
+|--------------------------------------------|-------|----------------------|-------|
+| [Python](https://www.python.org/)          | 88    | Linear Algebra       | 100   |
+| [Java](https://www.java.com/en/)           | 85    | Calculus A, B        | 93, 100 |
+| Advanced Java                              | 99    | IS Statistics        | 79    |
+| [SQL](https://www.mysql.com/)              | 95    | Statistical Learning | 83    |
+| Algorithm A, B                             | 96, 81| Machine Learning     | 94    |
+| [R](https://www.r-project.org/about.html)  | 100   | Deep Learning        | 93    |
 
 ---
 
 ## 📞 Contact Me
 
 - 📧 **Email:** saharyaccov@gmail.com  
-- 📱 **Phone:** +972-52-4894066
+- 📱 **Phone:** [+972-52-4894066](https://wa.me/972524894066?text=hello%20%5B----%5D%20סהר)
 - 💼 **LinkedIn:** https://www.linkedin.com/in/sahar-haim-yaccov-a3a6ba306/
 
 ---
@@ -87,14 +89,14 @@ Feel free to explore the repository, leave a star ⭐, or reach out directly!
 ---
 # ✨ Euler's Identity – Selected Quotes
 
-## 📐 Leonhard Euler
+## 📐 [Leonhard Euler](https://www.britannica.com/biography/Leonhard-Euler)
 
 > *“Trigonometric functions can be expressed in complex form using the exponential function, thereby revealing far deeper connections than initially apparent.”*  
 > (*Introductio in analysin infinitorum*, Chapter 8, 1748 – **Leonhard Euler**)
 
 ---
 
-## 🧠 Carl Friedrich Gauss
+## 🧠 [Carl Friedrich Gauss](https://www.britannica.com/biography/Carl-Friedrich-Gauss)
 
 > *“If this formula does not astonish you, then I don't know what will.”*  
 > (*Attributed to Euler's formula – **Carl Friedrich Gauss**)
@@ -102,8 +104,8 @@ Feel free to explore the repository, leave a star ⭐, or reach out directly!
 ---
 
 
-**Euler's formula** \( e^{ix} = \cos(x) + i\sin(x) \) appears in:  
-**Leonhard Euler – _Introductio in analysin infinitorum_, Volume 1, Chapter 8: _De functionibus exponentialibus_ (On Exponential Functions)**  
+[**Euler's formula**](https://www.britannica.com/science/Eulers-formula) \( e^{ix} = \cos(x) + i\sin(x) \) appears in:  
+**[Leonhard Euler](https://www.britannica.com/biography/Leonhard-Euler) – _Introductio in analysin infinitorum_, Volume 1, Chapter 8: _De functionibus exponentialibus_ (On Exponential Functions)**  
 Published in 1748.
 
 
