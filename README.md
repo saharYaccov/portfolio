@@ -6,7 +6,7 @@ Welcome to my professional portfolio, where I showcase my practical work in **Ma
 
 ## 👋 About Me
 
-🎓 My name is **Sahar Yaakov**, a final-year Information Systems student at **Max Stern Yezreel Valley College**, specializing in:
+🎓 My name is **Sahar Yaccov**, a final-year Information Systems student at **Max Stern Yezreel Valley College**, specializing in:
 
 - 🔍 Full Stack Development  
 - 📊 Data Science & Analytics  
