@@ -22,7 +22,7 @@ I’ve worked on several real-world projects involving:
 
 - ✅ Predictive modeling (ML & DL)
 - ✅ Web apps using React + Python (Flask/Django)
-- ✅ Interactive dashboards with Tableau / Power BI
+- ✅ Interactive dashboards with [Tableau](https://public.tableau.com/app/discover) / Power BI
 - ✅ SQL & NoSQL databases
 - ✅ Secure API integrations
 - ✅ Deployment on Hugging Face & Render
