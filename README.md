@@ -22,11 +22,15 @@ I’ve worked on several real-world projects involving:
 
 - ✅ Predictive modeling (ML & DL)
 - ✅ Web apps using React + Python (Flask/Django)
-- ✅ Interactive dashboards with [Tableau](https://public.tableau.com/app/discover) / [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi)
-- ✅ [SQL](https://www.mysql.com/) & NoSQL databases
+- ✅ <img src="https://github.com/user-attachments/assets/4bdc91be-b3d9-4135-a2ee-062b2f4034c3" alt="image" style="height: 1em; width: auto; vertical-align: middle;">
+Interactive dashboards with [Tableau](https://public.tableau.com/app/discover) / [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi)
+- ✅ <img src="https://github.com/user-attachments/assets/a41c8bd5-b34f-497d-b86c-2cfddf4e975c" alt="image" style="height: 1em; width: auto; vertical-align: middle;">
+[SQL](https://www.mysql.com/) & NoSQL databases
 - ✅ Secure API integrations
-- ✅ (Deployment on Hugging Face & Render](https://huggingface.co/spaces)
-- ✅ ERP with SAP S/4HANA
+- ✅ <img src="https://github.com/user-attachments/assets/346f8347-7097-4b18-9e93-f50f3aa34c08" alt="image" style="height: 1em; width: auto; vertical-align: middle;">
+(Deployment on Hugging Face & Render](https://huggingface.co/spaces)
+- ✅ <img src="https://github.com/user-attachments/assets/666b0b19-25d1-4f27-9a16-51327a0cb920" alt="image" style="height: 1em; width: auto; vertical-align: middle;">
+ERP with SAP S/4HANA
 - ✅ <img src="https://github.com/user-attachments/assets/a374a14a-c2fc-4ca9-bdf2-b2a5f4957a5a" alt="image" style="height: 1.5em; width: auto; vertical-align: middle;">[Lingo](https://www.lingoapp.com/) 
 
 
