@@ -34,7 +34,7 @@ I’ve worked on several real-world projects involving:
 
 | Domain | Tools & Technologies |
 |--------|----------------------|
-| **Languages** | Python, JavaScript, SQL, PHP, HTML/CSS |
+| **Languages** | Python,Java JavaScript, SQL, PHP, HTML/CSS |
 | **Frameworks** | Flask, FastAPI, Django, React |
 | **ML Libraries** | Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, CatBoost |
 | **Data & BI** | Tableau, Power BI, MySQL, MongoDB |
@@ -85,6 +85,30 @@ I’m always open to new opportunities, collaborations, or tech talk.
 Feel free to explore the repository, leave a star ⭐, or reach out directly!
 
 ---
+# ✨ Euler's Identity – Selected Quotes
+
+## 📐 Leonhard Euler
+
+> *“Trigonometric functions can be expressed in complex form using the exponential function, thereby revealing far deeper connections than initially apparent.”*  
+> (*Introductio in analysin infinitorum*, Chapter 8, 1748 – **Leonhard Euler**)
+
+---
+
+## 🧠 Carl Friedrich Gauss
+
+> *“If this formula does not astonish you, then I don't know what will.”*  
+> (*Attributed to Euler's formula – **Carl Friedrich Gauss**)
+
+---
+
+
+**Euler's formula** \( e^{ix} = \cos(x) + i\sin(x) \) appears in:  
+**Leonhard Euler – _Introductio in analysin infinitorum_, Volume 1, Chapter 8: _De functionibus exponentialibus_ (On Exponential Functions)**  
+Published in 1748.
+
+
+---
+
 
 > _"I believe in building intelligent systems that don't just function — they understand."_  
 > — Sahar Yaakov
