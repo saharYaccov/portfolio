@@ -27,7 +27,8 @@ I’ve worked on several real-world projects involving:
 - ✅ Secure API integrations
 - ✅ (Deployment on Hugging Face & Render](https://huggingface.co/spaces)
 - ✅ ERP with SAP S/4HANA
-- ✅ [Lingo](https://www.lingoapp.com/) <img width="101" height="116" alt="image" src="https://github.com/user-attachments/assets/a374a14a-c2fc-4ca9-bdf2-b2a5f4957a5a" />
+- ✅ [Lingo](https://www.lingoapp.com/) <img src="https://github.com/user-attachments/assets/a374a14a-c2fc-4ca9-bdf2-b2a5f4957a5a" alt="image" style="height: 1em; width: auto; vertical-align: middle;">
+
 
 
 ---
