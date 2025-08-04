@@ -25,6 +25,7 @@ A machine learning project to predict fundamental polymer properties from chemic
 
 This project aims to predict key physical and chemical properties of polymers, accelerating sustainable materials research. The dataset contains polymer chemical structures represented as SMILES strings, along with target properties derived from molecular simulations.
 
+[LeaderBoard : 0.319](https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/leaderboard)
 ---
 
 ## Features
