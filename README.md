@@ -81,7 +81,7 @@ Each project folder includes its own README for deeper explanation.
 ## 📞 Contact Me
 
 - 📧 **Email:** saharyaccov@gmail.com  
-- 📱 **Phone:** [+972-52-4894066](https://wa.me/972524894066?text=hello,%20%5B-from5D%20GitHub)
+- 📱 **Phone:** [+972-52-4894066](https://wa.me/972524894066?text=Hello,%20I%20found%20you%20through%20GitHub%20and%20I'd%20like%20to%20chat%20with%20you.)
 - 💼 **LinkedIn:** https://www.linkedin.com/in/sahar-haim-yaccov-a3a6ba306/
 
 ---
