@@ -37,7 +37,7 @@ Projects/
 
 - GitHub: [github](https://github.com/ss331144)  
 - Tableau Public Dashboards: [Tableau Public](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)  
-- Hugging Face Demo App: [Hugging Face]([https://huggingface.co/spaces/ss331144/cyber-predictor](https://huggingface.co/spaces/sahar-yaccov/microsoft-cyber-attack))  
+- Hugging Face Demo App: [Hugging Face](https://huggingface.co/spaces/ss331144/cyber-predictor](https://huggingface.co/spaces/sahar-yaccov/microsoft-cyber-attack))  
 
 ---
 
