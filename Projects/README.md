@@ -35,9 +35,9 @@ Projects/
 
 ## 🔗 Useful Links
 
-- GitHub: [https://github.com/ss331144](https://github.com/ss331144)  
-- Tableau Public Dashboards: [https://public.tableau.com/app/profile/yaakov.sahar](https://public.tableau.com/app/profile/yaakov.sahar)  
-- Hugging Face Demo App: [https://huggingface.co/spaces/ss331144/cyber-predictor](https://huggingface.co/spaces/ss331144/cyber-predictor)  
+- GitHub: [github](https://github.com/ss331144)  
+- Tableau Public Dashboards: [Tableau Public](https://public.tableau.com/app/profile/yaakov.sahar)  
+- Hugging Face Demo App: [Hugging Face](https://huggingface.co/spaces/ss331144/cyber-predictor)  
 
 ---
 
