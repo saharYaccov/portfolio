@@ -12,7 +12,7 @@ Welcome to my professional portfolio, where I showcase my practical work in **Ma
 - 📊 Data Science & Analytics  
 - 🛡️ Cybersecurity Forecasting & Defense
 
-*## 🌐 Visit my website [HERE](https://huggingface.co/spaces/sahar-yaccov/sahar-yaccov)*
+## * 🌐 Visit my website [HERE](https://huggingface.co/spaces/sahar-yaccov/sahar-yaccov)*
 
 I’m passionate about solving real-world problems using intelligent, data-driven systems, with an emphasis on high-impact solutions that combine code, data, and business logic.
 
