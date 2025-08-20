@@ -129,15 +129,173 @@ Batch processing for multiple videos.
 
 ```
 
+---
+
+Avilable language : 
+
+| Language                     | Code    |
+|-------------------------------|---------|
+| Afrikaans                     | af      |
+| Albanian                      | sq      |
+| Amharic                       | am      |
+| Arabic                        | ar      |
+| Armenian                      | hy      |
+| Assamese                       | as      |
+| Aymara                        | ay      |
+| Azerbaijani                   | az      |
+| Bambara                        | bm      |
+| Basque                        | eu      |
+| Belarusian                    | be      |
+| Bengali                        | bn      |
+| Bhojpuri                       | bho     |
+| Bosnian                        | bs      |
+| Bulgarian                      | bg      |
+| Catalan                        | ca      |
+| Cebuano                        | ceb     |
+| Chichewa                       | ny      |
+| Chinese (Simplified)           | zh-CN   |
+| Chinese (Traditional)          | zh-TW   |
+| Corsican                       | co      |
+| Croatian                       | hr      |
+| Czech                          | cs      |
+| Danish                         | da      |
+| Dhivehi                        | dv      |
+| Dogri                          | doi     |
+| Dutch                          | nl      |
+| English                        | en      |
+| Esperanto                       | eo      |
+| Estonian                       | et      |
+| Ewe                            | ee      |
+| Filipino                        | tl      |
+| Finnish                        | fi      |
+| French                         | fr      |
+| Frisian                        | fy      |
+| Galician                        | gl      |
+| Georgian                        | ka      |
+| German                          | de      |
+| Greek                          | el      |
+| Guarani                        | gn      |
+| Gujarati                        | gu      |
+| Haitian Creole                 | ht      |
+| Hausa                          | ha      |
+| Hawaiian                        | haw     |
+| Hebrew                         | iw      |
+| Hindi                          | hi      |
+| Hmong                          | hmn     |
+| Hungarian                      | hu      |
+| Icelandic                      | is      |
+| Igbo                           | ig      |
+| Ilocano                        | ilo     |
+| Indonesian                     | id      |
+| Irish                          | ga      |
+| Italian                        | it      |
+| Japanese                        | ja      |
+| Javanese                        | jw      |
+| Kannada                        | kn      |
+| Kazakh                         | kk      |
+| Khmer                          | km      |
+| Kinyarwanda                     | rw      |
+| Konkani                        | gom     |
+| Korean                         | ko      |
+| Krio                           | kri     |
+| Kurdish (Kurmanji)             | ku      |
+| Kurdish (Sorani)               | ckb     |
+| Kyrgyz                         | ky      |
+| Lao                            | lo      |
+| Latin                          | la      |
+| Latvian                        | lv      |
+| Lingala                         | ln      |
+| Lithuanian                      | lt      |
+| Luganda                        | lg      |
+| Luxembourgish                   | lb      |
+| Macedonian                      | mk      |
+| Maithili                        | mai     |
+| Malagasy                        | mg      |
+| Malay                           | ms      |
+| Malayalam                       | ml      |
+| Maltese                         | mt      |
+| Maori                           | mi      |
+| Marathi                         | mr      |
+| Meiteilon (Manipuri)           | mni-Mtei|
+| Mizo                            | lus     |
+| Mongolian                       | mn      |
+| Myanmar                         | my      |
+| Nepali                          | ne      |
+| Norwegian                       | no      |
+| Odia (Oriya)                    | or      |
+| Oromo                           | om      |
+| Pashto                          | ps      |
+| Persian                         | fa      |
+| Polish                          | pl      |
+| Portuguese                      | pt      |
+| Punjabi                         | pa      |
+| Quechua                         | qu      |
+| Romanian                        | ro      |
+| Russian                         | ru      |
+| Samoan                          | sm      |
+| Sanskrit                        | sa      |
+| Scots Gaelic                     | gd      |
+| Sepedi                          | nso     |
+| Serbian                         | sr      |
+| Sesotho                          | st      |
+| Shona                           | sn      |
+| Sindhi                          | sd      |
+| Sinhala                         | si      |
+| Slovak                          | sk      |
+| Slovenian                        | sl      |
+| Somali                          | so      |
+| Spanish                          | es      |
+| Sundanese                        | su      |
+| Swahili                          | sw      |
+| Swedish                          | sv      |
+| Tajik                            | tg      |
+| Tamil                            | ta      |
+| Tatar                            | tt      |
+| Telugu                           | te      |
+| Thai                             | th      |
+| Tigrinya                          | ti      |
+| Tsonga                            | ts      |
+| Turkish                           | tr      |
+| Turkmen                           | tk      |
+| Twi                               | ak      |
+| Ukrainian                         | uk      |
+| Urdu                              | ur      |
+| Uyghur                             | ug      |
+| Uzbek                              | uz      |
+| Vietnamese                         | vi      |
+| Welsh                              | cy      |
+| Xhosa                               | xh      |
+| Yiddish                             | yi      |
+| Yoruba                              | yo      |
+| Zulu                                | zu      |
+
+
+---
+
 <img width="324" height="578" alt="image" src="https://github.com/user-attachments/assets/34e6f9a7-05a5-4170-b03f-c71f553e0bee" />
 
 ⮑
 
 
-<img width="339" height="571" alt="image" src="https://github.com/user-attachments/assets/560a6050-4d59-4b59-9dad-23892937f25a" />
+<img width="330" height="572" alt="image" src="https://github.com/user-attachments/assets/eac5eb02-04bc-412c-afa4-92f2b946215d" />
 
 ⮑
 
 <img width="307" height="564" alt="image" src="https://github.com/user-attachments/assets/63431645-92d6-4f6e-9440-de941af45950" />
+
+<img width="333" height="581" alt="image" src="https://github.com/user-attachments/assets/24ff7809-0ac3-4382-a549-dbb467101e88" />
+
+<img width="332" height="582" alt="image" src="https://github.com/user-attachments/assets/4ceab78e-1582-4050-8c0f-eab675cd423b" />
+
+<img width="304" height="540" alt="image" src="https://github.com/user-attachments/assets/567e7864-0ddd-4b2e-8763-b331109acce7" />
+
+<img width="337" height="555" alt="image" src="https://github.com/user-attachments/assets/0a906e54-840c-4ded-ba2e-6ab4cbc7e91f" />
+
+<img width="334" height="549" alt="image" src="https://github.com/user-attachments/assets/02b31cb1-63ef-458c-a87c-fe1b4655b10c" />
+
+<img width="345" height="614" alt="image" src="https://github.com/user-attachments/assets/87401260-52fb-463d-b538-225919f97f96" />
+
+<img width="341" height="564" alt="image" src="https://github.com/user-attachments/assets/dee7b1a8-5119-4cfe-bd08-0251021b5bec" />
+
 
 
