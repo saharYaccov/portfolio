@@ -1,4 +1,9 @@
 <img width="567" height="30" alt="image" src="https://github.com/user-attachments/assets/24613c4b-0f50-4f56-8a4b-6ebbfe66fbf5" />
+
+<img width="257" height="26" alt="image" src="https://github.com/user-attachments/assets/409dfe8e-5356-479c-bb44-d87951023915" />
+
+---
+
 # 🎬 Video Processing Tool – Subtitle Generation & Watermark Removal
 
 This **Python-based video processing pipeline** enables you to:
@@ -122,3 +127,8 @@ Batch processing for multiple videos.
 
 
 <img width="358" height="672" alt="image" src="https://github.com/user-attachments/assets/57606768-7a61-4ceb-a1ed-503b493dc413" />
+
+⮑
+
+<img width="305" height="563" alt="image" src="https://github.com/user-attachments/assets/9b54ce60-0d7b-4da7-a4c5-0be3d06e2bbf" />
+
