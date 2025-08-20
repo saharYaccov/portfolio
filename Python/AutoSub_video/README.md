@@ -127,6 +127,9 @@ Support for additional subtitle formats (e.g., .vtt).
 Auto-detection for watermark removal.
 Batch processing for multiple videos.
 
+```
+
+
 ---
 
 <img width="358" height="672" alt="image" src="https://github.com/user-attachments/assets/57606768-7a61-4ceb-a1ed-503b493dc413" />
