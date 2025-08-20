@@ -194,9 +194,9 @@ Batch processing for multiple videos.
 
 <img width="334" height="549" alt="image" src="https://github.com/user-attachments/assets/02b31cb1-63ef-458c-a87c-fe1b4655b10c" />
 
-<img width="345" height="614" alt="image" src="https://github.com/user-attachments/assets/87401260-52fb-463d-b538-225919f97f96" />
+<img width="330" height="614" alt="image" src="https://github.com/user-attachments/assets/87401260-52fb-463d-b538-225919f97f96" />
 
-<img width="341" height="564" alt="image" src="https://github.com/user-attachments/assets/dee7b1a8-5119-4cfe-bd08-0251021b5bec" />
+<img width="330" height="564" alt="image" src="https://github.com/user-attachments/assets/dee7b1a8-5119-4cfe-bd08-0251021b5bec" />
 
 
 
