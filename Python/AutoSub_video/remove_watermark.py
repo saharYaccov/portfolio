@@ -34,7 +34,7 @@ def select_watermark_area(frame):
     cv2.namedWindow("Select Watermark Area")
     cv2.setMouseCallback("Select Watermark Area", mouse_callback)
     cv2.imshow("Select Watermark Area", temp_display)
-    print("גרור עם העכבר כדי לסמן את אזור סימן המים. לאחר מכן לחץ על מקש Enter או סגור את החלון.")
+    print("Drag with the mouse to select the watermark area. Then press Enter or close the window.")
 
     while True:
         key = cv2.waitKey(1) & 0xFF
@@ -52,7 +52,7 @@ def select_watermark_area(frame):
 def extract_frames(video_path):
     cap = cv2.VideoCapture(video_path)
     if not cap.isOpened():
-        print(f"שגיאה: לא ניתן לפתוח את הסרטון בנתיב {video_path}")
+        print(f"⚠️ Error: Cannot open the video at path {video_path}")
         return [], 0, (0, 0)
 
     frames = []
@@ -60,7 +60,8 @@ def extract_frames(video_path):
     width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-    print(f"מספר פריימים בסרטון: {frame_count}, FPS: {fps}, גודל: {width}x{height}")
+    print(f"🎬 Number of frames: {frame_count}, FPS: {fps}, Size: {width}x{height}")
+
 
     while True:
         ret, frame = cap.read()
@@ -96,12 +97,12 @@ def frames_to_video(frames, output_path, fps, frame_size):
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     out = cv2.VideoWriter(output_path, fourcc, fps, frame_size)
     if not out.isOpened():
-        print(f"שגיאה: לא ניתן ליצור את קובץ הווידאו {output_path}")
+        print(f"❌ Error: Cannot create the video file {output_path}")
         return False
     for frame in frames:
         out.write(frame)
     out.release()
-    print(f"סרטון ביניים נשמר ב-{output_path}")
+    print(f"💾 Intermediate video saved at {output_path}")
     return True
 
 # ---------------------------
@@ -109,37 +110,37 @@ def frames_to_video(frames, output_path, fps, frame_size):
 # ---------------------------
 def main(video_path, output_path,temp_video_path):
     if not is_ffmpeg_available():
-        print("שגיאה: ffmpeg לא מותקן או לא זמין במערכת.")
+        print("⚠️ Error: ffmpeg is not installed or not available on the system.")
         sys.exit(1)
 
 
     frames, fps, frame_size = extract_frames(video_path)
     if not frames:
-        print("שגיאה: לא ניתן לקרוא פריימים מהסרטון.")
+        print("⚠️ Error: Cannot read frames from the video.")
         return
 
     coords = select_watermark_area(frames[0])
     if not coords:
-        print("לא נבחר אזור לסימן המים. משתמש בברירת מחדל.")
+        print("⚠️ No watermark area selected. Using default settings.")
         coords = None
 
-    print("בדיקה: הצגת פריים לאחר הסרת סימן מים...")
+    print("🔍 Debug: Displaying frame after watermark removal...")
     show_frame = remove_watermark_from_frame(frames[0], coords)
     cv2.imshow("Preview Processed Frame", show_frame)
     cv2.waitKey(1000)  # הצגה שניה אחת בלבד
     cv2.destroyAllWindows()
 
-    print("מתחיל עיבוד פריימים והסרת סימן מים...")
+    print("⚙️ Starting frame processing and watermark removal...")
     processed_frames = []
     for frame in tqdm(frames, desc="Processing frames", unit="frame"):
         clean_frame = remove_watermark_from_frame(frame, coords)
         processed_frames.append(clean_frame)
 
     if not frames_to_video(processed_frames, temp_video_path, fps, frame_size):
-        print("שגיאה בשמירת הסרטון הביניים.")
+        print("❌ Error saving the intermediate video.")
         return
 
-    print("מוסיפים אודיו מהסרטון המקורי...")
+    print("🎵 Adding audio from the original video...")
     cmd = [
         "ffmpeg",
         "-y",
@@ -152,12 +153,13 @@ def main(video_path, output_path,temp_video_path):
         output_path
     ]
     try:
-        subprocess.run(cmd, check=True)
-        print(f"סרטון סופי עם אודיו נשמר ב-{output_path}")
-        print("✅ כל התהליך הסתיים בהצלחה. Python עובד כראוי 👍")
-    except subprocess.CalledProcessError as e:
-        print("שגיאה בשמירת הסרטון עם אודיו:", e)
-        sys.exit(1)
+    subprocess.run(cmd, check=True)
+    print(f"🎬 Final video with audio saved at {output_path}")
+    print("✅ Process completed successfully. Python is working fine 👍")
+except subprocess.CalledProcessError as e:
+    print("❌ Error saving the video with audio:", e)
+    sys.exit(1)
+
 
 # ---------------------------
 def unique_main(video_path,output_path,temp_video_path):
