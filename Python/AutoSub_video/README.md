@@ -129,14 +129,15 @@ Batch processing for multiple videos.
 
 ```
 
-<img width="349" height="631" alt="image" src="https://github.com/user-attachments/assets/7a66cdb1-0ba4-4bc9-967e-2efa25a92955" />
-
----
-
-<img width="349" height="631" alt="image" src="https://github.com/user-attachments/assets/06cb5d81-42fc-49f6-9ba0-aa4a0ddcae67" />
-
+<img width="324" height="578" alt="image" src="https://github.com/user-attachments/assets/34e6f9a7-05a5-4170-b03f-c71f553e0bee" />
 
 ⮑
 
-<img width="305" height="563" alt="image" src="https://github.com/user-attachments/assets/9b54ce60-0d7b-4da7-a4c5-0be3d06e2bbf" />
+
+<img width="339" height="571" alt="image" src="https://github.com/user-attachments/assets/560a6050-4d59-4b59-9dad-23892937f25a" />
+
+⮑
+
+<img width="307" height="564" alt="image" src="https://github.com/user-attachments/assets/63431645-92d6-4f6e-9440-de941af45950" />
+
 
