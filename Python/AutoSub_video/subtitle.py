@@ -79,7 +79,7 @@ def add_subtitles(video_path,
             f.write(f"{format_timestamp(start)} --> {format_timestamp(end)}\n")
             f.write(f"{text}\n\n")
 
-    print("📜 קובץ כתוביות נוצר:", srt_path)
+    print("📜 Subtitles file created:", srt_path)
 
     if goal_transcript=='iw':
         goal_transcript='he'
@@ -92,26 +92,54 @@ def add_subtitles(video_path,
         f'{final_output}'
     ]
     subprocess.run(cmd, check=True)
-    print(f"✅ סרטון עם כתוביות נשמר ב- {output_path}")
+    print(f"✅ Video with subtitles saved at {output_path}")
 
 
-if __name__ == "__main__":
+def start(File,describe_file ,goal_lang , video_lang):
     start_time = time.time()
 
-    describe_file = 'final_project_video3_hebrew'
-    goal_transcript = 'iw'
-    video_voice_language = 'en'
+    describe_file = describe_file
+        #'final_project_video3_hebrew'
+    goal_transcript = goal_lang
+    video_voice_language = video_lang
     file_name = f'{describe_file}_{video_voice_language}2{goal_transcript}'
     os.makedirs(file_name, exist_ok=True)
-    video_file = '/Users/shryqb/PycharmProjects/Video_tool/videos/WhatsApp Video 2025-08-18 at 19.20.40.mp4'
+    video_file = File
+        #'/Users/shryqb/PycharmProjects/Video_tool/videos/WhatsApp Video 2025-08-18 at 19.20.40.mp4'
     unique_main(video_file,f'{file_name}/video_no_watermark.mp4',temp_video_path=f'{file_name}/temp.mp4')
     video_path = f"{file_name}/video_no_watermark.mp4"
     add_subtitles(video_path,video_title=file_name, goal_transcript=goal_transcript, video_voice_language=video_voice_language)
 
-    #goal_transcript :
-    #   Hebrew - iw
-    #   English - en
+    # goal_transcript options:
+#   Hebrew        - iw
+#   English       - en
+#   Hindi         - hi
+#   Spanish       - es
+#   French        - fr
+#   German        - de
+#   Arabic        - ar
+#   Japanese      - ja
+#   Chinese (Simplified) - zh-CN
+#   Russian       - ru
+ 
 
     end_time = time.time()
 
     print(f'Total Timer : {end_time-start_time}')
+
+
+
+
+
+
+# File        : Path to the video file you want to process
+# dfile       : Description/name for the video, used for creating folders and output files
+# goal_lang   : Target language for transcription/translation of subtitles (here 'iw' = Hebrew)
+# video_lang  : Original language of the video's audio (here 'en' = English)
+# start(...)  : Function call that removes watermark, performs transcription, translation, and generates subtitles
+
+File = 'videos/Learn English Conversation with Friends Series.mp4'
+dfile = 'Example_video'
+goal_lang='iw' # goal language
+video_lang='en' # video language
+start(File=File , describe_file=dfile , goal_lang='iw' ,video_lang='en')
