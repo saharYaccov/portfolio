@@ -129,6 +129,7 @@ Batch processing for multiple videos.
 
 ```
 
+<img width="349" height="631" alt="image" src="https://github.com/user-attachments/assets/7a66cdb1-0ba4-4bc9-967e-2efa25a92955" />
 
 ---
 
