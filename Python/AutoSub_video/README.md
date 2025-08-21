@@ -20,6 +20,8 @@ This **Python-based video processing pipeline** enables you to:
 ## 🚀 Features
 
 <custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Features%22%7D%7D" />
+
+
    Feature                | Description                                                                 |
  |------------------------|-----------------------------------------------------------------------------|
  | 🔊 **Speech-to-Text**   | Uses Whisper (`small` model) to transcribe audio.                          |
