@@ -1,71 +1,59 @@
-# 📊 Microsoft Threat Analysis Dashboard (Tableau)
+# 📊 Tableau Dashboard
 
 ---
 
-[<img width="300" height="87" alt="image" src="https://github.com/user-attachments/assets/e76f744d-faf5-43ab-bce9-2a96a76d9a30" />](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
-
-[Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
+<img width="120" height="70" alt="image" src="https://github.com/user-attachments/assets/e76f744d-faf5-43ab-bce9-2a96a76d9a30" />
 
 ---
 
-## 🧠 Overview
-
-This Tableau-based dashboard delivers an interactive analysis of cybersecurity threats targeting Microsoft systems. By leveraging powerful visualization and BI capabilities, it enables IT security professionals to explore data, identify threat patterns, and make informed decisions.
+## 📑 Table of Contents
+1. [Overview](#-overview)  
+2. [Features](#-features)  
+3. [Tools & Technologies](#-tools--technologies)  
+4. [Use Cases](#-use-cases)  
+5. [Key Notes](#-key-notes)  
 
 ---
 
-## 🔧 Features
+## 🎯 Overview
+A **Tableau dashboard** designed to deliver interactive and visually compelling data insights.  
+Tableau dashboards empower organizations to explore data dynamically, uncover hidden patterns, and support data-driven decisions at scale.
 
-- **Interactive Dashboards**: Explore data dynamically with filters and drill-down capabilities.  
-- **Visualizations**: Bar charts, line graphs, scatter plots, maps, and more.  
-- **KPI Tracking**: Monitor critical security metrics and incident counts.  
-- **Trend Analysis**: Identify evolving attack vectors over time.  
-- **Cross-Platform Data**: Combine multiple data sources into a single dashboard.  
+---
+
+## 📂 Features
+- Fully **interactive dashboards** with filters, drill-downs, and tooltips  
+- Wide variety of **visualizations** (bar charts, line graphs, maps, scatter plots, heatmaps)  
+- **Calculated fields and parameters** for advanced custom analysis  
+- Real-time data refresh from connected sources  
+- Storytelling with **Tableau Stories** for guided insights  
+- Easy sharing through **Tableau Server, Online, or Public**  
 
 ---
 
 ## 🛠 Tools & Technologies
-
-- **Tableau Desktop / Tableau Public**: Dashboard creation.  
-- **Tableau Server / Tableau Online**: Sharing and collaboration.  
-- **Calculated Fields & Parameters**: For advanced analysis and custom KPIs.  
-- **Data Connections**: Excel, CSV, SQL, and other data sources.  
-
----
-
-## 📈 Use Cases
-
-- **Cybersecurity Monitoring**: Detect and visualize Microsoft-targeted threats.  
-- **Incident Analysis**: Drill into specific attack vectors or timeframes.  
-- **Risk Management**: Assess severity and prioritize security actions.  
-- **Executive Reporting**: Provide clear, interactive insights to stakeholders.  
+- **Tableau Desktop / Tableau Public** – dashboard creation  
+- **Tableau Server / Online** – collaboration and sharing  
+- **Data Connections** – Excel, SQL, CSV, cloud-based data sources  
+- **LOD Expressions (Level of Detail)** – advanced analysis  
+- **Parameters & Actions** – interactive exploration  
+- **Custom Visualizations** – maps, geospatial analysis, KPIs  
 
 ---
 
-## 📌 Notes
-
-- Requires Tableau Desktop or access to **Tableau Public**.  
-- Dashboards are optimized for **interactive exploration**.  
-- Data sources may require refresh for up-to-date information.  
-
----
-
-## 📂 File Structure
-
-/microsoft-threat-analysis  
-│  
-├── /Data  
-│   └── threat_data.csv  
-│  
-├── /Reports  
-│   └── threat_report.twb  
-│  
-└── /Dashboard  
-    └── microsoft_threat_dashboard.twbx  
+## 🚀 Use Cases
+- Cybersecurity and IT threat monitoring  
+- Business performance and KPIs tracking  
+- Financial and sales analysis  
+- Marketing campaign performance  
+- Customer segmentation and churn analysis  
+- Supply chain and operational optimization  
 
 ---
 
-## 🔗 Additional Resources
-
-- [Microsoft Defender Threat Analytics](https://learn.microsoft.com/en-us/defender-xdr/threat-analytics)  
-- [Tableau Cybersecurity Dashboards](https://www.tableau.com/solutions/cybersecurity-analytics)  
+## 📌 Key Notes
+- Tableau dashboards are **highly scalable** and suitable for both small and big data  
+- Allow **seamless integration** with diverse data sources  
+- Designed for **interactive exploration**, not just static reporting  
+- Ideal for **executive reporting and storytelling**  
+- Can be embedded in web portals, apps, or shared securely in the cloud  
