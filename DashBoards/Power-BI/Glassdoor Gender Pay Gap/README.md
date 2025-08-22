@@ -1,6 +1,6 @@
 # 📊 GATHA Threat Analysis Dashboard (Power BI)
 
-![GATHA Dashboard Preview](https://github.com/user-attachments/assets/e66aac2b-8910-4899-be01-805987809337)
+![GATHA Dashboard Preview](<img width="1224" height="683" alt="image" src="https://github.com/user-attachments/assets/1303c8b1-c00e-47ba-92fa-0b0b90797541" />)
 
 [🔗 Open GATHA Power BI Dashboard](https://app.powerbi.com/groups/me/datasets/92a948f8-eaad-4102-ad91-627e9b6fa5de?experience=power-bi)
 
