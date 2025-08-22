@@ -1,52 +1,71 @@
-# 📊 Tableau Dashboard
-
-<img width="279" height="140" alt="image" src="https://github.com/user-attachments/assets/920c944b-9bbb-4a35-a4b9-8be86c8e3120" />
+# 📊 Microsoft Threat Analysis Dashboard (Tableau)
 
 ---
 
+[<img width="300" height="87" alt="image" src="https://github.com/user-attachments/assets/e76f744d-faf5-43ab-bce9-2a96a76d9a30" />](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
 
-## 📑 Table of Contents
-1. [Overview](#-overview)  
-2. [Features](#-features)  
-3. [Tools & Technologies](#-tools--technologies)  
-4. [Use Cases](#-use-cases)  
-5. [Key Notes](#-key-notes)  
+[Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
 
 ---
 
-## 🎯 Overview
-A **Tableau dashboard** designed to showcase how data visualization and business intelligence can transform raw data into actionable insights. Tableau provides an intuitive drag-and-drop interface, enabling both analysts and business users to create interactive and shareable dashboards.
+## 🧠 Overview
+
+This Tableau-based dashboard delivers an interactive analysis of cybersecurity threats targeting Microsoft systems. By leveraging powerful visualization and BI capabilities, it enables IT security professionals to explore data, identify threat patterns, and make informed decisions.
 
 ---
 
-## 📂 Features
-- Interactive dashboards with dynamic filters and slicers  
-- Drill-down and drill-through capabilities for deeper analysis  
-- Multiple visualization types (bar charts, line graphs, maps, scatter plots, etc.)  
-- KPI tracking and performance monitoring  
-- Ability to combine data from multiple sources  
+## 🔧 Features
+
+- **Interactive Dashboards**: Explore data dynamically with filters and drill-down capabilities.  
+- **Visualizations**: Bar charts, line graphs, scatter plots, maps, and more.  
+- **KPI Tracking**: Monitor critical security metrics and incident counts.  
+- **Trend Analysis**: Identify evolving attack vectors over time.  
+- **Cross-Platform Data**: Combine multiple data sources into a single dashboard.  
 
 ---
 
 ## 🛠 Tools & Technologies
-- **Tableau Desktop / Tableau Public** – for creating dashboards  
-- **Tableau Server / Tableau Online** – for sharing and collaboration  
-- **Calculated Fields** – for custom metrics and KPIs  
-- **Parameters** – for interactive user-driven analysis  
-- **Data Connections** – supports Excel, CSV, SQL databases, cloud sources, and more  
+
+- **Tableau Desktop / Tableau Public**: Dashboard creation.  
+- **Tableau Server / Tableau Online**: Sharing and collaboration.  
+- **Calculated Fields & Parameters**: For advanced analysis and custom KPIs.  
+- **Data Connections**: Excel, CSV, SQL, and other data sources.  
 
 ---
 
-## 🚀 Use Cases
-- Business performance monitoring  
-- Financial and sales reporting  
-- Customer behavior analysis  
-- Operations and resource management  
-- Market and geographic analysis  
+## 📈 Use Cases
+
+- **Cybersecurity Monitoring**: Detect and visualize Microsoft-targeted threats.  
+- **Incident Analysis**: Drill into specific attack vectors or timeframes.  
+- **Risk Management**: Assess severity and prioritize security actions.  
+- **Executive Reporting**: Provide clear, interactive insights to stakeholders.  
 
 ---
 
-## 📌 Key Notes
-- Tableau dashboards are designed to be **interactive and user-friendly**  
-- No coding is required, but advanced users can leverage **calculated fields and scripting**  
-- Dashboards can be published online for **collaboration and accessibility**  
+## 📌 Notes
+
+- Requires Tableau Desktop or access to **Tableau Public**.  
+- Dashboards are optimized for **interactive exploration**.  
+- Data sources may require refresh for up-to-date information.  
+
+---
+
+## 📂 File Structure
+
+/microsoft-threat-analysis  
+│  
+├── /Data  
+│   └── threat_data.csv  
+│  
+├── /Reports  
+│   └── threat_report.twb  
+│  
+└── /Dashboard  
+    └── microsoft_threat_dashboard.twbx  
+
+---
+
+## 🔗 Additional Resources
+
+- [Microsoft Defender Threat Analytics](https://learn.microsoft.com/en-us/defender-xdr/threat-analytics)  
+- [Tableau Cybersecurity Dashboards](https://www.tableau.com/solutions/cybersecurity-analytics)  
