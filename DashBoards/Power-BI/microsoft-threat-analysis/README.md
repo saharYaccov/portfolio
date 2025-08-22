@@ -2,8 +2,7 @@
 
 ---
 
-[<img width="157" height="85" alt="image" src="https://github.com/user-attachments/assets/2d491f1a-493f-4698-bc13-7b184db757d3" />
-](https://app.powerbi.com/groups/me/reports/836d0996-d4f5-45b7-9253-1e750f548526/b794caf61d610d989a37?experience=power-bi)
+[](https://app.powerbi.com/groups/me/reports/836d0996-d4f5-45b7-9253-1e750f548526/b794caf61d610d989a37?experience=power-bi)
 
 [Open Power BI Dashboard](https://app.powerbi.com/groups/me/reports/836d0996-d4f5-45b7-9253-1e750f548526/b794caf61d610d989a37?experience=power-bi)
 
