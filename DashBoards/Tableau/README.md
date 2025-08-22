@@ -1,5 +1,9 @@
 # 📊 Tableau Dashboard
 
+<img width="279" height="140" alt="image" src="https://github.com/user-attachments/assets/920c944b-9bbb-4a35-a4b9-8be86c8e3120" />
+
+---
+
 ## 🎯 Overview
 A **Tableau dashboard** designed to showcase how data visualization and business intelligence can transform raw data into actionable insights. Tableau provides an intuitive drag-and-drop interface, enabling both analysts and business users to create interactive and shareable dashboards.
 
