@@ -1,6 +1,6 @@
 # 📊 Power BI Dashboard
 
-![Uploading image.png…]()
+<img width="902" height="505" alt="image" src="https://github.com/user-attachments/assets/0b046dde-abc5-4711-9b0f-ce755e29f56f" />
 
 ---
 
