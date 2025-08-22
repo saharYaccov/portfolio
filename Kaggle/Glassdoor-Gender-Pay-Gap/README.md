@@ -19,8 +19,7 @@ This project analyzes salary datasets and builds predictive regression models fo
 7. [Combining Datasets](#-combining-datasets)
 8. [Key Notes](#-key-notes)
 9. [Tools Summary](#-tools-summary)
-10. [Saved Models](#-saved-models)
-11. [Visualizations](#-visualizations)
+10. [Visualizations](#-visualizations)
 
 ---
 
@@ -93,6 +92,8 @@ Splits dataset into train/test sets
 
 Trains a RandomForestRegressor
 
+##### evaluation-metrics
+
 Returns MSE and R² metrics
 
 Optionally plots Actual vs Predicted
@@ -136,6 +137,9 @@ Persistence: joblib
 
 This notebook provides a complete workflow for analyzing salary data, training regression models, and evaluating their performance with proper visualizations.
 
+
+
+##### visualizations
 
 ---
 
