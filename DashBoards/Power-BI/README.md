@@ -1,6 +1,6 @@
 # 📊 Power BI Dashboard
 
-<img width="902" height="505" alt="image" src="https://github.com/user-attachments/assets/0b046dde-abc5-4711-9b0f-ce755e29f56f" />
+<img width="157" height="85" alt="image" src="https://github.com/user-attachments/assets/2d491f1a-493f-4698-bc13-7b184db757d3" />
 
 ---
 
