@@ -65,5 +65,4 @@ This Excel-based dashboard provides a comprehensive analysis of cybersecurity th
 ## 🔗 Additional Resources
 
 - [Microsoft Defender Threat Analytics](https://learn.microsoft.com/en-us/defender-xdr/threat-analytics)
-- [Cybersecurity Threats Analysis Dashboard in Excel](https://github.com/zakirhossainofc/Cybersecurity-Threats-Analysis-Dashboard-in-Excel)
 
