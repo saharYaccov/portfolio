@@ -4,6 +4,16 @@
 
 ---
 
+
+## 📑 Table of Contents
+1. [Overview](#-overview)  
+2. [Features](#-features)  
+3. [Tools & Technologies](#-tools--technologies)  
+4. [Use Cases](#-use-cases)  
+5. [Key Notes](#-key-notes)
+
+---
+
 ## 🎯 Overview
 A **Power BI dashboard** that demonstrates how business intelligence tools can turn raw data into meaningful insights.  
 Power BI provides rich interactive visualizations, advanced analytics, and seamless integration with multiple data sources.
