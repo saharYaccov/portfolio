@@ -1,5 +1,10 @@
 <img width="328" height="179" alt="image" src="https://github.com/user-attachments/assets/39463ede-c99c-43a2-95e2-3180771ac78f" />
 
+
+(Notebook)[https://www.kaggle.com/code/saharhaimyaccov/glassdoor-salary-prediction/edit]
+
+(My-App)[https://huggingface.co/spaces/sahar-yaccov/Glassdoor-salary-prediction]
+
 # Glassdoor & Mock Data Salary Analysis and Prediction 💵🪙
 
 This project analyzes salary datasets and builds predictive regression models for estimating base salaries. The datasets include **Glassdoor Gender Pay Gap** data and a **mock employee dataset**.
