@@ -1,8 +1,26 @@
-
+<img width="328" height="179" alt="image" src="https://github.com/user-attachments/assets/39463ede-c99c-43a2-95e2-3180771ac78f" />
 
 # Glassdoor & Mock Data Salary Analysis and Prediction 💵🪙
 
 This project analyzes salary datasets and builds predictive regression models for estimating base salaries. The datasets include **Glassdoor Gender Pay Gap** data and a **mock employee dataset**.
+
+---
+
+
+## 📑 Table of Contents
+1. [Libraries Used](#-libraries-used)
+2. [Datasets](#-datasets)
+3. [Data Preparation](#-data-preparation)
+4. [Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
+5. [Regression Modeling](#-regression-modeling)
+    - [Random Forest Regression](#1️⃣-random-forest-regression)
+    - [XGBoost Regression](#2️⃣-xgboost-regression)
+6. [Evaluation Metrics](#-evaluation-metrics)
+7. [Combining Datasets](#-combining-datasets)
+8. [Key Notes](#-key-notes)
+9. [Tools Summary](#-tools-summary)
+10. [Saved Models](#-saved-models)
+11. [Visualizations](#-visualizations)
 
 ---
 
@@ -118,7 +136,6 @@ Persistence: joblib
 
 This notebook provides a complete workflow for analyzing salary data, training regression models, and evaluating their performance with proper visualizations.
 
-<img width="328" height="179" alt="image" src="https://github.com/user-attachments/assets/39463ede-c99c-43a2-95e2-3180771ac78f" />
 
 ---
 
