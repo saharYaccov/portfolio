@@ -19,7 +19,8 @@ This project analyzes salary datasets and builds predictive regression models fo
 7. [Combining Datasets](#-combining-datasets)
 8. [Key Notes](#-key-notes)
 9. [Tools Summary](#-tools-summary)
-10. [Visualizations](#-visualizations)
+10. [Visualizations](#visualizations)
+
 
 ---
 
