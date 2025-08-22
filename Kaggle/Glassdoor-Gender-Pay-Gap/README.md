@@ -139,7 +139,7 @@ This notebook provides a complete workflow for analyzing salary data, training r
 
 
 
-##### visualizations
+##### Visualizations
 
 ---
 
