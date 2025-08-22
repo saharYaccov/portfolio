@@ -1,72 +1,71 @@
-# 📊 Microsoft Threat Analysis Dashboard (Excel)
+# 📊 Microsoft Threat Analysis Dashboard (Tableau)
 
 ---
 
-<img width="300" height="87" alt="image" src="https://github.com/user-attachments/assets/e76f744d-faf5-43ab-bce9-2a96a76d9a30" />
+[<img width="300" height="87" alt="image" src="https://github.com/user-attachments/assets/e76f744d-faf5-43ab-bce9-2a96a76d9a30" />](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
 
-[Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
+[Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
 
 ---
 
 ## 🧠 Overview
 
-This Excel-based dashboard provides a comprehensive analysis of cybersecurity threats targeting Microsoft systems. Utilizing real-world datasets, the dashboard offers insights into attack types, affected systems, and trends over time, enabling informed decision-making for IT security professionals.
+This Tableau-based dashboard delivers an interactive analysis of cybersecurity threats targeting Microsoft systems. By leveraging powerful visualization and BI capabilities, it enables IT security professionals to explore data, identify threat patterns, and make informed decisions.
 
 ---
 
 ## 🔧 Features
 
-- **Dynamic Visualizations**: Interactive charts and graphs to visualize threat data.
-- **Pivot Tables**: Summarize and analyze data efficiently.
-- **Slicers**: Filter data by various dimensions for detailed insights.
-- **Trend Analysis**: Track threat patterns over time.
-- **Severity Levels**: Categorize threats by their impact.
+- **Interactive Dashboards**: Explore data dynamically with filters and drill-down capabilities.  
+- **Visualizations**: Bar charts, line graphs, scatter plots, maps, and more.  
+- **KPI Tracking**: Monitor critical security metrics and incident counts.  
+- **Trend Analysis**: Identify evolving attack vectors over time.  
+- **Cross-Platform Data**: Combine multiple data sources into a single dashboard.  
 
 ---
 
 ## 🛠 Tools & Technologies
 
-- **Microsoft Excel**: Data analysis and visualization.
-- **Pivot Tables & Charts**: Data summarization and graphical representation.
-- **Slicers**: Interactive filtering of data.
-- **Conditional Formatting**: Highlight key data points.
+- **Tableau Desktop / Tableau Public**: Dashboard creation.  
+- **Tableau Server / Tableau Online**: Sharing and collaboration.  
+- **Calculated Fields & Parameters**: For advanced analysis and custom KPIs.  
+- **Data Connections**: Excel, CSV, SQL, and other data sources.  
 
 ---
 
 ## 📈 Use Cases
 
-- **Cybersecurity Threat Monitoring**: Identify and track threats targeting Microsoft systems.
-- **Incident Reporting**: Generate reports on security incidents.
-- **Risk Assessment**: Evaluate the severity and impact of threats.
-- **Trend Analysis**: Monitor changes in threat patterns over time.
+- **Cybersecurity Monitoring**: Detect and visualize Microsoft-targeted threats.  
+- **Incident Analysis**: Drill into specific attack vectors or timeframes.  
+- **Risk Management**: Assess severity and prioritize security actions.  
+- **Executive Reporting**: Provide clear, interactive insights to stakeholders.  
 
 ---
 
 ## 📌 Notes
 
-- Ensure macros are enabled for full functionality.
-- The dashboard is designed for use with Microsoft Excel 2016 or later.
-- Data sources are periodically updated; ensure to refresh connections for the latest information.
+- Requires Tableau Desktop or access to **Tableau Public**.  
+- Dashboards are optimized for **interactive exploration**.  
+- Data sources may require refresh for up-to-date information.  
 
 ---
 
 ## 📂 File Structure
 
-/Microsoft-Threat-Analysis
-│
-├── /Data
-│ └── threat_data.xlsx
-│
-├── /Reports
-│ └── threat_report.xlsx
-│
-└── /Dashboard
-└── threat_dashboard.xlsx
-
+/microsoft-threat-analysis  
+│  
+├── /Data  
+│   └── threat_data.csv  
+│  
+├── /Reports  
+│   └── threat_report.twb  
+│  
+└── /Dashboard  
+    └── microsoft_threat_dashboard.twbx  
 
 ---
 
 ## 🔗 Additional Resources
 
-- [Microsoft Defender Threat Analytics](https://learn.microsoft.com/en-us/defender-xdr/threat-analytics)
-
+- [Microsoft Defender Threat Analytics](https://learn.microsoft.com/en-us/defender-xdr/threat-analytics)  
+- [Tableau Cybersecurity Dashboards](https://www.tableau.com/solutions/cybersecurity-analytics)  
