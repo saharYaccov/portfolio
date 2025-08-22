@@ -4,6 +4,16 @@
 
 ---
 
+
+## 📑 Table of Contents
+1. [Overview](#-overview)  
+2. [Features](#-features)  
+3. [Tools & Technologies](#-tools--technologies)  
+4. [Use Cases](#-use-cases)  
+5. [Key Notes](#-key-notes)  
+
+---
+
 ## 🎯 Overview
 A **Tableau dashboard** designed to showcase how data visualization and business intelligence can transform raw data into actionable insights. Tableau provides an intuitive drag-and-drop interface, enabling both analysts and business users to create interactive and shareable dashboards.
 
