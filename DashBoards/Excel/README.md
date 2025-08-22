@@ -1,6 +1,6 @@
 ## 📘 Excel Dashboard
 
-<img width="120" height="70" alt="image" src="https://github.com/user-attachments/assets/a1b80ea3-2cc8-4c33-9b18-efaafbb1e687" /> Dashboard
+<img width="120" height="70" alt="image" src="https://github.com/user-attachments/assets/a1b80ea3-2cc8-4c33-9b18-efaafbb1e687" />
 
 ---
 
