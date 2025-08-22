@@ -2,7 +2,7 @@
 
 ---
 
-[<img width="300" height="87" alt="image" src="https://github.com/user-attachments/assets/e76f744d-faf5-43ab-bce9-2a96a76d9a30" />](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
+<img width="1038" height="514" alt="image" src="https://github.com/user-attachments/assets/a87aa22e-2f0a-4aed-a5a9-a854541908fb" />
 
 [Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
 
