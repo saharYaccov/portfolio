@@ -2,7 +2,7 @@
 
 ---
 
-[](https://app.powerbi.com/groups/me/reports/836d0996-d4f5-45b7-9253-1e750f548526/b794caf61d610d989a37?experience=power-bi)
+[<img width="902" height="505" alt="image" src="https://github.com/user-attachments/assets/0b046dde-abc5-4711-9b0f-ce755e29f56f" />](https://app.powerbi.com/groups/me/reports/836d0996-d4f5-45b7-9253-1e750f548526/b794caf61d610d989a37?experience=power-bi)
 
 [Open Power BI Dashboard](https://app.powerbi.com/groups/me/reports/836d0996-d4f5-45b7-9253-1e750f548526/b794caf61d610d989a37?experience=power-bi)
 
