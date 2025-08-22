@@ -1,3 +1,5 @@
+
+
 # Glassdoor & Mock Data Salary Analysis and Prediction 💵🪙
 
 This project analyzes salary datasets and builds predictive regression models for estimating base salaries. The datasets include **Glassdoor Gender Pay Gap** data and a **mock employee dataset**.
@@ -45,7 +47,7 @@ This project analyzes salary datasets and builds predictive regression models fo
 Missing values were checked using:
 
 
-📊 Exploratory Data Analysis (EDA)
+##### 📊 Exploratory Data Analysis (EDA)
 
 Histograms: Age distribution
 
@@ -61,7 +63,7 @@ Word clouds: Most frequent categories in columns like JobTitle, Gender, Educatio
 
 Visualization was done using matplotlib, seaborn and wordcloud.
 
-🤖 Regression Modeling
+##### 🤖 Regression Modeling
 1️⃣ Random Forest Regression
 Function create_reg_model(df, features, target, test_size, plot, prints):
 
@@ -87,7 +89,7 @@ R² (R-squared): proportion of variance explained by the model
 
 Plots: Scatter plots of Actual vs Predicted values help visualize model accuracy
 
-🔄 Combining Datasets
+##### 🔄 Combining Datasets
 Columns were aligned between df1 and df2
 
 Only common columns were retained
@@ -96,7 +98,7 @@ Datasets were concatenated vertically using pd.concat
 
 Regression models were retrained on combined datasets for salary prediction
 
-📌 Key Notes
+##### 📌 Key Notes
 One-Hot Encoding is essential for categorical variables (JobTitle, Gender, etc.)
 
 RandomForestRegressor is simple and robust; XGBRegressor often gives better performance for tabular data
@@ -105,7 +107,7 @@ Always normalize numerical features for gradient boosting models
 
 Multiple test sizes were evaluated to find the optimal split
 
-🛠 Tools Summary
+##### 🛠 Tools Summary
 EDA & Visualization: matplotlib, seaborn, wordcloud
 
 Data Processing: pandas, numpy, sklearn.preprocessing
