@@ -1,5 +1,5 @@
 # Digital Operations Dashboard - Analytics Command Center (Tableau)
-![<img width="1339" height="677" alt="image" src="https://github.com/user-attachments/assets/c6999f19-9950-4402-b10e-4a9428de056a" />](https://public.tableau.com/app/profile/sahar.yacoov/viz/DigitalOperationsDashboard-AnalyticsCommandCenter/Dashboard1?publish=yes)  
+![Dashboard Preview](https://github.com/user-attachments/assets/c6999f19-9950-4402-b10e-4a9428de056a)  
 [Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/DigitalOperationsDashboard-AnalyticsCommandCenter/Dashboard1?publish=yes)
 
 ## 🧠 Overview
@@ -28,12 +28,9 @@ This Tableau-based dashboard provides an interactive view of organizational oper
 - Dashboards are optimized for interactive exploration and filtering.  
 - Data sources should be refreshed regularly for up-to-date analysis.
 
-  
+
 ## 🔗 Additional Resources
-- [Tableau Official Guides](https://www.tableau.com/learn/guides)
+- [Tableau Official Guides](https://www.tableau.com/learn/guides)  
 - Best practices for interactive dashboards
-
-
-
 
 
