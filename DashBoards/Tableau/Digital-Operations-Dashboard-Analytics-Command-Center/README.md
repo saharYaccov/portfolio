@@ -32,5 +32,4 @@ The Digital Operations Dashboard provides a comprehensive, interactive view of o
 - Data sources should be refreshed regularly to ensure up-to-date analysis.
 
 ## 🔗 Additional Resources
-- [Tableau Official Guides](https://www.tableau.com/learn/guides)  
-- Best practices for creating interactive dashboards
+- [Tableau Official](https://www.tableau.com/) 
