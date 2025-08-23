@@ -1,35 +1,36 @@
 # Digital Operations Dashboard - Analytics Command Center (Tableau)
 
-![Dashboard Preview](https://github.com/user-attachments/assets/2544788d-7279-4133-9af8-b0dda2c721bd)  
+![Dashboard Preview 1](https://github.com/user-attachments/assets/2544788d-7279-4133-9af8-b0dda2c721bd)  
+![Dashboard Preview 2](https://github.com/user-attachments/assets/858faf31-88c1-426c-9531-b9885fe90cd1)  
 
 [Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/DigitalOperationsDashboard-AnalyticsCommandCenter/Dashboard1?publish=yes)
 
 ## 🧠 Overview
-This Tableau-based dashboard provides an interactive view of organizational operations data. It enables managers and analysts to explore operational performance, monitor key metrics, and identify patterns across departments and processes. By leveraging visual analytics, users can make informed decisions to optimize workflows and resource allocation.
+The Digital Operations Dashboard provides a comprehensive, interactive view of organizational operations data. Designed for managers and analysts, it enables exploration of operational performance, monitoring of key metrics, and identification of trends across departments and processes. Leveraging Tableau’s visual analytics, users can make informed, data-driven decisions to optimize workflows and resource allocation.
 
 ## 🔧 Features
-- **Interactive Dashboards:** Filter, drill down, and dynamically explore operational KPIs.  
-- **Visualizations:** Bar charts, line graphs, pie charts, maps, and trend analyses.  
-- **KPI Tracking:** Monitor critical operational metrics such as productivity, efficiency, and resource utilization.  
-- **Trend Analysis:** Observe changes and trends in operational performance over time.  
-- **Cross-Platform Data:** Integrate multiple data sources such as Excel, CSV, SQL, or cloud services.
+- **Interactive Dashboards:** Dynamically filter, drill down, and explore operational KPIs.  
+- **Rich Visualizations:** Bar charts, line graphs, pie charts, geographic maps, and trend analyses.  
+- **KPI Tracking:** Monitor critical metrics such as productivity, efficiency, and resource utilization.  
+- **Trend Analysis:** Track performance changes over time and detect emerging patterns.  
+- **Cross-Platform Data Integration:** Combine multiple data sources, including Excel, CSV, SQL, and cloud services.
 
 ## 🛠 Tools & Technologies
-- **Tableau Desktop / Tableau Public:** Dashboard creation and interactive analysis.  
-- **Calculated Fields & Parameters:** Custom KPIs and advanced analytics.  
-- **Data Connections:** Excel, CSV, SQL, and other organizational data sources.
+- **Tableau Desktop / Tableau Public:** Dashboard creation, interactive visualizations.  
+- **Calculated Fields & Parameters:** Build custom KPIs and advanced analytics.  
+- **Data Connections:** Seamless integration with Excel, CSV, SQL, and other organizational sources.
 
 ## 📈 Use Cases
-- **Operational Monitoring:** Track departmental and company-wide performance.  
-- **Performance Analysis:** Identify trends and potential bottlenecks in processes.  
-- **Resource Optimization:** Allocate resources efficiently based on data insights.  
-- **Executive Reporting:** Deliver interactive, actionable insights to stakeholders.
+- **Operational Monitoring:** Track and evaluate performance across departments and processes.  
+- **Performance Analysis:** Identify trends, bottlenecks, and improvement opportunities.  
+- **Resource Optimization:** Efficiently allocate personnel and resources based on data insights.  
+- **Executive Reporting:** Deliver clear, actionable insights to management and stakeholders.
 
 ## 📌 Notes
 - Requires Tableau Desktop or access to Tableau Public.  
-- Dashboards are optimized for interactive exploration and filtering.  
-- Data sources should be refreshed regularly for up-to-date analysis.
+- Dashboards are optimized for interactive exploration, filtering, and drill-down.  
+- Data sources should be refreshed regularly to ensure up-to-date analysis.
 
 ## 🔗 Additional Resources
 - [Tableau Official Guides](https://www.tableau.com/learn/guides)  
-- Best practices for interactive dashboards
+- Best practices for creating interactive dashboards
