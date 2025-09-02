@@ -63,17 +63,6 @@ Using Tableau’s visual analytics, users can make **data-driven decisions for p
 
 ---
 
----
-
-# Folder and File Structure
-
-.
-├── README.md
-├── alcohol by gender.pdf
-├── alcohol by gender.twb
-├── alcohol consumption global - dashboard.pdf
-└── alcohol types.twb
-
 ## 📌 Notes
 
 - Requires **Tableau Desktop** or access to **Tableau Public**.  
