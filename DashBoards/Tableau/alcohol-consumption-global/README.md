@@ -14,6 +14,7 @@
 
 
 [Open Tableau Dashboard Alcohol Type](https://public.tableau.com/app/profile/sahar.yacoov/viz/alcoholtypes/Dashboard1?publish=yes)
+
 [Open Tableau Dashboard Alcohol By Gender](https://public.tableau.com/app/profile/sahar.yacoov/viz/alcoholbygender/Dashboard1)
 
 ---
