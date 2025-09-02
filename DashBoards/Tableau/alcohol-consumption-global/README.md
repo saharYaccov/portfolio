@@ -27,6 +27,8 @@ This dashboard is designed for **analysts, policymakers, and public health resea
 
 Using Tableau’s visual analytics, users can make **data-driven decisions for public health interventions and policy planning**.
 
+> **Important:** The **Value/NumericValue** in the datasets represents **alcohol consumption per capita in liters of pure alcohol**.
+
 ---
 
 ## 🔧 Features
