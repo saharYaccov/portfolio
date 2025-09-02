@@ -3,7 +3,7 @@
 **Dashboard Preview 1**  
 **Dashboard Preview 2**  
 
-[Open Tableau Dashboard](#)
+[Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/alcoholtypes/Dashboard1?publish=yes)
 
 ---
 
