@@ -1,7 +1,7 @@
 # Evacuations and Alerts 7/10 Dashboard (Tableau)
 
-![Dashboard Preview 1](<img width="1300" height="661" alt="image" src="https://github.com/user-attachments/assets/61716bc5-5a99-49d9-84da-cf3f8048bab1" />)  
-![Dashboard Preview 2](<img width="1237" height="667" alt="image" src="https://github.com/user-attachments/assets/115b7b94-1d65-4d73-9147-9edf6b55bbac" />)  
+![Dashboard Preview 1](https://github.com/user-attachments/assets/61716bc5-5a99-49d9-84da-cf3f8048bab1)  
+![Dashboard Preview 2](https://github.com/user-attachments/assets/115b7b94-1d65-4d73-9147-9edf6b55bbac)
 
 [Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/DigitalOperationsDashboard-AnalyticsCommandCenter/Dashboard1?publish=yes)
 
