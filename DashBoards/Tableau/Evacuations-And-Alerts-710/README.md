@@ -3,7 +3,8 @@
 ![Dashboard Preview 1](https://github.com/user-attachments/assets/61716bc5-5a99-49d9-84da-cf3f8048bab1)  
 ![Dashboard Preview 2](https://github.com/user-attachments/assets/115b7b94-1d65-4d73-9147-9edf6b55bbac)
 
-[Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/DigitalOperationsDashboard-AnalyticsCommandCenter/Dashboard1?publish=yes)
+[Alert Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/dashboard_alarm/Dashboard1)
+[Disengagement Dashboard](http://public.tableau.com/app/profile/sahar.yacoov/viz/_17572590543350/Dashboard1)
 
 ## 🧠 Overview
 The **Evacuations and Alerts 7/10 Dashboard** provides a detailed, interactive view of critical Israeli data spanning historical and recent events. Combining data from the **2005 Gaza Strip Disengagement** (evacuations and compensations per settlement) with **Israel missile alerts (2021–2024)**, this dashboard enables users to explore patterns, trends, and correlations between past and present events.  
