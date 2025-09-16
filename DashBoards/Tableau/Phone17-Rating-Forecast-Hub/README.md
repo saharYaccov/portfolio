@@ -6,7 +6,7 @@
 [🔗 Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/phone_17580288141060/Dashboard1)
 
 ---
-for iPhone17 prediction rating >>
+(for iPhone17 prediction rating) [https://colab.research.google.com/drive/1Wokn3l7Q9lMxUcp4IzqWbmMff97UU-ku]
 
 ![<img width="1072" height="544" alt="image" src="https://github.com/user-attachments/assets/03c2c8d3-6c56-4dfe-82e8-06c6daa59294" />)
 
