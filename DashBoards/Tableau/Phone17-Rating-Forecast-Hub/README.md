@@ -2,11 +2,13 @@
 
 ![<img width="1317" height="869" alt="image" src="https://github.com/user-attachments/assets/4b54a8f1-9523-42ab-be89-a8269fc7b0de" />)  
 ![<img width="1475" height="861" alt="image" src="https://github.com/user-attachments/assets/3d5e87dd-aa27-4207-8e75-aba06735056f" />)
-![<img width="1072" height="544" alt="image" src="https://github.com/user-attachments/assets/03c2c8d3-6c56-4dfe-82e8-06c6daa59294" />)
 
 [🔗 Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/phone_17580288141060/Dashboard1)
 
 ---
+for iPhone17 prediction rating >>
+
+![<img width="1072" height="544" alt="image" src="https://github.com/user-attachments/assets/03c2c8d3-6c56-4dfe-82e8-06c6daa59294" />)
 
 ## 🧠 Overview
 The **Phone Rating Forecast Hub** is an interactive Tableau dashboard designed to analyze and forecast smartphone performance ratings.  
