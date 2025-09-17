@@ -1,6 +1,6 @@
 # 📱 Phone Rating Forecast Hub - Analytics Dashboard (Tableau)
 
-![<img width="1317" height="869" alt="image" src="https://github.com/user-attachments/assets/4b54a8f1-9523-42ab-be89-a8269fc7b0de" />)  
+<img width="1317" height="869" alt="image" src="https://github.com/user-attachments/assets/4b54a8f1-9523-42ab-be89-a8269fc7b0de" />)  
 ![<img width="1475" height="861" alt="image" src="https://github.com/user-attachments/assets/3d5e87dd-aa27-4207-8e75-aba06735056f" />)
 
 [🔗 Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/phone_17580288141060/Dashboard1)
