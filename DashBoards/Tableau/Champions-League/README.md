@@ -12,7 +12,7 @@
 
 
 
-[➡️ Open Tableau Dashboard](./champions.twb)
+[➡️ Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/champions_17584661739170/Dashboard1?publish=yes)
 
 ---
 
@@ -61,7 +61,8 @@ Leveraging Tableau’s advanced visualization capabilities, the dashboard enable
 
 ## 🔗 Additional Resources
 - [UEFA Official Website](https://www.uefa.com/uefachampionsleague/)  
-- [Tableau Official](https://www.tableau.com/)  
+- [Tableau Official](https://www.tableau.com/)
+- [Data](https://github.com/ldipotetjob/datasets/tree/main/football/championsleague)
 
 ---
 
