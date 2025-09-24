@@ -7,11 +7,7 @@ This repository contains datasets and dashboards focused on stocks with prices a
 - Aggregated statistics across all selected high-value stocks
 - Trend analysis and monitoring for investment insights
 
-All data is stored in **Google Sheets** for easy access and manipulation, with automated fetching and processing implemented via **Google Apps Script** (written proudly in Apps Script).
-
-📊 Data Files
-- `HighValueStocks_Sheet` – Google Sheet containing the latest stock data, including names, current prices, highs, lows, and change percentages.
-- `AverageStats` – Calculated summary statistics such as number of stocks, average price, highest/lowest price, and average change.
+All (DATA)[https://docs.google.com/spreadsheets/d/1-4N6rloj-cpTclJ4fiw1zPLQjaNtDxSYOMQUz21pgJ0/edit?gid=0#gid=0] is stored in **Google Sheets** for easy access and manipulation, with automated fetching and processing implemented via **Google Apps Script** (written proudly in Apps Script).
 
 🔧 Use Cases
 - Interactive Dashboards: Build dashboards in Tableau / Power BI / Plotly Dash using live or historical stock data.
