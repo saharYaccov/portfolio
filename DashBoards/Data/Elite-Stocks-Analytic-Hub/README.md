@@ -7,7 +7,7 @@ This repository contains datasets and dashboards focused on stocks with prices a
 - Aggregated statistics across all selected high-value stocks
 - Trend analysis and monitoring for investment insights
 
-All (DATA)[https://docs.google.com/spreadsheets/d/1-4N6rloj-cpTclJ4fiw1zPLQjaNtDxSYOMQUz21pgJ0/edit?gid=0#gid=0] is stored in **Google Sheets** for easy access and manipulation, with automated fetching and processing implemented via **Google Apps Script** (written proudly in Apps Script).
+All [DATA](https://docs.google.com/spreadsheets/d/1-4N6rloj-cpTclJ4fiw1zPLQjaNtDxSYOMQUz21pgJ0/edit?gid=0#gid=0) is stored in **Google Sheets** for easy access and manipulation, with automated fetching and processing implemented via **Google Apps Script** (written proudly in Apps Script).
 
 🔧 Use Cases
 - Interactive Dashboards: Build dashboards in Tableau / Power BI / Plotly Dash using live or historical stock data.
