@@ -71,4 +71,4 @@ Built with Tableau, the dashboard facilitates:
 
 
 
-(<img width="700" height="701" alt="image" src="https://github.com/user-attachments/assets/95df98d7-4bf0-45f1-9f54-72aeb325bdc6" />)
+(<img width="1500" height="1501" alt="image" src="https://github.com/user-attachments/assets/95df98d7-4bf0-45f1-9f54-72aeb325bdc6" />)
