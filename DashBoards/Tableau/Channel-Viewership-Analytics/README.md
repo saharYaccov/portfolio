@@ -68,3 +68,7 @@ Built with Tableau, the dashboard facilitates:
 
 ### 📂 Project Path
 `portfolio/DashBoards/Tableau/Kan-11-Ratings/`
+
+
+
+(<img width="459" height="460" alt="image" src="https://github.com/user-attachments/assets/95df98d7-4bf0-45f1-9f54-72aeb325bdc6" />)
