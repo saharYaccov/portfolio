@@ -58,7 +58,12 @@ Built with Tableau, the dashboard facilitates:
 ---
 
 ## 🔗 Additional Resources
-- [KAN 11 Official Website](https://www.kan.org.il/)
+- [KAN 11 ](https://www.kan.org.il/)
+- [KESHET 12](https://www.mako.co.il/tv)
+- [RESHET 13](https://13tv.co.il/)
+- [NOW 14](https://www.c14.co.il/)
+- [I24 NEWS](https://www.i24news.tv/he)
+- [DATA](https://midrug.safenet.co.il/app/)
 - [Tableau Official Website](https://www.tableau.com/)
 
 ---
