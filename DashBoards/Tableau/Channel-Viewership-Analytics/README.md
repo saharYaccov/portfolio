@@ -71,8 +71,6 @@ Built with Tableau, the dashboard facilitates:
 ### 👤 Author
 `ss331144`
 
-### 📂 Project Path
-`portfolio/DashBoards/Tableau/Kan-11-Ratings/`
 
 ---
 
