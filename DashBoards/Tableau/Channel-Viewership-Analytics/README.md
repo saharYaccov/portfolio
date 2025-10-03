@@ -1,5 +1,6 @@
 # 📺 Israeli TV Analytics Dashboard
 
+[Tableau Dashboard](https://public.tableau.com/views/raing11121314/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ## 📊 Dashboard Preview
 
 ![Dashboard Image 1](https://github.com/user-attachments/assets/96006793-b026-4aef-8c25-45b2751c8eb8)
