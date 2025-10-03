@@ -1,4 +1,4 @@
-# 📺 Israeli TV Analytics Dashboard - KAN 11
+# 📺 Israeli TV Analytics Dashboard
 
 ## 📊 Dashboard Preview
 
@@ -16,7 +16,7 @@
 ---
 
 ## 🧠 Overview
-The **KAN 11 TV Analytics Dashboard** provides a dynamic, data-driven perspective on television viewership and audience behavior in Israel.
+The **Israeli TV Analytics Dashboard** provides a dynamic, data-driven perspective on television viewership and audience behavior in Israel.
 
 Designed for media strategists, content creators, and marketing analysts, this dashboard helps to explore **ratings, daily performance, and demographic breakdowns**.
 
