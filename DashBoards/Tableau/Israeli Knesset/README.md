@@ -37,6 +37,8 @@ Data utilized in these dashboards was sourced from official public data portals 
 
 The election data, specifically the historical voting records for each faction, was collected by **programmatically extracting the HTML** from the following source: **[The Israel Democracy Institute (IDI) Elections Page](https://www.idi.org.il/policy/parties-and-elections/)**. This process involved iterating through the data offered for every political party on the site. Additional financial data, specifically concerning state-guaranteed loans and subsidies, was accessed and extracted from the Israeli Open Data platform: **[Open Data - State Guaranteed Loans](https://www.odata.org.il/dataset/f470fa97-ead0-4e54-935d-a192f81c45fb/resource/287ce436-12c1-40af-9a0e-7260f12c123f)**.
 
+[DATA](https://github.com/saharYaccov/portfolio/tree/main/DashBoards/Data/Israeli%20Knesset)
+
 ---
 ## 🛠 Tools & Technologies
 Tableau Desktop / Tableau Public – Interactive dashboard development and visual analytics.
