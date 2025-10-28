@@ -1,12 +1,14 @@
-🇮🇱 Israeli Knesset Data Insights - Elections & Public Loans (Tableau)
-📊 Dashboard Previews
+###🇮🇱 Israeli Knesset Data Insights - Elections & Public Loans (Tableau)
+##📊 Dashboard Previews
 <img width="1503" height="866" alt="image" src="https://github.com/user-attachments/assets/18f775ec-8340-4f27-ba47-da88e614ff1d" />
+
+---
 
 <img width="1497" height="849" alt="image" src="https://github.com/user-attachments/assets/8bbacbdc-b594-4442-a677-065455562292" />
 
 ---
 
-🧠 Overview
+##🧠 Overview
 The Israeli Knesset Data Dashboards project offers an interactive, data-driven analysis of key public data points concerning the Israeli Parliament and national statistics. These visualizations are designed to provide clarity and actionable insights into complex political and financial subjects for researchers, journalists, and data enthusiasts.
 
 The project encompasses two main analytical sections:
@@ -17,7 +19,7 @@ Israeli Knesset Elections - The Vote Map: A historical analysis of voting patter
 
 --- 
 
-🔧 Features
+##🔧 Features
 Detailed Financial Breakdown: Utilize a Tree Map to visualize the proportion of loans/funds distributed by different entities and categories, highlighting shifts in resource allocation.
 
 Historical Voting Trends: Display time-series data showing the evolution of party support (votes) from the early years of the Knesset (1950s) to the present day.
@@ -37,7 +39,7 @@ Hebrew Language Integration – Full support for data and titles in Hebrew, as r
 
 ---
 
-📈 Use Cases
+##📈 Use Cases
 Political Science Research: Analyzing the stability and popularity of political parties over multiple decades.
 
 Data Journalism: Providing clear, visual evidence for stories related to government spending, subsidies, and election outcomes.
@@ -48,14 +50,11 @@ Portfolio Showcase: Demonstrating expertise in Tableau, Data Storytelling, and h
 
 ---
 
-📌 Notes
+##📌 Notes
 The data is sourced from publicly available information on Knesset activities and elections.
 
 Requires Tableau Desktop or Tableau Public to explore the dashboards interactively.
 
-🔗 Creator
+##🔗 Creator
 Sahar Yacoov
 
-[GitHub Profile (Placeholder)]
-
-[Tableau Public Profile (Placeholder)]
