@@ -8,14 +8,10 @@
 
 <img width="1503" height="918" alt="Football IL Dashboard Preview 2" src="<img width="1017" height="577" alt="image" src="https://github.com/user-attachments/assets/8255d387-8ab6-490f-876f-6a010c8acd72" /> />
 
-![Football IL Dashboard Preview 0](https://github.com/user-attachments/assets/64ade5ad-fa1b-4172-9e50-32ae98d583ed)
-![Football IL Dashboard Preview 1](https://github.com/user-attachments/assets/346a8890-1e6f-4321-882c-91b9728aabdb)
-![Football IL Dashboard Preview 2](https://github.com/user-attachments/assets/8255d387-8ab6-490f-876f-6a010c8acd72)
-
 ---
 
 [➡️ Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/FootballIL/Dashboard2)
-
+for data click ![HERE](https://github.com/saharYaccov/portfolio/tree/main/DashBoards/Data/Football%20IL%20(2%20OCT%20-%2029%20Sep))
 ---
 
 ## 🧠 Overview
@@ -60,8 +56,6 @@ Built in **Tableau**, this dashboard integrates data collected from league games
 
 ## 🔗 Additional Resources
 - [Israeli Premier League - Wikipedia](https://he.wikipedia.org/wiki/%D7%9C%D7%99%D7%92%D7%AA_%D7%94%D7%A2%D7%9C_%D7%9C%D7%9B%D7%93%D7%95%D7%A8%D7%92%D7%9C_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C)  
-- [Tableau Official Website](https://www.tableau.com/)  
-- [UEFA Data Resources](https://www.uefa.com/insideuefa/national-associations/)  
 
 ---
 
