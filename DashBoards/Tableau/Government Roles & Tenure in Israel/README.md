@@ -3,30 +3,11 @@
 **[View Interactive Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/Govermentdegree/Dashboard1?publish=yes)**
 ---
 ## 📊 Dashboard Previews
+![Dashboard Preview 1](https://github.com/user-assets/image-gov-roles-1.png)
+![Dashboard Preview 2](https://github.com/user-assets/image-gov-roles-2.png)
+![Dashboard Preview 3](https://github.com/user-assets/image-gov-roles-3.png)
 
-### 1. Political Career & Military Rank Analysis
-<img src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/dashboard1.png?raw=true" alt="Political Career & Military Rank Analysis">
-
----
-
-### 2. Government Tenure & Degrees Analysis
-<img src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/dashboard2.png?raw=true" alt="Government Tenure & Degrees Analysis">
-
----
-
-### 3. Military Rank & Government Tenure
-<img src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/dashboard3.png?raw=true" alt="Military Rank & Government Tenure">
-
----
-
-### 4. Degrees & Tenure Analysis
-<img src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/dashboard4.png?raw=true" alt="Degrees & Tenure Analysis">
-
----
-
-### 5. Government Tenure & Military Rank
-<img src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/dashboard5.png?raw=true" alt="Government Tenure & Military Rank">
-
+[Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/GovernmentRolesTenureAnalysis/Dashboard1)
 
 ---
 ## **Government Roles & Tenure Analytics**
