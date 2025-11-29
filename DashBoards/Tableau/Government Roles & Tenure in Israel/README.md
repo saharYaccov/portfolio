@@ -4,7 +4,7 @@
 ---
 ## 📊 Dashboard Previews
 ![Dashboard Preview 1](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202025-11-29%20%D7%91-15.48.27.png)
-![Dashboard Preview 2](https://github.com/user-assets/image-gov-roles-2.png)
+![Dashboard Preview 2](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202025-11-29%20%D7%91-16.18.03.png)
 ![Dashboard Preview 3](https://github.com/user-assets/image-gov-roles-3.png)
 
 [Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/GovernmentRolesTenureAnalysis/Dashboard1)
