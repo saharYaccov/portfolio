@@ -4,12 +4,26 @@
 ---
 ## 📊 Dashboard Previews
 
-<img width="1505" height="859" alt="Dashboard 1" src="https://github.com/user-attachments/assets/000dc7ff-e97e-4686-aa43-0b44dc93e0e6">
-<img width="1503" height="918" alt="Dashboard 2" src="https://github.com/user-attachments/assets/5fa86737-8591-4372-bb4a-b8b85e3e1ebe">
+
+### **1. Political Career & Military Rank Analysis**
+<img width="1505" height="859" alt="Political Career & Military Rank Analysis" src="https://mistralaichatupprodswe.blob.core.windows.net/chat-images/d1/8c/95/d18c9537-81db-4f54-b12c-e59ca25d0745/c44fdbb5-d51a-454b-9c92-3c6700215c53/2ae3463e-6f33-4461-ba6f-e96c0f724bc5?sv=2025-01-05&st=2025-11-29T17%3A02%3A15Z&se=2025-11-29T18%3A02%3A15Z&sr=b&sp=rade&sig=0Rghsrvz6XQEwr1xoMD6PZyvhOWjZ7efxyGnAsbuq%2BE%3D">
 
 ---
 
-<img width="1454" height="868" alt="Dashboard 3" src="https://github.com/user-attachments/assets/38eec05e-6d94-451f-aaf1-ad785d8715c4">
+### **2. Government Tenure & Degrees Analysis**
+<img width="1503" height="918" alt="Government Tenure & Degrees Analysis" src="https://mistralaichatupprodswe.blob.core.windows.net/chat-images/d1/8c/95/d18c9537-81db-4f54-b12c-e59ca25d0745/c44fdbb5-d51a-454b-9c92-3c6700215c53/27c6808f-dd3c-4492-8d73-66a5c5cc0bc7?sv=2025-01-05&st=2025-11-29T17%3A02%3A15Z&se=2025-11-29T18%3A02%3A15Z&sr=b&sp=rade&sig=z8danzdkOAxIO70D5VkeZIgnThAF28WkU2RJfEeigAk%3D">
+
+---
+
+### **3. Military Rank & Government Tenure**
+<img width="1454" height="868" alt="Military Rank & Government Tenure" src="https://mistralaichatupprodswe.blob.core.windows.net/chat-images/d1/8c/95/d18c9537-81db-4f54-b12c-e59ca25d0745/c44fdbb5-d51a-454b-9c92-3c6700215c53/4592e767-837e-42d0-980f-efe7a712c2ee?sv=2025-01-05&st=2025-11-29T17%3A02%3A15Z&se=2025-11-29T18%3A02%3A15Z&sr=b&sp=rade&sig=ob9owAuT4jgefk73RaDMmSLeKq0NWsjlqdm1G6qh1vQ%3D">
+
+---
+
+### **4. Degrees & Tenure Analysis**
+<img width="1505" height="859" alt="Degrees & Tenure Analysis" src="https://mistralaichatupprodswe.blob.core.windows.net/chat-images/d1/8c/95/d18c9537-81db-4f54-b12c-e59ca25d0745/c44fdbb5-d51a-454b-9c92-3c6700215c53/3fb8df91-8fb3-4232-ab3e-059b4b3c56c8?sv=2025-01-05&st=2025-11-29T17%3A02%3A15Z&se=2025-11-29T18%3A02%3A15Z&sr=b&sp=rade&sig=E8rTfGmJh23imKLP%2Bm5YGgQTkPT%2BSTH81pNNwajVms0%3D">
+
+---
 
 ---
 ## **Government Roles & Tenure Analytics**
