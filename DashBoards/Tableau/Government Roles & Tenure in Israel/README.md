@@ -4,26 +4,29 @@
 ---
 ## 📊 Dashboard Previews
 
-
-### **1. Political Career & Military Rank Analysis**
-<img width="1505" height="859" alt="Political Career & Military Rank Analysis" src="https://mistralaichatupprodswe.blob.core.windows.net/chat-images/d1/8c/95/d18c9537-81db-4f54-b12c-e59ca25d0745/c44fdbb5-d51a-454b-9c92-3c6700215c53/2ae3463e-6f33-4461-ba6f-e96c0f724bc5?sv=2025-01-05&st=2025-11-29T17%3A02%3A15Z&se=2025-11-29T18%3A02%3A15Z&sr=b&sp=rade&sig=0Rghsrvz6XQEwr1xoMD6PZyvhOWjZ7efxyGnAsbuq%2BE%3D">
-
----
-
-### **2. Government Tenure & Degrees Analysis**
-<img width="1503" height="918" alt="Government Tenure & Degrees Analysis" src="https://mistralaichatupprodswe.blob.core.windows.net/chat-images/d1/8c/95/d18c9537-81db-4f54-b12c-e59ca25d0745/c44fdbb5-d51a-454b-9c92-3c6700215c53/27c6808f-dd3c-4492-8d73-66a5c5cc0bc7?sv=2025-01-05&st=2025-11-29T17%3A02%3A15Z&se=2025-11-29T18%3A02%3A15Z&sr=b&sp=rade&sig=z8danzdkOAxIO70D5VkeZIgnThAF28WkU2RJfEeigAk%3D">
+### 1. Political Career & Military Rank Analysis
+<img src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/dashboard1.png?raw=true" alt="Political Career & Military Rank Analysis">
 
 ---
 
-### **3. Military Rank & Government Tenure**
-<img width="1454" height="868" alt="Military Rank & Government Tenure" src="https://mistralaichatupprodswe.blob.core.windows.net/chat-images/d1/8c/95/d18c9537-81db-4f54-b12c-e59ca25d0745/c44fdbb5-d51a-454b-9c92-3c6700215c53/4592e767-837e-42d0-980f-efe7a712c2ee?sv=2025-01-05&st=2025-11-29T17%3A02%3A15Z&se=2025-11-29T18%3A02%3A15Z&sr=b&sp=rade&sig=ob9owAuT4jgefk73RaDMmSLeKq0NWsjlqdm1G6qh1vQ%3D">
+### 2. Government Tenure & Degrees Analysis
+<img src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/dashboard2.png?raw=true" alt="Government Tenure & Degrees Analysis">
 
 ---
 
-### **4. Degrees & Tenure Analysis**
-<img width="1505" height="859" alt="Degrees & Tenure Analysis" src="https://mistralaichatupprodswe.blob.core.windows.net/chat-images/d1/8c/95/d18c9537-81db-4f54-b12c-e59ca25d0745/c44fdbb5-d51a-454b-9c92-3c6700215c53/3fb8df91-8fb3-4232-ab3e-059b4b3c56c8?sv=2025-01-05&st=2025-11-29T17%3A02%3A15Z&se=2025-11-29T18%3A02%3A15Z&sr=b&sp=rade&sig=E8rTfGmJh23imKLP%2Bm5YGgQTkPT%2BSTH81pNNwajVms0%3D">
+### 3. Military Rank & Government Tenure
+<img src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/dashboard3.png?raw=true" alt="Military Rank & Government Tenure">
 
 ---
+
+### 4. Degrees & Tenure Analysis
+<img src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/dashboard4.png?raw=true" alt="Degrees & Tenure Analysis">
+
+---
+
+### 5. Government Tenure & Military Rank
+<img src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Government%20Roles%20%26%20Tenure%20in%20Israel/image/dashboard5.png?raw=true" alt="Government Tenure & Military Rank">
+
 
 ---
 ## **Government Roles & Tenure Analytics**
