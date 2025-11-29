@@ -22,7 +22,7 @@ The repository includes several processed **CSV files** (derived from a master E
 ## 📁 Raw Data Output / Reports
 | Folder/File | Description |
 |---|---|
-| `political_reports/` | **Raw output files (originally intended as TXT/HTML/PDF reports)** that were **scraped directly from the politicians' Wikipedia biographical entries** using the Python script. These files serve as the raw source for the final processed tabular data. |
+| `political_reports/` | **Raw output files (originally intended as TXT reports)** that were **scraped directly from the politicians' Wikipedia biographical entries** using the Python script. These files serve as the raw source for the final processed tabular data. |
 
 ---
 
