@@ -26,15 +26,6 @@ The repository includes several processed **CSV files** (derived from a master E
 
 ---
 
-## 💻 Code Files
-| File Name | Description |
-|-----------|-------------|
-| `find_text_political.py` | A Python script containing the core logic for:
-| | - **Data Extraction**: Pulling information from public sources (Wikipedia), responsible for generating the files found in the `political_reports/` folder.
-| | - **Data Transformation**: Cleaning, mapping, and transforming the raw data into a structured format.
-| | - **File Generation**: Filtering the master file to generate the final processed files like `Original_degree.csv`.
-
----
 
 ## 🔧 Use Cases
 - **BI Dashboards**: Visualize role distribution, average tenure length, and degree/rank correlation using BI tools like **Tableau** or **Power BI**.
