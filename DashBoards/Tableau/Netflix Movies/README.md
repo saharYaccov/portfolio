@@ -1,66 +1,77 @@
-# 📺 Israeli TV Analytics Dashboard
-**Tableau Dashboard**
+# 📊 Netflix Movies & TV Dashboard
+**Interactive Tableau Dashboard**
 
 ---
 
-## 📊 Dashboard Preview
-![Dashboard Image 1](netflix_movies _ Tableau Public.pdf)  
-![Dashboard Image 2](netflix_movies _ Tableau Public.pdf)  
-![Dashboard Image 3](netflix_movies _ Tableau Public.pdf)  
+## 🎯 Dashboard Link
+🔗 **Live Dashboard:**  
+https://public.tableau.com/app/profile/sahar.yacoov/viz/netflix_movies_17656603454900/dash?publish=yes :contentReference[oaicite:1]{index=1}
 
 ---
 
 ## 🧠 Overview
-The Israeli TV Analytics Dashboard provides a dynamic, data-driven perspective on television viewership and audience behavior in Israel.  
-
-Designed for media strategists, content creators, and marketing analysts, this dashboard helps to explore ratings, daily performance, and demographic breakdowns.  
-
-**Built with Tableau, the dashboard facilitates:**
-- **Daily Performance Analysis:** Understand viewership trends across different time slots and programs.  
-- **Audience Segmentation:** Break down data by specific audience groups like Tamar and Haverim and 25-54.  
-- **KPI Monitoring:** Track and compare key metrics such as Rating and Share to measure content success.  
+This dashboard offers an interactive visualization and analysis of **Netflix movie and TV show data**, enabling users to explore trends and insights across different dimensions including genres, ratings, production countries, and release years.  
+Ideal for data enthusiasts and analysts interested in content distribution and user reception patterns on the Netflix platform. :contentReference[oaicite:2]{index=2}
 
 ---
 
-## 🔧 Core Features
-- **Interactive Filtering:** Easily filter data by date, time of day, and specific program titles to drill down into the insights.  
-- **Time-Series Trends:** Visualize how viewership evolves throughout the day and week with intuitive line charts.  
-- **Demographic Breakdown:** Analyze performance across various audience segments to inform targeted content strategies.  
-- **Key Metric Comparison:** Use bar charts and tables to compare ratings and shares between different time slots and programs.  
+## 📊 Key Insights
+
+### 📍 Content Volume
+- **Total Movies vs. TV Shows** — see how many titles belong to each type.  
+- **Titles by Release Year** — understand content trends over time. :contentReference[oaicite:3]{index=3}
+
+### ⭐ Ratings & Popularity
+- **Breakdown of Ratings** — visualize audience/official ratings distributions.  
+- **Top Rated Titles** — quickly identify highest rated movies and shows. :contentReference[oaicite:4]{index=4}
+
+### 🎭 Genre Analysis
+- **Genre Distribution** — highlights most common genres such as Drama, Comedy, etc.  
+- **Genre Trends Over Time** — how genre prevalence changes across years. :contentReference[oaicite:5]{index=5}
+
+### 🌍 Geographic Insights
+- **Movies & Shows by Country** — map or chart showing which countries contribute most titles. :contentReference[oaicite:6]{index=6}
+
+### 📅 Time-Based Exploration
+- **Trends by Year Added / Release Year** — visualize newly added content vs. older catalogs. :contentReference[oaicite:7]{index=7}
 
 ---
 
 ## 🛠️ Tools & Technologies
-- **Tableau Desktop / Tableau Public:** Used for data visualization and building the interactive dashboard.  
-- **Data Source:** Raw TV viewership data from a .csv or Excel file.  
-- **Statistical Analysis:** Applying core metrics (Rating, Share) to derive meaningful insights from the data.  
+- **Tableau Public** – main tool for building and publishing the interactive dashboard.  
+- **Data Source:** Netflix catalog dataset (likely from a CSV like `netflix_titles.csv`, typical structure with title, type, genre, release year, rating, country, etc.). :contentReference[oaicite:8]{index=8}
 
 ---
 
-## 📈 Potential Use Cases
-- **Content Strategy:** Identify peak viewership times and high-performing programs to optimize the broadcast schedule.  
-- **Audience Insights:** Gain a deeper understanding of audience preferences and viewing habits.  
-- **Daily Review:** Conduct a quick and efficient review of the previous day's performance.  
-- **Reporting & Presentation:** Create clear, professional visuals for internal reports or stakeholder presentations.  
+## 🔍 Visual Components (Typical)
+| Visualization | Purpose |
+|---------------|---------|
+| Bar Charts | Compare counts of movies/TV shows, top genres, top countries |
+| Line/Area Charts | Trends over years (year added/release year) |
+| Heatmaps | Ratings distribution by type/genre |
+| Filters | Dynamic drill-down by genre, country, rating, year |
 
 ---
 
-## 📌 Notes & Requirements
-- **File Format:** The dashboard is available as a `.twb` (Tableau Workbook).  
-- **Software:** Requires Tableau Desktop or Tableau Public to view and interact with the file.  
-- **Data Freshness:** The analysis relies on the provided data source, which should be updated periodically for the most current insights.  
+## 📈 Use Cases
+- **Content Strategy:** Understand shifts in content production/actions over time.  
+- **Audience Insights:** Identify which types and genres receive higher ratings or greater volume.  
+- **Exploration & Reporting:** Use interactive filtering for presentations or exploratory analysis.
 
 ---
 
-## 🔗 Additional Resources
-- KAN 11  
-- KESHET 12  
-- RESHET 13  
-- NOW 14  
-- I24 NEWS  
-- [Tableau Official Website](https://www.tableau.com/)  
+## 📝 How to Use
+1. Open the **Live Dashboard** link above.  
+2. Use the side filters for **Genre, Country, Ratings, Year** to explore specific subsets.  
+3. Hover or click on charts for detailed tooltips and deeper insight.
+
+---
+
+## 🧾 Notes
+- The dashboard is **interactive** — filters and highlight actions drive deeper exploration.  
+- Data accuracy depends on the original dataset structure and cleansing.
 
 ---
 
 ## 👤 Author
-**ss331144**
+**Sahar Yacoov**
