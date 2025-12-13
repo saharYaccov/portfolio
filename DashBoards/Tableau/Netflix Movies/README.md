@@ -9,6 +9,9 @@
 
 ---
 
+## 📈Data 
+[View Data](https://deepdatalake.com/details.php?dataset_id=44&utm_source=chatgpt.com)
+
 ## 📊 Dashboard Preview
 ![Netflix Movies Dashboard](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Netflix%20Movies/Images/image1.jpeg)
 
