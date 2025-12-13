@@ -9,6 +9,15 @@ https://public.tableau.com/app/profile/sahar.yacoov/viz/netflix_movies_176566034
 
 ---
 
+## 📊 Dashboard Preview
+![Netflix Movies Dashboard](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Netflix%20Movies/Images/image1.jpeg)
+
+![Netflix Movies Dashboard](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Netflix%20Movies/Images/image2.jpeg)
+
+![Netflix Movies Dashboard](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Netflix%20Movies/Images/image3.jpeg)
+
+---
+
 ## 🧠 Overview
 This dashboard offers an interactive visualization and analysis of **Netflix movie and TV show data**, enabling users to explore trends and insights across different dimensions including genres, ratings, production countries, and release years.  
 Ideal for data enthusiasts and analysts interested in content distribution and user reception patterns on the Netflix platform. :contentReference[oaicite:2]{index=2}
