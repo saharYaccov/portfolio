@@ -10,7 +10,8 @@
 ---
 
 ## 📈Data 
-[View Data](https://deepdatalake.com/details.php?dataset_id=44&utm_source=chatgpt.com)
+[View Data](https://deepdatalake.com/details.php?dataset_id=44)
+
 [View My Data File](https://github.com/saharYaccov/portfolio/tree/main/DashBoards/Data/netflix_movie)
 
 ## 📊 Dashboard Preview
