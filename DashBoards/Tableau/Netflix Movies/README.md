@@ -5,7 +5,7 @@
 
 ## 🎯 Dashboard Link
 🔗 **Live Dashboard:**  
-![netflix dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/netflix_movies_17656603454900/dash?publish=yes :contentReference[oaicite:1]{index=1})
+[View Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/netflix_movies_17656603454900/dash?publish=yes)
 
 ---
 
