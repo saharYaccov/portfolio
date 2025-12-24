@@ -1,7 +1,7 @@
 # Digital Operations Dashboard - Analytics Command Center (Tableau)
 
-![Dashboard Preview 1](https://github.com/user-attachments/assets/2544788d-7279-4133-9af8-b0dda2c721bd)  
-![Dashboard Preview 2](https://github.com/user-attachments/assets/858faf31-88c1-426c-9531-b9885fe90cd1)  
+![Dashboard Preview 1](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Digital-Operations-Dashboard-Analytics-Command-Center/image/image_1.png)  
+![Dashboard Preview 2](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Digital-Operations-Dashboard-Analytics-Command-Center/image/image_2.png)  
 
 [Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/DigitalOperationsDashboard-AnalyticsCommandCenter/Dashboard1?publish=yes)
 
