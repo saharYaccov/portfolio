@@ -2,13 +2,13 @@
 # ⚽ Champions League Dashboard - Predictive Analytics Center (Tableau)
 
 ## 📊 Dashboard Previews
-<img width="1505" height="859" alt="image" src="https://github.com/user-attachments/assets/000dc7ff-e97e-4686-aa43-0b44dc93e0e6" />
+<img width="1505" height="859" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Champions-League/image/image_1.png" />
 
-<img width="1503" height="918" alt="image" src="https://github.com/user-attachments/assets/5fa86737-8591-4372-bb4a-b8b85e3e1ebe" />
+<img width="1503" height="918" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Champions-League/image/image_2.png" />
 
 ---
 
-<img width="1454" height="868" alt="image" src="https://github.com/user-attachments/assets/38eec05e-6d94-451f-aaf1-ad785d8715c4" />
+<img width="1454" height="868" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Champions-League/image/image_3.png" />
 
 
 
