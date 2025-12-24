@@ -3,15 +3,15 @@
 [Tableau Dashboard](https://public.tableau.com/views/raing11121314/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ## 📊 Dashboard Preview
 
-![Dashboard Image 1](https://github.com/user-attachments/assets/96006793-b026-4aef-8c25-45b2751c8eb8)
+![Dashboard Image 1](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Channel-Viewership-Analytics/image/image_1.png)
 
 ---
 
-![Dashboard Image 2](https://github.com/user-attachments/assets/9ecbf9cb-edff-4a07-9ad8-7b099de6fdd5)
+![Dashboard Image 2](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Channel-Viewership-Analytics/image/image_2.png)
 
 ---
 
-![Dashboard Image 3](https://github.com/user-attachments/assets/882e50e2-cc81-4923-a644-89eb151e614e)
+![Dashboard Image 3](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Channel-Viewership-Analytics/image/image_3.png)
 
 
 ---
