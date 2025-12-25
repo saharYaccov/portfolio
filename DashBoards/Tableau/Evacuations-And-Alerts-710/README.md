@@ -1,7 +1,7 @@
 # Evacuations and Alerts 7/10 Dashboard (Tableau)
 
-![Dashboard Preview 1](https://github.com/user-attachments/assets/61716bc5-5a99-49d9-84da-cf3f8048bab1)  
-![Dashboard Preview 2](https://github.com/user-attachments/assets/115b7b94-1d65-4d73-9147-9edf6b55bbac)
+![Dashboard Preview 1](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Evacuations-And-Alerts-710/image/image_1.png)  
+![Dashboard Preview 2](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Evacuations-And-Alerts-710/image/image_2.png)
 
 [Alert Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/dashboard_alarm/Dashboard1)
 [Disengagement Dashboard](http://public.tableau.com/app/profile/sahar.yacoov/viz/_17572590543350/Dashboard1)
