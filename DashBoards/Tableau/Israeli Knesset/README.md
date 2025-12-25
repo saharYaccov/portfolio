@@ -1,10 +1,10 @@
 ### 🇮🇱 Israeli Knesset Data Insights - Elections & Public Loans (Tableau)
 ## 📊 Dashboard Previews
-<img width="1503" height="866" alt="image" src="https://github.com/user-attachments/assets/18f775ec-8340-4f27-ba47-da88e614ff1d" />
+<img width="1503" height="866" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Israeli%20Knesset/image/image_1.png" />
 
 ---
 
-<img width="1497" height="849" alt="image" src="https://github.com/user-attachments/assets/8bbacbdc-b594-4442-a677-065455562292" />
+<img width="1497" height="849" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Israeli%20Knesset/image/image_2.png" />
 
 ---
 
