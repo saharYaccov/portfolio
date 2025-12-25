@@ -1,12 +1,26 @@
 # ⚽ Football IL Dashboard - Israeli Premier League Analytics (Tableau)
 
 ## 📊 Dashboard Previews
+<img 
+  width="1503" 
+  height="918" 
+  alt="Football IL Dashboard Preview 0"
+  src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Football%20IL%20(2%20OCT%20-%2029%20Sep)/image/image_1.png"
+/>
 
-<img width="1503" height="918" alt="Football IL Dashboard Preview 0" src="<img width="967" height="575" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Football%20IL%20(2%20OCT%20-%2029%20Sep)/image/image_1.png" />">
+<img 
+  width="1505" 
+  height="859" 
+  alt="Football IL Dashboard Preview 1"
+  src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Football%20IL%20(2%20OCT%20-%2029%20Sep)/image/image_2.png"
+/>
 
-<img width="1505" height="859" alt="Football IL Dashboard Preview 1" src="<img width="1013" height="537" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Football%20IL%20(2%20OCT%20-%2029%20Sep)/image/image_2.png" /> 
-
-<img width="1503" height="918" alt="Football IL Dashboard Preview 2" src="<img width="1017" height="577" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Football%20IL%20(2%20OCT%20-%2029%20Sep)/image/image_3.png" /> />
+<img 
+  width="1503" 
+  height="918" 
+  alt="Football IL Dashboard Preview 2"
+  src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Football%20IL%20(2%20OCT%20-%2029%20Sep)/image/image_3.png"
+/>
 
 ---
 
