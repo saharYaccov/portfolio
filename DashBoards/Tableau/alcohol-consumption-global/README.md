@@ -1,6 +1,7 @@
 # Global Alcohol Data Dashboard – Analytics Command Center (Tableau)
 
-<img width="1481" height="700" alt="image" src="https://github.com/user-attachments/assets/c4e4647f-94be-43a8-9817-28aaa0e167c3" />
+<img width="1481" height="700" alt="image" src="/image/image_4.png
+" />
 
 <img width="1484" height="680" alt="image" src="https://github.com/user-attachments/assets/e5a3fbfa-01c1-40e4-9952-6487a760b825" />
 
