@@ -1,15 +1,14 @@
 # Global Alcohol Data Dashboard – Analytics Command Center (Tableau)
 
-<img width="1481" height="700" alt="image" src="/image/image_4.png
-" />
+<img width="1481" height="700" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/alcohol-consumption-global/image/image_1.png" />
 
-<img width="1484" height="680" alt="image" src="https://github.com/user-attachments/assets/e5a3fbfa-01c1-40e4-9952-6487a760b825" />
+<img width="1484" height="680" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/alcohol-consumption-global/image/image_2.png" />
 
 ---
 
-<img width="1454" height="702" alt="image" src="https://github.com/user-attachments/assets/47445d99-cd95-44b6-a2eb-ae93577fd9e1" />
+<img width="1454" height="702" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/alcohol-consumption-global/image/image_3.png" />
 
-<img width="1472" height="686" alt="image" src="https://github.com/user-attachments/assets/15878c16-8584-4205-8958-315b0f64e296" />
+<img width="1472" height="686" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/alcohol-consumption-global/image/image_4.png" />
 
 ---
 
