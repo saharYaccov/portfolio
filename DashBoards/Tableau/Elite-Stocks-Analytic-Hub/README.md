@@ -1,10 +1,10 @@
 # Premium Stock Watch Dashboard (Tableau)
 
-<img width="1475" height="875" alt="image" src="https://github.com/user-attachments/assets/5af41fa6-02c2-4f3f-a003-70bcbcbc2627" />
+<img width="1475" height="875" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Elite-Stocks-Analytic-Hub/image/image_1.png" />
 
-<img width="1472" height="880" alt="image" src="https://github.com/user-attachments/assets/af41035d-0dff-4276-aebd-6c8113fbc0a7" />
+<img width="1472" height="880" alt="image" src="https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/Elite-Stocks-Analytic-Hub/image/image_2.png" />
 
-(Dashboard)[https://public.tableau.com/app/profile/sahar.yacoov/viz/FinanceDashboard_17586390102070/Dashboard1]
+[Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/FinanceDashboard_17586390102070/Dashboard1)
 ---
 
 
