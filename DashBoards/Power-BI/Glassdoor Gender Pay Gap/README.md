@@ -1,6 +1,6 @@
 # 📊 GATHA Threat Analysis Dashboard (Power BI)
 
-![GATHA Dashboard Preview](https://github.com/user-attachments/assets/1303c8b1-c00e-47ba-92fa-0b0b90797541)
+![GATHA Dashboard Preview](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Power-BI/Glassdoor%20Gender%20Pay%20Gap/image/image_1.png)
 
 [🔗 Open GATHA Power BI Dashboard](https://app.powerbi.com/groups/me/reports/cdc48ab5-eeba-437d-b8af-2c176f20eb41/957639d80270601e508a?experience=power-bi)
 
