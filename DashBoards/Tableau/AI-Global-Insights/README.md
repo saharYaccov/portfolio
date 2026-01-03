@@ -18,6 +18,13 @@
 ## 🧠 Overview
 The **AI-Market-Pulse** dashboard provides a multi-dimensional, interactive analysis of the global Artificial Intelligence sector. This project explores the intersection between AI service density, workforce scalability, and economic indicators across countries and major tech hubs. Using Tableau's advanced visual analytics, it allows stakeholders to identify high-value market trends and workforce distribution patterns.
 
+## 📊 Key Insights from the Data
+* **Global Leadership:** The United Kingdom and India emerge as dominant leaders in the total volume of AI services, significantly outpacing other regions in the dataset.
+* **Urban Concentration:** London is the clear global frontrunner at the city level, maintaining the highest sum of AI services compared to other major hubs like New York and Warsaw.
+* **The "Pay Gap" in AI Adoption:** Companies offering higher salaries ($30+/hour) show a dramatically higher percentage of AI service integration (approximately 403%) compared to those in the lower pay bracket (64%).
+* **Workforce Correlation:** There is a strong correlation between high-paying companies and workforce scale; firms paying over $30/hour manage an average workforce of over 262,000, while lower-paying firms average around 72,000.
+* **Regional Spotlight - Israel:** Within the Israeli market, Ra'anana and Kefar Sava lead in AI service density, showing higher activity levels than Tel Aviv-Yafo in this specific dataset.
+
 ## 🔧 Features
 - **Global & Regional Insights:** Visualize AI service distribution across leading nations (UK, India, CA, Australia) and specific regions like Israel.
 - **Salary Benchmarking:** Detailed analysis of hourly wages, comparing minimum and maximum salary ranges within the AI field.
