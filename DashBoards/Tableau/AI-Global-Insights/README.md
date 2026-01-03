@@ -3,10 +3,15 @@
 ## Created Date : 3.1.2026 | 3-JAN-2026
 
 ![Dashboard Preview 1](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/AI-Global-Insights/Image/image_1.jpeg)
+--
 ![Dashboard Preview 2](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/AI-Global-Insights/Image/image_2.jpeg)
+--
 ![Dashboard Preview 3](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/AI-Global-Insights/Image/image_3.jpeg)
+--
 ![Dashboard Preview 4](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/AI-Global-Insights/Image/image_4.jpeg)
+--
 ![Dashboard Preview 5](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/AI-Global-Insights/Image/image_5.jpeg)
+--
 
 [Open Tableau Dashboard](https://public.tableau.com/app/profile/sahar.yacoov/viz/AI-Global-Insights/Dashboard1)
 
