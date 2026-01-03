@@ -1,5 +1,7 @@
 # AI-Market-Pulse: Global Analysis of AI Service Integration & Workforce Economics
-##Created Date : 3.1.2026 | 3-JAN-2026
+
+## Created Date : 3.1.2026 | 3-JAN-2026
+
 ![Dashboard Preview 1](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/AI-Global-Insights/Image/image_1.jpeg)
 ![Dashboard Preview 2](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/AI-Global-Insights/Image/image_2.jpeg)
 ![Dashboard Preview 3](https://github.com/saharYaccov/portfolio/blob/main/DashBoards/Tableau/AI-Global-Insights/Image/image_3.jpeg)
