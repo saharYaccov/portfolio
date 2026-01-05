@@ -3,7 +3,7 @@
 ## 🧠 Overview
 This repository contains datasets and graphs related to **Artificial Intelligence (AI) companies worldwide**.  
 The data is sourced from the **AI Companies Dataset on Kaggle**, a public dataset shared on the Kaggle platform for data science and analytics projects:  
-👉 https://www.kaggle.com/datasets/vineethakkinapalli/ai-companies :contentReference[oaicite:1]{index=1}
+👉 [here](https://www.kaggle.com/datasets/vineethakkinapalli/ai-companies). :contentReference[oaicite:0]{index=0}
 
 The project focuses on analyzing global AI adoption, company distribution, workforce scale, and regional trends.
 
