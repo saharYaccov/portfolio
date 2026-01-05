@@ -1,7 +1,7 @@
 # 🤖🏢 AI Companies Dataset & Dashboards
 
 ## 🧠 Overview
-This repository contains datasets and dashboards related to **Artificial Intelligence (AI) companies worldwide**.  
+This repository contains datasets and graphs related to **Artificial Intelligence (AI) companies worldwide**.  
 The data is sourced from the **AI Companies Dataset on Kaggle**, a public dataset shared on the Kaggle platform for data science and analytics projects:  
 👉 https://www.kaggle.com/datasets/vineethakkinapalli/ai-companies :contentReference[oaicite:1]{index=1}
 
