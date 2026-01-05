@@ -2,6 +2,9 @@
 
 ## 🧠 Overview
 This repository contains datasets and dashboards related to **Artificial Intelligence (AI) companies worldwide**.  
+The data is sourced from the **AI Companies Dataset on Kaggle**, a public dataset shared on the Kaggle platform for data science and analytics projects:  
+👉 https://www.kaggle.com/datasets/vineethakkinapalli/ai-companies :contentReference[oaicite:1]{index=1}
+
 The project focuses on analyzing global AI adoption, company distribution, workforce scale, and regional trends.
 
 The datasets enable exploration of:
@@ -15,7 +18,7 @@ The datasets enable exploration of:
 ## 📊 Data Files
 - **`AI_Companies.csv`** – Main dataset in CSV format, containing AI companies data for analysis and modeling.  
 - **`AI_Companies.xlsx`** – Excel version of the dataset for easier filtering and exploration.  
-- **`AI_Companies_EN.xlsx`** – **English version of the dataset**, including **built-in charts and visualizations** for quick insights and presentation-ready analysis.  
+- **`AI_Companies_EN.xlsx`** – **English version of the dataset**, including **built-in charts and visualizations**.  
 - **`Ai_companies 2.csv`** – Extended dataset version for comparison or enrichment.  
 - **`Ai_companies 3.csv`** – Additional dataset version used for validation or exploratory analysis.  
 
@@ -47,4 +50,3 @@ The datasets enable exploration of:
 
 👤 Author: **ss331144**  
 📂 Project Path: `portfolio/DashBoards/Data/AI-Companies/`
-
