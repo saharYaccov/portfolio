@@ -61,11 +61,15 @@ The functions **`randNum`** and **`randNumTeam2`** create a visual "spinning" ef
 ## 📂 Global Variables
 ```vba
 Public nums As Collection ' Stores all drawn numbers to ensure uniqueness throughout the session.
+```
+
 🚀 How to Run
 Open the .xlsm file.
 
 Click InitializeGame (or your Reset button) to set the background and clear data.
 
 Click the Spin buttons to start the drawing animation for either Team 1 or Team 2.
+
 ---
-Developed by [Sahar Yaccov](https://github.com/saharYaccov).
+
+##10-JAN-26 Developed by [Sahar Yaccov](https://github.com/saharYaccov).
