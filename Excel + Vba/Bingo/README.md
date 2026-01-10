@@ -64,11 +64,12 @@ Public nums As Collection ' Stores all drawn numbers to ensure uniqueness throug
 ```
 
 🚀 How to Run
-Open the .xlsm file.
 
-Click InitializeGame (or your Reset button) to set the background and clear data.
-
-Click the Spin buttons to start the drawing animation for either Team 1 or Team 2.
+1. Open the Excel file and **Enable Macros**.
+2. Click the **RESET** button to initialize the board and clear any previous data.
+3. Teams take turns clicking their respective **Spin** buttons.
+4. The system will draw a number, highlight it on the board in the team's color, and add it to the history list.
+5. The first team to complete a pattern or reach the goal (as defined by the moderator) wins!
 
 ---
 
