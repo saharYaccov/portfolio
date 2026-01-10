@@ -34,11 +34,38 @@ The game features a 100-number grid where numbers are randomly drawn for two tea
 * **VBA (Visual Basic for Applications)** - Core logic, randomization, and UI manipulation.
 * **Collections** - Backend data structure for efficient number tracking.
 
-## 📂 Code Structure
-* `InitializeGame`: Sets up the workspace, colors the entire sheet, and draws the board borders.
-* `SpinTeamButton_Click`: The main logic for drawing a random number and updating the game state.
-* `ShowChosenNumbers`: Iterates through the collection to display the history string in a specific cell.
-* `cleanCell`: A utility function to restore a cell's color by sampling the background (using `ActiveCell` or `RGB`).
+## 🛠️ Technical Implementation (VBA)
 
+The core of the game is driven by several key functions that handle the UI, randomization, and data integrity.
+
+### 1. Board Initialization & Cleanup
+* **`InitializeGame`**: Sets the stage by coloring the entire sheet background (`RGB 166, 201, 236`) and defining the 10x10 game board area (`RGB 125, 201, 239`) with black borders.
+* **`ClearNumbersCollection`**: Re-initializes the global `nums` collection and clears the history display in cell **H13**.
+* **`cleanCell`**: A utility used during animation to revert a cell's color back to the default board blue (`RGB 125, 201, 239`).
+
+### 2. Randomization & Animation ("Spin" Logic)
+The functions **`randNum`** and **`randNumTeam2`** create a visual "spinning" effect:
+* **Animation Loop**: They iterate multiple times (`numIterLast`), showing temporary numbers on the board before landing on the final result.
+* **`WaitSeconds`**: Provides a short delay (0.1s) and uses `DoEvents` to ensure the screen refreshes, allowing players to see the numbers changing in real-time.
+* **Duplicate Protection**: A `Do While` loop combined with `checkIn` and `IsInNums` ensures the final number hasn't been drawn in the current game.
+
+### 3. Team Styling & Highlights
+* **`setColor` (Team 1)**: Highlights the winning cell using a solid theme color (Grey/Dark shade).
+* **`setColorTeam2` (Team 2)**: Uses a **Linear Gradient** with a bright Orange color (`RGB 255, 165, 0`) to clearly distinguish Team 2's territory.
+
+### 4. Data Validation & UI Updates
+* **`checkIn` & `IsInNums`**: Methods used to verify if a generated number already exists in the `Public nums As Collection`.
+* **`PrintCollectionToCell`**: Updates cell **H13** with a comma-separated list of every number stored in the collection.
+* **`checkNext`**: Dynamically injects an Excel formula to perform a secondary validation check.
+
+## 📂 Global Variables
+```vba
+Public nums As Collection ' Stores all drawn numbers to ensure uniqueness throughout the session.
+🚀 How to Run
+Open the .xlsm file.
+
+Click InitializeGame (or your Reset button) to set the background and clear data.
+
+Click the Spin buttons to start the drawing animation for either Team 1 or Team 2.
 ---
 Developed by [Sahar Yaccov](https://github.com/saharYaccov).
