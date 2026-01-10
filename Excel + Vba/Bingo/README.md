@@ -4,6 +4,14 @@ An interactive, automated version of the classic 1-100 Bingo game built using Ex
 
 ![Bingo Game Preview](https://github.com/saharYaccov/portfolio/blob/main/Excel%20%2B%20Vba/Bingo/image/image_1.jpeg?raw=true)
 
+--
+
+![Bingo Game Preview](https://github.com/saharYaccov/portfolio/blob/main/Excel%20%2B%20Vba/Bingo/image/image_2.jpeg?raw=true)
+
+--
+
+![Bingo Game Preview](https://github.com/saharYaccov/portfolio/blob/main/Excel%20%2B%20Vba/Bingo/image/image_3.jpeg?raw=true)
+
 ## 📋 About the Project
 The game features a 100-number grid where numbers are randomly drawn for two teams ("Team A" and "Team B"). The system automatically marks the board with the team's specific color, tracks history to prevent duplicate draws, and provides a clean user interface.
 
