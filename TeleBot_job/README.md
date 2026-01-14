@@ -1,6 +1,4 @@
 מעולה, הנה **הגרסה המלאה – באנגלית בלבד – כ־Raw Markdown בתוך בלוק קוד**, מוכן להעתקה אחד־לאחד 👇
-
-```md
 # **Telegram Job Bot – Full Step-by-Step Guide**
 
 This document describes a **complete end-to-end process** for creating, configuring, and running a Telegram bot
