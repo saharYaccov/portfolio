@@ -221,9 +221,16 @@ The video demonstrates:
 * Easy to maintain and extend
 * Suitable for automated job searching and notifications
 
-  <video width="800" controls>
+<video width="800" controls>
   <source src="https://github.com/saharYaccov/portfolio/raw/main/TeleBot_job/video/video1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---
+
+## 🎬 Demo Video
+
+[▶ Click here to watch the demo video](https://github.com/saharYaccov/portfolio/raw/main/TeleBot_job/video/video1.mp4)
+
 
 
