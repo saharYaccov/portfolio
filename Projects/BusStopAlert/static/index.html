@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bus Stop Alert</title>
+</head>
+<body>
+
+<h2>Bus Stop Alert</h2>
+<button onclick="sendLocation()">Send my location</button>
+<p id="status"></p>
+
+<script>
+function sendLocation() {
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      fetch("/location", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          lat: pos.coords.latitude,
+          lon: pos.coords.longitude
+        })
+      });
+      document.getElementById("status").innerText =
+        "📍 Location sent to server";
+    },
+    () => alert("Location permission denied")
+  );
+}
+</script>
+
+</body>
+</html>

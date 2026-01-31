@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bus Stop Alert</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Bus Stop / Destination Alert</h1>
+
+        <!-- Search Section -->
+        <div id="search-section">
+            <input type="text" id="destination-input" placeholder="Enter destination">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <!-- Map -->
+        <div id="map"></div>
+
+        <!-- Favorites -->
+        <div id="favorites-section">
+            <h2>Favorites</h2>
+            <ul id="favorites-list"></ul>
+        </div>
+
+        <!-- Start Tracking -->
+        <button id="start-tracking-btn">Start Tracking</button>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Custom JS -->
+    <script src="../static/map.js"></script>
+<!-- Custom JS -->
+<script src="../static/map.js"></script>
+
+<!-- Geolocation script -->
+<script>
+navigator.geolocation.getCurrentPosition(function(position) {
+    fetch("http://127.0.0.1:8000/location", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            lat: position.coords.latitude,
+            lon: position.coords.longitude
+        })
+    });
+});
+</script>
+<!-- Custom JS -->
+<script src="../static/map.js"></script>
+
+<!-- Geolocation script -->
+<script>
+navigator.geolocation.getCurrentPosition(function(position) {
+    fetch("http://127.0.0.1:8000/location", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            lat: position.coords.latitude,
+            lon: position.coords.longitude
+        })
+    });
+});
+</script>
+
+</body>
+</html>
