@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Send My Location</title>
+</head>
+<body>
+  <h2>Bus Stop Alert</h2>
+  <button onclick="sendLocation()">Send my location</button>
+  <p id="status"></p>
+
+  <script>
+  function sendLocation() {
+    // מבקש מהמכשיר את המיקום
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        fetch("http://127.0.0.1:8000/location", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            lat: pos.coords.latitude,
+            lon: pos.coords.longitude
+          })
+        })
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById("status").innerText = "📍 Location sent to server";
+          console.log("Server response:", data);
+        })
+        .catch(err => {
+          document.getElementById("status").innerText = "⚠️ Error sending location";
+          console.error(err);
+        });
+      },
+      (err) => {
+        document.getElementById("status").innerText = "⚠️ Could not get location";
+        console.error(err);
+      }
+    );
+  }
+
+  // שולח מיידית כשנטען הדף
+  sendLocation();
+
+  // שולח את המיקום כל 15 שניות
+  setInterval(sendLocation, 15000);
+  </script>
+</body>
+</html>
