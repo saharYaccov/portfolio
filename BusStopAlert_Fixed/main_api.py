@@ -19,6 +19,12 @@ def latest_location():
     if latest_coords["lat"] is None or latest_coords["lon"] is None:
         return jsonify({"error": "No location received yet"}), 404
     return jsonify(lat=latest_coords["lat"], lon=latest_coords["lon"])
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({
+        "status": "ok",
+        "message": "Bus Stop Alert API is running 🚍"
+    })
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000, debug=True)
