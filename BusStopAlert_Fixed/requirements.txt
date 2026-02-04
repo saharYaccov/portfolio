@@ -1,8 +1,0 @@
-streamlit
-streamlit_folium
-folium
-requests
-streamlit_autorefresh
-geopy
-flask
-flask-cors
