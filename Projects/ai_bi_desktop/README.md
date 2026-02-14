@@ -1,6 +1,6 @@
 # 🤖 AI BI Desktop Application
 [להסבר בעברית לחץ פה](https://github.com/saharYaccov/portfolio/blob/main/Projects/ai_bi_desktop/ReadmeHe.md)
-
+## [Hugging Face app](https://huggingface.co/spaces/sahar-yaccov/ai_bi_desktop)
 ## Revolutionary AI-Powered Business Intelligence & AutoML Platform
 
 A next-generation desktop application that combines **automated Business Intelligence**, **AutoML**, and **AI-generated insights** into a single intelligent system that thinks for you.
