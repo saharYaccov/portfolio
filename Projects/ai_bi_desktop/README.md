@@ -1,4 +1,5 @@
 # 🤖 AI BI Desktop Application
+## (להסבר בעברית לחץ פה)[xxxx]
 
 ## Revolutionary AI-Powered Business Intelligence & AutoML Platform
 
