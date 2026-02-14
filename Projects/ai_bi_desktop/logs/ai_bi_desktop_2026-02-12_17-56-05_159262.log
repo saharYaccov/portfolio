@@ -1,0 +1,66 @@
+2026-02-12 17:56:05.161 | INFO     | core.background_service:main:261 - ============================================================
+2026-02-12 17:56:05.161 | INFO     | core.background_service:main:262 - AI BI Desktop Assistant v1.0.0
+2026-02-12 17:56:05.161 | INFO     | core.background_service:main:263 - ============================================================
+2026-02-12 17:56:05.161 | INFO     | core.background_service:__init__:48 - Background Service initialized
+2026-02-12 17:56:05.162 | INFO     | core.background_service:start_file_monitoring:235 - Monitoring /Users/shryqb/Downloads for new data files
+2026-02-12 17:56:05.250 | INFO     | core.background_service:run:148 - Starting system tray service...
+2026-02-12 17:56:05.250 | INFO     | core.background_service:run:149 - Right-click the tray icon to access features
+2026-02-12 17:56:08.153 | INFO     | core.background_service:open_dashboard:77 - Launching Gradio dashboard...
+2026-02-12 17:56:08.154 | INFO     | core.orchestrator:__init__:51 - Initializing AI Orchestrator...
+2026-02-12 17:56:08.154 | INFO     | core.background_service:open_dashboard:87 - Dashboard launched at http://localhost:7860
+2026-02-12 17:56:08.154 | INFO     | engines.target_detection:__init__:40 - Target Detection Engine initialized
+2026-02-12 17:56:08.155 | INFO     | engines.feature_correlation:__init__:45 - Feature Correlation Engine initialized
+2026-02-12 17:56:08.155 | INFO     | engines.graph_selection:__init__:43 - Auto Graph Selection Engine initialized
+2026-02-12 17:56:08.155 | INFO     | engines.automl:__init__:66 - AutoML Engine initialized
+2026-02-12 17:56:08.156 | INFO     | engines.insight_generation:__init__:40 - Insight Generation Engine initialized
+2026-02-12 17:56:08.156 | INFO     | core.orchestrator:__init__:62 - AI Orchestrator initialized successfully
+2026-02-12 17:56:08.156 | INFO     | engines.graph_selection:__init__:43 - Auto Graph Selection Engine initialized
+2026-02-12 17:56:08.156 | INFO     | ui.gradio_app:__init__:32 - Gradio Dashboard initialized
+2026-02-12 17:56:08.360 | INFO     | ui.gradio_app:launch_dashboard:435 - Launching dashboard on port 7860
+2026-02-12 17:56:23.734 | INFO     | ui.gradio_app:run_analysis:209 - Running analysis on /private/var/folders/9d/pbl0kgbd7b14b81rzcc7zbww0000gn/T/gradio/ad5350e79dc6345106a493cd22651efd02ecb781bba5551a5b00da1b3029c85d/mydata_exp.xlsx
+2026-02-12 17:56:23.735 | INFO     | core.orchestrator:analyze_dataset:77 - Starting analysis of /private/var/folders/9d/pbl0kgbd7b14b81rzcc7zbww0000gn/T/gradio/ad5350e79dc6345106a493cd22651efd02ecb781bba5551a5b00da1b3029c85d/mydata_exp.xlsx
+2026-02-12 17:56:23.864 | INFO     | core.orchestrator:analyze_dataset:81 - Loaded dataset: 1950 rows, 5 columns
+2026-02-12 17:56:23.865 | INFO     | core.orchestrator:analyze_dataset:87 - Step 1/5: Detecting target column...
+2026-02-12 17:56:23.865 | INFO     | engines.target_detection:detect_targets:54 - Detecting target columns in dataset with shape (1950, 5)
+2026-02-12 17:56:23.867 | INFO     | engines.target_detection:detect_targets:77 - Detected 3 target candidates
+2026-02-12 17:56:23.867 | INFO     | engines.target_detection:detect_targets:79 -   - TargetCandidate(accept_job, 0.550, binary_classification)
+2026-02-12 17:56:23.867 | INFO     | engines.target_detection:detect_targets:79 -   - TargetCandidate(age, 0.480, multiclass_classification)
+2026-02-12 17:56:23.867 | INFO     | engines.target_detection:detect_targets:79 -   - TargetCandidate(luck, 0.450, binary_classification)
+2026-02-12 17:56:23.867 | INFO     | core.orchestrator:analyze_dataset:94 - Selected target: accept_job (binary_classification)
+2026-02-12 17:56:23.867 | INFO     | core.orchestrator:analyze_dataset:97 - Step 2/5: Analyzing feature correlations...
+2026-02-12 17:56:23.867 | INFO     | engines.feature_correlation:analyze_correlations:62 - Analyzing correlations for target: accept_job (binary_classification)
+2026-02-12 17:56:23.877 | INFO     | engines.feature_correlation:analyze_correlations:83 - Found 3 significant correlations
+2026-02-12 17:56:23.877 | INFO     | core.orchestrator:analyze_dataset:103 - Found 3 significant correlations
+2026-02-12 17:56:23.877 | INFO     | core.orchestrator:analyze_dataset:106 - Step 3/5: Selecting optimal visualizations...
+2026-02-12 17:56:23.877 | INFO     | engines.graph_selection:select_graphs:67 - Selecting graphs for top 3 features
+2026-02-12 17:56:23.882 | INFO     | engines.graph_selection:select_graphs:87 - Generated 3 graph specifications
+2026-02-12 17:56:23.882 | INFO     | core.orchestrator:analyze_dataset:113 - Generated 3 graph specifications
+2026-02-12 17:56:23.882 | INFO     | core.orchestrator:analyze_dataset:116 - Step 4/5: Training and optimizing ML models...
+2026-02-12 17:56:23.882 | INFO     | engines.automl:auto_train:88 - Starting AutoML for binary_classification task on accept_job
+2026-02-12 17:56:23.882 | INFO     | engines.automl:auto_train:96 - Training 9 models with Optuna optimization
+2026-02-12 17:56:23.882 | INFO     | engines.automl:auto_train:102 - Optimizing random_forest...
+2026-02-12 17:56:30.809 | INFO     | engines.automl:auto_train:111 -   ✓ random_forest: 0.7621±0.0145
+2026-02-12 17:56:30.809 | INFO     | engines.automl:auto_train:102 - Optimizing extra_trees...
+2026-02-12 17:56:34.138 | INFO     | engines.automl:auto_train:111 -   ✓ extra_trees: 0.7374±0.0185
+2026-02-12 17:56:34.138 | INFO     | engines.automl:auto_train:102 - Optimizing xgboost...
+2026-02-12 17:56:36.622 | INFO     | engines.automl:auto_train:111 -   ✓ xgboost: 0.7651±0.0127
+2026-02-12 17:56:36.622 | INFO     | engines.automl:auto_train:102 - Optimizing lightgbm...
+2026-02-12 17:57:24.024 | INFO     | engines.automl:auto_train:111 -   ✓ lightgbm: 0.7602±0.0141
+2026-02-12 17:57:24.024 | INFO     | engines.automl:auto_train:102 - Optimizing catboost...
+2026-02-12 17:57:28.578 | INFO     | engines.automl:auto_train:111 -   ✓ catboost: 0.7653±0.0107
+2026-02-12 17:57:28.578 | INFO     | engines.automl:auto_train:102 - Optimizing gradient_boosting...
+2026-02-12 17:57:35.023 | INFO     | engines.automl:auto_train:111 -   ✓ gradient_boosting: 0.7627±0.0111
+2026-02-12 17:57:35.023 | INFO     | engines.automl:auto_train:102 - Optimizing logistic_regression...
+2026-02-12 17:57:36.211 | INFO     | engines.automl:auto_train:111 -   ✓ logistic_regression: 0.7190±0.0126
+2026-02-12 17:57:36.211 | INFO     | engines.automl:auto_train:102 - Optimizing adaboost...
+2026-02-12 17:57:39.446 | INFO     | engines.automl:auto_train:111 -   ✓ adaboost: 0.7621±0.0149
+2026-02-12 17:57:39.446 | INFO     | engines.automl:auto_train:102 - Optimizing svc...
+2026-02-12 17:57:44.747 | INFO     | engines.automl:auto_train:111 -   ✓ svc: 0.7280±0.0278
+2026-02-12 17:57:44.747 | INFO     | engines.automl:auto_train:123 - Best model: catboost (CV: 0.7653)
+2026-02-12 17:57:44.747 | INFO     | core.orchestrator:analyze_dataset:122 - Best model: catboost (CV: 0.7653)
+2026-02-12 17:57:44.747 | INFO     | core.orchestrator:analyze_dataset:125 - Step 5/5: Generating AI insights...
+2026-02-12 17:57:44.747 | INFO     | engines.insight_generation:generate_all_insights:53 - Generating AI insights...
+2026-02-12 17:57:44.748 | INFO     | engines.insight_generation:generate_all_insights:87 - Generated 9 insights
+2026-02-12 17:57:44.748 | INFO     | core.orchestrator:analyze_dataset:135 - Generated 9 insights
+2026-02-12 17:57:44.781 | INFO     | core.orchestrator:_save_analysis_result:233 - Analysis result saved to /Users/shryqb/PycharmProjects/ai_bi_desktop/cache/mydata_exp_analysis.pkl
+2026-02-12 17:57:44.781 | INFO     | core.orchestrator:analyze_dataset:153 - Analysis complete!

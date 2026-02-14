@@ -1,0 +1,95 @@
+# AI BI Desktop Application - Dependencies
+# Core Python: 3.10+
+
+# ================================
+# Core Data Stack
+# ================================
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+openpyxl>=3.1.0  # Excel support
+xlrd>=2.0.1      # Legacy Excel support
+
+# ================================
+# Visualization & BI
+# ================================
+plotly>=5.14.0
+gradio>=4.0.0
+seaborn>=0.12.0
+altair>=5.0.0
+kaleido>=0.2.1  # Static image export for plotly
+
+# ================================
+# Data Profiling & Statistics
+# ================================
+ydata-profiling>=4.5.0
+sweetviz>=2.3.0
+missingno>=0.5.2
+statsmodels>=0.14.0
+
+# ================================
+# Machine Learning - Core
+# ================================
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+catboost>=1.2.0
+
+
+# ================================
+# AutoML & Optimization
+# ================================
+optuna>=3.3.0
+optuna-integration>=3.3.0
+pycaret>=3.0.0
+flaml>=2.1.0
+
+# ================================
+# Feature Engineering
+# ================================
+category-encoders>=2.6.0
+imbalanced-learn>=0.11.0
+feature-engine>=1.6.0
+
+# ================================
+# Explainability & Trust
+# ================================
+shap>=0.42.0
+lime>=0.2.0.1
+yellowbrick>=1.5.0
+evidently>=0.4.0
+
+# ================================
+# Data Validation
+# ================================
+pandera>=0.17.0
+pydantic>=2.0.0
+
+# ================================
+# Utilities
+# ================================
+joblib>=1.3.0
+tqdm>=4.65.0
+loguru>=0.7.0
+python-dotenv>=1.0.0
+pystray>=0.19.0  # System tray icon
+keyboard>=0.13.5  # Hotkey detection
+watchdog>=3.0.0  # File system monitoring
+
+# ================================
+# Background Services
+# ================================
+schedule>=1.2.0
+psutil>=5.9.0  # Resource monitoring
+
+# ================================
+# Optional Deep Learning
+# ================================
+# torch>=2.0.0
+# tensorflow>=2.13.0
+
+# ================================
+# Optional Web/API
+# ================================
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
