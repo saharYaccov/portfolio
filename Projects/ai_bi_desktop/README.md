@@ -1,5 +1,5 @@
 # 🤖 AI BI Desktop Application
-## (להסבר בעברית לחץ פה)[xxxx]
+## [https://github.com/saharYaccov/portfolio/blob/main/Projects/ai_bi_desktop/ReadmeHe.md](להסבר בעברית לחץ פה)
 
 ## Revolutionary AI-Powered Business Intelligence & AutoML Platform
 
