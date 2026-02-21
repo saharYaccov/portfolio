@@ -71,7 +71,7 @@ The dashboard enables dynamic exploration of:
 ---
 
 ## 📂 Project Structure
-׳׳׳
+
 ── Globlal-Fe.Male-Academic/
             ├── Data/
             │   ├── 2020-2026_uns_rnk.csv
@@ -89,7 +89,7 @@ The dashboard enables dynamic exploration of:
             │
             ├── Globlal Fe.Male Academic.twb
             └── README.md
-׳׳׳
+
 ---
 
 ## 📊 Analytical Use Cases
