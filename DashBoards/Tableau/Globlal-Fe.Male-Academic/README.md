@@ -1,30 +1,34 @@
 # 🎓 Global Female vs Male Academic Performance Dashboard (Tableau)
 
+---
+
 ## 📊 Dashboard Previews
 
-<img width="1500" alt="Dashboard Preview 1" src="Image/image_1.jpeg" />
+![Dashboard Preview 1](Image/image_1.jpeg)
+*Preview 1: Global gender-based academic performance overview.*
 
-<img width="1500" alt="Dashboard Preview 2" src="Image/image_2.jpeg" />
+![Dashboard Preview 2](Image/image_2.jpeg)
+*Preview 2: Regional performance comparison.*
 
-<img width="1500" alt="Dashboard Preview 3" src="Image/image_3.jpeg" />
+![Dashboard Preview 3](Image/image_3.jpeg)
+*Preview 3: Country-specific gender gap analysis.*
 
-<img width="1500" alt="Dashboard Preview 4" src="Image/image_4.jpeg" />
+![Dashboard Preview 4](Image/image_4.jpeg)
+*Preview 4: Longitudinal trends in academic metrics.*
 
 ---
 
 ## 🧠 Overview
 
-The **Global Female vs Male Academic Dashboard** presents a comprehensive, data-driven analysis of academic performance differences between genders across multiple countries and regions.
+The **Global Female vs Male Academic Performance Dashboard** provides a **data-driven analysis** of academic performance differences between genders across countries and regions. This project integrates **statistical analysis, data preprocessing, and interactive visualization** to explore global education trends.
 
-This project combines **statistical analysis, data preprocessing, and interactive visualization** to explore global education trends.  
-It is designed for researchers, analysts, policymakers, and data enthusiasts who want to better understand patterns in academic achievement.
+The dashboard is designed for **researchers, analysts, policymakers, and data enthusiasts** seeking to understand patterns in academic achievement.
 
-The dashboard enables dynamic exploration of:
-
-- Gender-based academic performance comparisons  
-- Cross-country educational metrics  
-- Regional disparities and global trends  
-- Longitudinal patterns in academic indicators  
+### Key Insights
+- Gender-based academic performance comparisons
+- Cross-country educational metrics
+- Regional disparities and global trends
+- Longitudinal patterns in academic indicators
 
 ---
 
@@ -40,9 +44,9 @@ The dashboard enables dynamic exploration of:
 ## 🔧 Key Features
 
 ### 📌 Interactive Filtering
-- Filter by country, region, or academic indicator.
-- Drill down into specific comparisons.
-- Explore dynamic breakdowns by gender.
+- Filter by **country, region, or academic indicator**.
+- Drill down into **specific comparisons**.
+- Explore **dynamic breakdowns by gender**.
 
 ### 📊 Comparative Visualizations
 - Side-by-side gender comparisons.
@@ -55,18 +59,19 @@ The dashboard enables dynamic exploration of:
 - Regional clustering insights.
 
 ### 📈 Statistical Integration
-- Data cleaning and preprocessing using Python.
-- Structured datasets prepared in CSV/Excel format.
-- Aggregations and calculated fields implemented in Tableau.
+- Data cleaning and preprocessing using **Python (Pandas, NumPy)**.
+- Structured datasets prepared in **CSV/Excel** format.
+- Aggregations and calculated fields implemented in **Tableau**.
 
 ---
 
 ## 🛠 Tools & Technologies
-
-- **Tableau Desktop / Tableau Public** – Dashboard creation and interactive visualization.
-- **Python (Pandas, NumPy)** – Data preprocessing and transformation.
-- **Excel / CSV** – Structured academic datasets.
-- **Statistical Analysis Techniques** – Comparative metrics and aggregated indicators.
+   Tool/Technology          | Purpose                                                                 |
+ |-------------------------|-------------------------------------------------------------------------|
+ | **Tableau Desktop/Public** | Dashboard creation and interactive visualization.                     |
+ | **Python (Pandas, NumPy)** | Data preprocessing, cleaning, and transformation.                    |
+ | **Excel / CSV**          | Structured academic datasets.                                          |
+ | **Statistical Analysis** | Comparative metrics and aggregated indicators.                       |
 
 ---
 
@@ -90,66 +95,114 @@ portfolio/DashBoards/Tableau/Globlal-Fe.Male-Academic/
 │
 ├── Globlal Fe.Male Academic.twb
 └── README.md
-```
----
 
-## 📊 Analytical Use Cases
 
-### 🎓 Academic Research
-- Study gender-based performance gaps.
-- Identify educational inequality patterns.
-- Support policy analysis.
+📊 Analytical Use Cases
+🎓 Academic Research
 
-### 🏛 Policy & Decision Making
-- Assist governments and institutions in evaluating gender parity.
-- Highlight regions requiring educational intervention.
-- Provide evidence-based insights for funding allocation.
+Study gender-based performance gaps.
+Identify educational inequality patterns.
+Support policy analysis.
+🏛 Policy & Decision Making
 
-### 📈 Data Science Portfolio
-- Demonstrates:
-  - Data preprocessing workflow
-  - Statistical comparison techniques
-  - Business intelligence storytelling
-  - Clean dashboard design principles
+Assist governments and institutions in evaluating gender parity.
+Highlight regions requiring educational intervention.
+Provide evidence-based insights for funding allocation.
+📈 Data Science Portfolio
 
----
+Demonstrates:
 
-## 📌 Notes
+Data preprocessing workflow
+Statistical comparison techniques
+Business intelligence storytelling
+Clean dashboard design principles
 
-- The dashboard file is provided as **`.twb` (Tableau Workbook)**.
-- Requires **Tableau Desktop or Tableau Public** for interactive exploration.
-- Ensure data sources in the `Data/` folder are correctly connected if opening locally.
-- Python scripts in `Python_Analysis/` contain preprocessing logic used before visualization.
 
----
+🔍 Methodology Summary
 
-## 🔍 Methodology Summary
+Data Collection: Structured academic datasets from 2020-2026.
+Cleaning & Normalization: Using Python (Pandas, NumPy).
+Aggregation: Gender-based indicators and regional metrics.
+Visualization: Import into Tableau for interactive dashboards.
+Analysis: Comparative and trend-based insights.
 
-1. Data collection from structured academic datasets.
-2. Cleaning and normalization using Python.
-3. Aggregation of gender-based indicators.
-4. Import into Tableau for visualization.
-5. Interactive dashboard design for comparative analysis.
+💻 Python Code
+class_uns.py
+python
+Copy
 
----
+import pandas as pd
+import numpy as np
 
-## 🚀 Future Improvements
+class AcademicDataProcessor:
+    """
+    A class to process academic performance data.
+    Handles cleaning, normalization, and aggregation of gender-based metrics.
+    """
+    def __init__(self, file_path):
+        self.data = pd.read_csv(file_path)
 
-- Integration of predictive modeling for academic trend forecasting.
-- Inclusion of additional years and countries.
-- Deployment to Tableau Public with live updates.
-- Expanded statistical benchmarking.
+    def clean_data(self):
+        """Remove duplicates, handle missing values, and normalize columns."""
+        self.data.drop_duplicates(inplace=True)
+        self.data.fillna(method='ffill', inplace=True)
+        return self.data
 
----
+    def aggregate_by_gender(self):
+        """Aggregate academic metrics by gender."""
+        return self.data.groupby('gender').mean()
 
-## 👤 Author
+run_class_uns.py
+python
+Copy
 
-**saharYaccov**  
-Data Analyst | Information Systems | Machine Learning & BI  
+from class_uns import AcademicDataProcessor
 
-📂 Project Path:  
-`portfolio/DashBoards/Tableau/Globlal-Fe.Male-Academic/`
+def main():
+    # Initialize data processor
+    processor = AcademicDataProcessor("Data/2020-2026_uns_rnk.csv")
 
----
+    # Clean and aggregate data
+    cleaned_data = processor.clean_data()
+    aggregated_data = processor.aggregate_by_gender()
 
-> This project highlights the power of combining statistical thinking, clean data engineering, and visual storytelling to uncover meaningful global insights.
+    # Save processed data
+    cleaned_data.to_csv("Data/cleaned_academic_data.csv", index=False)
+    aggregated_data.to_csv("Data/aggregated_gender_metrics.csv")
+
+if __name__ == "__main__":
+    main()
+
+
+📌 Notes
+
+The dashboard file is provided as .twb (Tableau Workbook).
+Requires Tableau Desktop or Tableau Public for interactive exploration.
+Ensure data sources in the Data/ folder are correctly connected if opening locally.
+Python scripts in Python_Analysis/ contain preprocessing logic used before visualization.
+
+🚀 Future Improvements
+
+Integration of predictive modeling for academic trend forecasting.
+Inclusion of additional years and countries.
+Deployment to Tableau Public with live updates.
+Expanded statistical benchmarking.
+
+👤 Author
+saharYaccov
+Data Analyst | Information Systems | Machine Learning & BI
+📂 Project Path:
+portfolio/DashBoards/Tableau/Globlal-Fe.Male-Academic/
+
+
+This project highlights the power of combining statistical thinking, clean data engineering, and visual storytelling to uncover meaningful global insights.
+
+
+
+
+
+
+
+
+
+
