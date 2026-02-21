@@ -72,24 +72,25 @@ The dashboard enables dynamic exploration of:
 
 ## 📂 Project Structure
 
-── Globlal-Fe.Male-Academic/
-            ├── Data/
-            │   ├── 2020-2026_uns_rnk.csv
-            │   └── 2020-2026_uns_rnk.xlsx
-            │
-            ├── Image/
-            │   ├── image_1.jpeg
-            │   ├── image_2.jpeg
-            │   ├── image_3.jpeg
-            │   └── image_4.jpeg
-            │
-            ├── Python_Analysis/
-            │   ├── class_uns.py
-            │   └── run_class_uns.py
-            │
-            ├── Globlal Fe.Male Academic.twb
-            └── README.md
-
+```bash
+portfolio/DashBoards/Tableau/Globlal-Fe.Male-Academic/
+├── Data/
+│   ├── 2020-2026_uns_rnk.csv
+│   └── 2020-2026_uns_rnk.xlsx
+│
+├── Image/
+│   ├── image_1.jpeg
+│   ├── image_2.jpeg
+│   ├── image_3.jpeg
+│   └── image_4.jpeg
+│
+├── Python_Analysis/
+│   ├── class_uns.py
+│   └── run_class_uns.py
+│
+├── Globlal Fe.Male Academic.twb
+└── README.md
+```
 ---
 
 ## 📊 Analytical Use Cases
