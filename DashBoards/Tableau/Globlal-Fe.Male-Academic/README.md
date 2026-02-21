@@ -26,6 +26,11 @@ The dashboard enables dynamic exploration of:
 - Regional disparities and global trends  
 - Longitudinal patterns in academic indicators  
 
+
+> **Data Source:** The academic performance data is sourced from the GitHub repository [THE-World-University-Rankings](https://github.com/c3nk/THE-World-University-Rankings/tree/main) (click to view).  
+> This repository provides Times Higher Education World University Rankings (2011–2026) in CSV and JSON formats, including general and subject-specific rankings, key statistics, and gender ratios.  
+> You can explore the [responsiveness of the data](https://github.com/c3nk/THE-World-University-Rankings) to dynamically pull different years, subjects, and ranking metrics for analysis.
+> 
 ---
 
 ## 🎯 Project Objectives
