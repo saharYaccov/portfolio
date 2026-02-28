@@ -1,7 +1,8 @@
-# 🐍 AI Snake Game — Pathfinding Showcase
+# 🐍 AI Snake Game — Pathfinding + ML Showcase
 
-A fully AI-controlled Snake game with A* pathfinding, flood-fill safety checking,
-multiple board shapes, dark/light mode, and real-time path visualisation.
+A fully AI-controlled Snake game combining A\* pathfinding with a live-trained
+Random Forest classifier.  Every game is recorded to CSV; after enough data the
+model predicts the best direction and biases the AI's move selection.
 
 ---
 
@@ -11,20 +12,21 @@ multiple board shapes, dark/light mode, and real-time path visualisation.
 snake_game/
 ├── main.py              ← Game entry point (run this)
 ├── requirements.txt
+├── README.md
+├── Keyboard.md          ← Full keyboard reference
 ├── snake/
-│   ├── __init__.py
 │   ├── snake.py         ← Snake body & collision logic
-│   └── ai.py            ← A* + flood-fill AI controller
+│   ├── ai.py            ← A* + flood-fill AI controller
+│   └── ml_model.py      ← Random Forest model + feature selection
 ├── board/
-│   ├── __init__.py
 │   └── board.py         ← Level layouts & board shapes
 ├── utils/
-│   ├── __init__.py
 │   ├── pathfinding.py   ← A* & flood-fill algorithms
 │   └── target.py        ← Random target placement
-└── assets/
-    ├── __init__.py
-    └── colors.py        ← Dark / light theme palettes
+├── assets/
+│   ├── colors.py        ← Dark / light theme palettes
+│   └── aura.py          ← Snake glow / aura effects
+└── data/                ← Auto-generated game CSVs (up to 10 files)
 ```
 
 ---
@@ -43,13 +45,52 @@ python main.py
 
 ## Controls
 
+### Game Controls
+
 | Key | Action |
 |-----|--------|
 | `M` | Toggle dark / light mode |
-| `R` | Restart after game over |
-| `Space` | Advance to next level (after level complete) |
+| `R` | Restart (back to level 1, ML model preserved) |
+| `Space` | Advance to next level after completion |
 | `Q` / `Esc` | Quit |
-| Mouse click on button | Toggle dark / light mode |
+| Mouse click | Toggle dark / light mode (button in HUD) |
+
+### Corner Override (Hidden Keys)
+
+| Key | Corner |
+|-----|--------|
+| `A` | Top-left |
+| `Z` | Bottom-left |
+| `L` | Top-right |
+| `.` | Bottom-right |
+
+### ML Model Controls
+
+| Key | Action |
+|-----|--------|
+| `+` / `=` | Increase decision tree depth by 1 → retrain |
+| `-` | Decrease decision tree depth by 1 → retrain |
+| `T` | **Increase active features by 1** (adds next most-important feature) → retrain |
+| `Y` | **Decrease active features by 1** (removes least-important active feature) → retrain |
+
+---
+
+## HUD Layout
+
+The HUD is split into **two panels**:
+
+### Top Panel (4 columns)
+| Column | Content |
+|--------|---------|
+| A | ⏱ Timer · 🍎 Score & snake length |
+| B | Level name · Goal · ⚠ Survival / 📍 Corner indicators |
+| C | 🔄 Rounds · 💀 Deaths · 🐍 Snake rank badge |
+| D | 🧠 NN status · 🌲 Tree depth · 🎯 Accuracy · 📐 R² |
+
+### Bottom Panel — 🧬 Feature Box *(new)*
+Displays:
+- **`Features: N/15  [T/Y]`** — how many features the model currently uses
+- **Colored tag per active feature** — shown left-to-right in importance order
 
 ---
 
@@ -59,38 +100,52 @@ python main.py
 |---|-------|-------------|
 | 1 | Square | Classic full grid |
 | 2 | Circle | Oval arena |
-| 3 | Cross | Dalton / plus shape |
+| 3 | Cross | Plus shape |
 | 4 | Diamond | Rhombus |
 | 5 | Ring | Hollow square corridor |
 | 6 | Zigzag | Maze-like corridors |
-| 7 | Hourglass | Bowtie / hourglass |
+| 7 | Hourglass | Bowtie shape |
 | 8 | Spiral Ring | Dual concentric rings |
 
 ---
 
 ## AI Strategy
 
-The AI uses a three-tier decision process each tick:
+Per tick the AI follows a four-tier decision process:
 
-1. **A\* direct path** — Find the shortest path to the target, then verify the
-   resulting board position via flood-fill to ensure the snake has enough free
-   space and won't trap itself.
-
-2. **Tail-chase fallback** — If the direct path would trap the snake, follow
-   the snake's own tail to buy time until a safe path opens.
-
-3. **Survival mode** — If neither option yields a safe path, pick the neighbour
-   cell that maximises reachable free space (pure escape heuristic).
-
-The **AI trail** (faint blue/purple cells) shows the currently planned path.
-An ⚠ SURVIVAL MODE warning appears in the HUD when the AI is in fallback mode.
+1. **ML bias** — if trained, the model ranks directions; this ranking breaks ties.
+2. **A\* direct path** — shortest path to target, verified by flood-fill safety.
+3. **Tail-chase fallback** — follow own tail to buy time when direct path is unsafe.
+4. **Survival mode** — pick the neighbour with maximum reachable free space.
 
 ---
 
-## HUD
+## Feature Selection (T / Y keys)
 
-- ⏱ **Timer** — elapsed game time (mm:ss.cs)  
-- 🍎 **Score** — targets eaten / snake length  
-- **Level label** and shape description  
-- **Goal** — target snake length to advance  
-- **⚠ Survival Mode** indicator (when AI is in fallback)
+The model uses up to **15 features** extracted each tick:
+
+| Feature | Description |
+|---------|-------------|
+| `danger_up/down/left/right` | Immediate collision in each direction |
+| `food_row_sign` / `food_col_sign` | Relative food direction (−1 / 0 / 1) |
+| `snake_len_norm` | Body length / walkable area |
+| `dir_up/down/left/right` | One-hot current direction |
+| `space_up/down/left/right_norm` | Flood-fill free space each direction (normalised) |
+
+**Importance ranking** is recomputed each training run using:
+1. **Pearson |r|** — absolute correlation of the feature with the move label
+2. **Between-class variance** — how well the feature separates the four directions
+
+Pressing `T` adds the next most-important unused feature.
+Pressing `Y` drops the least-important currently-active feature.
+Valid range: 1 – 15 features (default: 15).
+
+---
+
+## ML Model Details
+
+- **Algorithm:** Random Forest (50 trees, CART / Gini, NumPy only — no sklearn)
+- **Training data:** last 10 games stored as CSVs in `data/`
+- **Label:** move direction encoded as 0=UP, 1=DOWN, 2=LEFT, 3=RIGHT
+- **Retrain triggers:** game end, `+`, `-`, `T`, `Y`
+- **HUD metrics:** Accuracy (train set) · R² (predicted probabilities vs one-hot labels)
