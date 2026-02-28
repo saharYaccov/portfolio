@@ -8,9 +8,9 @@ model predicts the best direction and biases the AI's move selection.
 
 ## 🐍 Snake Game Demo
 
-![Snake Demo]([Projects/snake_game/example/demo.gif](https://github.com/saharYaccov/portfolio/blob/main/Projects/snake_game/example/demo.gif))
+![Snake Demo](https://raw.githubusercontent.com/saharYaccov/portfolio/main/Projects/snake_game/example/demo.gif)
 
-[▶️ Watch full video](Projects/snake_game/example/video.mov)
+[▶️ Watch full video](https://github.com/saharYaccov/portfolio/blob/main/Projects/snake_game/example/video.mov)
 
 ## Project Structure
 
