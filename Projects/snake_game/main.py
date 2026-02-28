@@ -29,6 +29,8 @@ from assets.aura import get_aura_mode, draw_snake_with_aura, get_snake_level_lab
 # ── constants ─────────────────────────────────────────────────────────────────
 WIN_W, WIN_H    = 900, 700
 HUD_H           = 78
+FEAT_BOX_H      = 54   # extra panel below HUD for active-features display
+TOTAL_HUD_H     = HUD_H + FEAT_BOX_H
 BOARD_MARGIN    = 20
 COUNTDOWN_SEC   = 0.5
 AUTO_NEXT_SEC   = 0.5       # seconds before auto-restart / auto-advance
@@ -103,8 +105,8 @@ class Game:
 
     def _board_rect(self) -> pygame.Rect:
         w, h = screen.get_size()
-        return pygame.Rect(BOARD_MARGIN, HUD_H+BOARD_MARGIN,
-                           w-2*BOARD_MARGIN, h-HUD_H-2*BOARD_MARGIN)
+        return pygame.Rect(BOARD_MARGIN, TOTAL_HUD_H+BOARD_MARGIN,
+                           w-2*BOARD_MARGIN, h-TOTAL_HUD_H-2*BOARD_MARGIN)
 
     def _cell_size(self) -> int:
         rect = self._board_rect()
@@ -274,6 +276,7 @@ class Game:
         w, h   = screen.get_size()
         screen.fill(theme["background"])
         self._draw_hud(theme, w)
+        self._draw_features_panel(theme, w)
         self._draw_board(theme)
         self._draw_grid(theme)
         self._draw_path_trail(theme)
@@ -394,6 +397,70 @@ class Game:
         lbl_s = FONT_BTN.render(label, True, theme["mode_btn_text"])
         screen.blit(lbl_s, lbl_s.get_rect(center=btn.center))
         self._mode_btn_rect = btn
+
+
+    def _draw_features_panel(self, theme, w):
+        """Draw a dedicated panel below the HUD showing active features count and names."""
+        py = HUD_H
+        PAD = 10
+
+        # Panel background
+        panel_color = theme.get("hud_bg", (20, 20, 30))
+        # Slightly different shade
+        bg = tuple(min(255, c + 12) for c in panel_color)
+        pygame.draw.rect(screen, bg, (0, py, w, FEAT_BOX_H))
+        pygame.draw.line(screen, theme["board_border"], (0, py), (w, py), 1)
+        pygame.draw.line(screen, theme["board_border"],
+                         (0, py + FEAT_BOX_H), (w, py + FEAT_BOX_H), 2)
+
+        n_active = getattr(self.ml_model, "n_active_features", 15)
+        n_total  = 15
+        active_names = getattr(self.ml_model, "get_active_feature_names",
+                               lambda: [])()
+
+        # ── Left box: counter ─────────────────────────────────────────────────
+        box_w = 160
+        count_color = (100, 200, 255)
+        count_surf = FONT_SMALL.render(
+            f"🧬 Features: {n_active}/{n_total}  [T/Y]", True, count_color)
+        screen.blit(count_surf, (PAD, py + 8))
+
+        hint_surf = FONT_SMALL.render("T=+1  Y=−1", True, (140, 140, 160))
+        screen.blit(hint_surf, (PAD, py + 28))
+
+        # Separator
+        pygame.draw.line(screen, theme["board_border"],
+                         (box_w + PAD, py + 6), (box_w + PAD, py + FEAT_BOX_H - 6), 1)
+
+        # ── Right area: feature name tags ─────────────────────────────────────
+        tag_x = box_w + PAD * 2
+        tag_y = py + 7
+        tag_gap = 6
+        for i, name in enumerate(active_names):
+            tag_surf = FONT_SMALL.render(name, True, (60, 60, 70))
+            tw = tag_surf.get_width() + 10
+            th = tag_surf.get_height() + 4
+            if tag_x + tw > w - PAD:
+                tag_x = box_w + PAD * 2
+                tag_y += th + 4
+                if tag_y > py + FEAT_BOX_H - 6:
+                    break
+            # Colored background per tag
+            hue_step = i * 23
+            tag_col = (
+                80 + (hue_step * 3) % 120,
+                160 + (hue_step * 5) % 80,
+                200 + (hue_step * 7) % 55,
+            )
+            tag_bg = pygame.Surface((tw, th), pygame.SRCALPHA)
+            pygame.draw.rect(tag_bg, (*tag_col, 55),
+                             pygame.Rect(0, 0, tw, th), border_radius=4)
+            pygame.draw.rect(tag_bg, (*tag_col, 180),
+                             pygame.Rect(0, 0, tw, th), 1, border_radius=4)
+            screen.blit(tag_bg, (tag_x, tag_y))
+            tag_txt = FONT_SMALL.render(name, True, tag_col)
+            screen.blit(tag_txt, (tag_x + 5, tag_y + 2))
+            tag_x += tw + tag_gap
 
 
     def _draw_board(self, theme):
@@ -600,6 +667,13 @@ class Game:
             elif event.key in (pygame.K_MINUS, pygame.K_KP_MINUS):
                 self.ml_model.change_layers(-1)
                 print(f"[UI] Layers → {self.ml_model.n_layers}")
+            # ── feature count hotkeys ─────────────────────────────────────────
+            elif event.key == pygame.K_t:
+                self.ml_model.change_n_features(+1)
+                print(f"[UI] Active features → {self.ml_model.n_active_features}")
+            elif event.key == pygame.K_y:
+                self.ml_model.change_n_features(-1)
+                print(f"[UI] Active features → {self.ml_model.n_active_features}")
             # ── hidden corner keys ────────────────────────────────────────────
             if self.state == GameState.PLAYING:
                 if event.key == pygame.K_a:   # top-left
