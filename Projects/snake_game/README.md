@@ -6,6 +6,12 @@ model predicts the best direction and biases the AI's move selection.
 
 ---
 
+## 🐍 Snake Game Demo
+
+![Snake Demo](Projects/snake_game/example/demo.gif)
+
+[▶️ Watch full video](Projects/snake_game/example/video.mov)
+
 ## Project Structure
 
 ```
