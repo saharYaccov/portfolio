@@ -36,7 +36,7 @@ N_FEATURES          = len(FEATURE_COLS)   # 15
 N_CLASSES           = 4
 MIN_ACTIVE_FEATURES = 1
 MAX_ACTIVE_FEATURES = N_FEATURES
-MAX_GAMES_STORED = 10
+MAX_GAMES_STORED = 15
 DATA_DIR   = os.path.join(os.path.dirname(__file__), "..", "data")
 INDEX_FILE = os.path.join(DATA_DIR, "game_index.txt")
 
