@@ -32,8 +32,10 @@ FEATURE_COLS = [
     "dir_up","dir_down","dir_left","dir_right",
     "space_up_norm","space_down_norm","space_left_norm","space_right_norm",
 ]
-N_FEATURES = 10
-N_CLASSES  = 4
+N_FEATURES          = len(FEATURE_COLS)   # 15
+N_CLASSES           = 4
+MIN_ACTIVE_FEATURES = 1
+MAX_ACTIVE_FEATURES = N_FEATURES
 MAX_GAMES_STORED = 10
 DATA_DIR   = os.path.join(os.path.dirname(__file__), "..", "data")
 INDEX_FILE = os.path.join(DATA_DIR, "game_index.txt")
@@ -186,14 +188,17 @@ class SnakeMLModel:
     """
 
     def __init__(self, max_depth: int = 6):
-        self.max_depth    = max_depth
-        self.n_layers     = max_depth          # HUD alias
-        self.forest:      Optional[RandomForestClassifier] = None
-        self.trained      = False
-        self.accuracy     = 0.0
-        self.r2_score     = 0.0
-        self.game_count   = 0
-        self.files_loaded = 0
+        self.max_depth         = max_depth
+        self.n_layers          = max_depth          # HUD alias
+        self.forest:           Optional[RandomForestClassifier] = None
+        self.trained           = False
+        self.accuracy          = 0.0
+        self.r2_score          = 0.0
+        self.game_count        = 0
+        self.files_loaded      = 0
+        # ── feature selection ─────────────────────────────────────────────────
+        self.n_active_features = N_FEATURES       # start with all 15 features
+        self.feature_order:    list[int] = list(range(N_FEATURES))  # importance order
         os.makedirs(DATA_DIR, exist_ok=True)
         self._load_game_count()
 
@@ -263,17 +268,24 @@ class SnakeMLModel:
             print(f"[RF] Not enough data ({len(rows)} rows)")
             return False
 
-        X = np.array([[float(r[c]) for c in FEATURE_COLS] for r in rows])
-        y = np.array([int(r["label"]) for r in rows])
+        X_full = np.array([[float(r[c]) for c in FEATURE_COLS] for r in rows])
+        y      = np.array([int(r["label"]) for r in rows])
         if len(set(y)) < 2:
             print("[RF] Not enough label variety"); return False
+
+        # ── Compute feature importance order (p-value + correlation) ─────────
+        self.feature_order = self._compute_feature_order(X_full, y)
+
+        # ── Select only the top n_active_features ────────────────────────────
+        active_idx = self.feature_order[:self.n_active_features]
+        X = X_full[:, active_idx]
 
         self.forest = RandomForestClassifier(n_estimators=50, max_depth=self.max_depth)
         self.forest.fit(X, y)
         self.trained = True
 
         # Accuracy
-        preds= self.forest.predict(X)
+        preds = self.forest.predict(X)
         self.accuracy = float(np.mean(preds == y))
 
         # R²  (one-hot labels vs predicted probabilities, averaged over classes)
@@ -284,8 +296,61 @@ class SnakeMLModel:
         ss_tot = np.sum((y_oh - y_oh.mean(axis=0))**2)
         self.r2_score = float(1.0 - ss_res / (ss_tot + 1e-10))
 
-        print(f"[RF] depth={self.max_depth}  acc={self.accuracy:.1%}  R²={self.r2_score:.3f} ")
+        active_names = [FEATURE_COLS[i] for i in active_idx]
+        print(f"[RF] depth={self.max_depth}  features={self.n_active_features}/{N_FEATURES}"
+              f"  acc={self.accuracy:.1%}  R²={self.r2_score:.3f}")
+        print(f"[RF] Active features: {active_names}")
         return True
+
+    # ── feature importance ────────────────────────────────────────────────────
+
+    def _compute_feature_order(self, X: np.ndarray, y: np.ndarray) -> list[int]:
+        """
+        Rank features by combined score of:
+          1. Chi² / F-statistic p-value proxy: variance of per-class means
+          2. Absolute Pearson correlation with label
+        Lower rank = more important.
+        """
+        n_feat   = X.shape[1]
+        scores   = np.zeros(n_feat)
+        y_float  = y.astype(float)
+        y_mean   = y_float.mean()
+        y_std    = y_float.std() + 1e-10
+        classes  = np.unique(y)
+
+        for f in range(n_feat):
+            col       = X[:, f]
+            col_std   = col.std() + 1e-10
+            # Pearson |r| with label
+            corr      = abs(float(np.corrcoef(col, y_float)[0, 1]))
+            # Between-class variance of feature means (F-stat numerator proxy)
+            class_means = np.array([col[y == c].mean() if (y == c).sum() > 0 else 0.0
+                                    for c in classes])
+            between_var = float(class_means.var())
+            # Combined score (higher = more important)
+            scores[f]  = corr + between_var / (col_std + 1e-10)
+
+        order = list(np.argsort(-scores))   # descending importance
+        print(f"[RF] Feature importance order: {[FEATURE_COLS[i] for i in order]}")
+        return order
+
+    def get_active_feature_names(self) -> list[str]:
+        """Return names of currently active features in importance order."""
+        return [FEATURE_COLS[i] for i in self.feature_order[:self.n_active_features]]
+
+    def get_active_feature_indices(self) -> list[int]:
+        return self.feature_order[:self.n_active_features]
+
+    # ── n_active_features control (T/Y) ──────────────────────────────────────
+
+    def change_n_features(self, delta: int) -> bool:
+        new_n = max(MIN_ACTIVE_FEATURES, min(MAX_ACTIVE_FEATURES,
+                                              self.n_active_features + delta))
+        if new_n == self.n_active_features:
+            return False
+        self.n_active_features = new_n
+        print(f"[RF] n_active_features → {self.n_active_features}")
+        return self.load_and_train()
 
     # ── depth control (+/-) ──────────────────────────────────────────────────
 
@@ -301,8 +366,10 @@ class SnakeMLModel:
 
     def predict_direction(self, features):
         if not self.trained or self.forest is None: return None
-        x     = np.array(features).reshape(1, -1)
-        proba = self.forest.predict_proba(x)[0]
+        # Select only the active features in importance order
+        active_idx = self.get_active_feature_indices()
+        x_active   = np.array([features[i] for i in active_idx]).reshape(1, -1)
+        proba = self.forest.predict_proba(x_active)[0]
         order = np.argsort(-proba)
         names = [DIR_NAMES[i] for i in order]
         print(f'direction : {names[0]}  (ranking: {" > ".join(names)})')
