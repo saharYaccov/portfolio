@@ -2,7 +2,11 @@
 
 ברוכים הבאים לפרויקט שלי! כאן תמצאו את כל ההוראות להתקנת Python, התקנת תלויות, ניווט לתיקיית הפרויקט והרצת המשחק.
 
----> **[English README - Click Here ](https://github.com/saharYaccov/portfolio/blob/main/Freedom-Force-The-Reckoning/READMEEM.md)**
+> **[English README - Click Here ](https://github.com/saharYaccov/portfolio/blob/main/Freedom-Force-The-Reckoning/READMEEM.md)**
+
+--
+
+> **![Game Demo](https://github.com/saharYaccov/portfolio/blob/main/Freedom-Force-The-Reckoning/Gif/gameVideo0.gif)**
 
 ## 🖥 דרישות מוקדמות
 
