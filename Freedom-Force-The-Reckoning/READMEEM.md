@@ -2,7 +2,7 @@
 
 Welcome to my project! Here you will find all the instructions to install Python, set up dependencies, navigate to the project folder, and run the game.
 
-> **[Hebrew version of this file](https://github.com/saharYaccov/portfolio/blob/main/Freedom-Force-The-Reckoning/READMEEM.md)**
+> **[Hebrew version of this file](https://github.com/saharYaccov/portfolio/blob/main/Freedom-Force-The-Reckoning/README.md)**
 ---
 
 ## 🎬 Game Demo
