@@ -121,3 +121,14 @@ pip install -r requirements.txt
 ```
 
 ---
+
+אחרי שהגעתם לנתיב הפרויקט, הריצו את קובץ main.py:
+```bash
+python main.py
+```
+or
+```bash
+python3 main.py
+```
+
+---
