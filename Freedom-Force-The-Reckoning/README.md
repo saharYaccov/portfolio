@@ -42,6 +42,8 @@ python3 --version
 
 ```bash
 pip install pygame
+pip install numpy
+pip install pandas
 ```
 
 💡 **טיפ:** אם המשחק שלכם משתמש במספר ספריות, צרו קובץ בשם `requirements.txt` עם רשימת הספריות (ספריה אחת בכל שורה), לדוגמה (קיים בתקיית הפרויקט ):
@@ -51,7 +53,7 @@ pygame
 numpy
 pandas
 ```
-
+עברו לנתיב של הפרויקט ( של Freedom-Force-The-Reckoning-game במחשב שלכם )
 ואז הריצו את הפקודה הבאה כדי להתקין את כל הספריות בפעם אחת:
 
 ```bash
