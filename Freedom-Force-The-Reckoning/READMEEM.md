@@ -14,17 +14,17 @@ Welcome to my project! Here you will find all the instructions to install Python
 
 - A computer with **Windows / macOS / Linux**
 - Internet connection
-- Your game file (`game.py`) and a clean project folder
+- The game file (`main.py`) and a clean project folder
 
 ---
 
 ## 1️⃣ Install Python
 
-1. Download Python from the official website: [Python Downloads](https://www.python.org/downloads/)
+1. Download Python from the official website: [Download Python](https://www.python.org/downloads/)
 2. During installation, **make sure to check the box "Add Python to PATH"**
 3. Complete the installation process
 
-To verify that Python is installed correctly, run the following command in the terminal:
+To verify that Python is installed correctly, run the following command in the terminal (or command prompt):
 
 ```bash
 python --version
@@ -44,9 +44,11 @@ Install the required libraries for the game. For example, if your game uses **Py
 
 ```bash
 pip install pygame
+pip install numpy
+pip install pandas
 ```
 
-💡 **Tip:** If your game uses multiple libraries, create a file named `requirements.txt` with one library per line, for example:
+💡 **Tip:** If your game uses multiple libraries, create a file named `requirements.txt` with one library per line, for example (available in the project folder):
 
 ```
 pygame
@@ -54,7 +56,7 @@ numpy
 pandas
 ```
 
-Then run the following command to install all the libraries at once:
+Navigate to the project path (Freedom-Force-The-Reckoning-game on your computer), then run the following command to install all the libraries at once:
 
 ```bash
 pip install -r requirements.txt
@@ -118,6 +120,18 @@ After activation, install all dependencies inside the virtual environment:
 
 ```bash
 pip install -r requirements.txt
+```
+
+---
+
+After navigating to the project path, run the `main.py` file:
+
+```bash
+python main.py
+```
+or
+```bash
+python3 main.py
 ```
 
 ---
