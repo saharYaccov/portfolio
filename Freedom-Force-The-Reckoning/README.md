@@ -5,9 +5,8 @@
 > **[English README - Click Here ](https://github.com/saharYaccov/portfolio/blob/main/Freedom-Force-The-Reckoning/READMEEM.md)**
 
 --
-
-> **![Game Demo](https://github.com/saharYaccov/portfolio/blob/main/Freedom-Force-The-Reckoning/Gif/gameVideo0.gif)**
 > **![Game Demo](https://github.com/saharYaccov/portfolio/blob/main/Freedom-Force-The-Reckoning/Gif/gameVideo1.gif)**
+--
 ## 🖥 דרישות מוקדמות
 
 - מחשב עם מערכת הפעלה **Windows / macOS / Linux**
@@ -132,3 +131,4 @@ python3 main.py
 ```
 
 ---
+> **![Game Demo](https://github.com/saharYaccov/portfolio/blob/main/Freedom-Force-The-Reckoning/Gif/gameVideo0.gif)**
