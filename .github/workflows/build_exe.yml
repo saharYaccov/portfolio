@@ -25,17 +25,18 @@ jobs:
       - name: Build EXE
         shell: cmd
         run: |
+          cd Freedom-Force-The-Reckoning-game
           pyinstaller --onefile --windowed ^
-            --add-data "Freedom-Force-The-Reckoning-game/assets;assets" ^
-            --add-data "Freedom-Force-The-Reckoning-game/current_enemy;current_enemy" ^
-            --add-data "Freedom-Force-The-Reckoning-game/current_ok_boys;current_ok_boys" ^
-            --add-data "Freedom-Force-The-Reckoning-game/final_enemy_iran;final_enemy_iran" ^
-            --add-data "Freedom-Force-The-Reckoning-game/machine_learning;machine_learning" ^
-            --add-data "Freedom-Force-The-Reckoning-game/data;data" ^
-            Freedom-Force-The-Reckoning-game/main.py
+            --add-data "assets;assets" ^
+            --add-data "current_enemy;current_enemy" ^
+            --add-data "current_ok_boys;current_ok_boys" ^
+            --add-data "final_enemy_iran;final_enemy_iran" ^
+            --add-data "machine_learning;machine_learning" ^
+            --add-data "data;data" ^
+            main.py
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
         with:
           name: Freedom-Force-The-Reckoning
-          path: dist/main.exe
+          path: Freedom-Force-The-Reckoning-game/dist/main.exe
