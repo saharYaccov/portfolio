@@ -23,15 +23,16 @@ jobs:
           pip install pyinstaller
 
       - name: Build EXE
+        shell: cmd
         run: |
           pyinstaller --onefile --windowed ^
-          --add-data "assets;assets" ^
-          --add-data "current_enemy;current_enemy" ^
-          --add-data "current_ok_boys;current_ok_boys" ^
-          --add-data "final_enemy_iran;final_enemy_iran" ^
-          --add-data "machine_learning;machine_learning" ^
-          --add-data "data;data" ^
-          main.py
+            --add-data "assets;assets" ^
+            --add-data "current_enemy;current_enemy" ^
+            --add-data "current_ok_boys;current_ok_boys" ^
+            --add-data "final_enemy_iran;final_enemy_iran" ^
+            --add-data "machine_learning;machine_learning" ^
+            --add-data "data;data" ^
+            main.py
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
