@@ -1,0 +1,64 @@
+====================================
+DATA ANALYSIS REPORT
+====================================
+
+----- BASIC DATA INFO -----
+
+Number of rows: 2
+Number of columns: 2
+
+Column names:
+['Unnamed: 0', 'difficulty_label']
+
+Data types:
+Unnamed: 0           int64
+difficulty_label    object
+dtype: object
+
+----- MISSING VALUES -----
+
+Unnamed: 0          0
+difficulty_label    0
+dtype: int64
+
+----- DESCRIPTIVE STATISTICS -----
+
+        Unnamed: 0 difficulty_label
+count     2.000000                2
+unique         NaN                1
+top            NaN             easy
+freq           NaN                2
+mean      5.500000              NaN
+std       7.778175              NaN
+min       0.000000              NaN
+25%       2.750000              NaN
+50%       5.500000              NaN
+75%       8.250000              NaN
+max      11.000000              NaN
+
+----- MEAN -----
+
+Unnamed: 0    5.5
+dtype: float64
+
+----- STANDARD DEVIATION -----
+
+Unnamed: 0    7.778175
+dtype: float64
+
+----- VARIANCE -----
+
+Unnamed: 0    60.5
+dtype: float64
+
+----- CORRELATION MATRIX -----
+
+            Unnamed: 0
+Unnamed: 0         1.0
+
+----- UNIQUE VALUES -----
+
+Unnamed: 0          2
+difficulty_label    1
+dtype: int64
+
