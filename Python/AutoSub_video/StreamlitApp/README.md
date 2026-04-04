@@ -154,7 +154,7 @@ Where:
 ### Segmentation Formula
 
 $$
-S = \left\lceil \frac{W}{k} \right\rceil
+\mathrm{S}= \left\lceil \frac{W}{k} \right\rceil
 $$
 
 Where:
@@ -166,9 +166,9 @@ Where:
 
 ### Time Distribution
 
-[
+$$
 \Delta t = \frac{t_{end} - t_{start}}{S}
-]
+$$
 
 ---
 
