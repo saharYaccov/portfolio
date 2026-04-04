@@ -141,9 +141,9 @@ ffmpeg -i input.mp4 -vf subtitles=subtitles.srt output.mp4
 
 ### Frame Complexity
 
-[
+$$
 T(n) = O(n)
-]
+$$
 
 Where:
 
@@ -153,9 +153,9 @@ Where:
 
 ### Segmentation Formula
 
-[
+$$
 S = \left\lceil \frac{W}{k} \right\rceil
-]
+$$
 
 Where:
 
